@@ -1,0 +1,47 @@
+---
+title: "Segurança cibernética"
+format: revealjs
+editor: visual
+bibliography: biblio.bib
+---
+
+## Evento cibernético
+
+Evento cibernético é o resultado e um esforço não autorizado, ou o desfecho de vários esforços, arquiteta um efeito primário desejado num alvo[@harry2018classifying].
+
+- Efeitos primários: impacto direto, e.g., perda de dados.
+- Efeitos secundários: impacto indireto: custos financeiros.
+
+Cibernética: interação da tecnologia, ser humano e organizações.
+
+## Objetivos
+
+- Disrupção do funcionamento de uma organização.  
+  Um invasor pode querer impedir uma organização de oferecer seus serviços e produtos ou de se comunicar com clientes e fornecedores etc.
+
+- Aquisição ilícita de informação.  
+  Um invasor pode querer obter informações sobre cartão de crédito, informações sensíveis etc.
+  
+## Eventos disruptivos
+
+- Manipulação de Mensagens: Interferência na comunicação de dados.
+- Negação de Serviço Externa: Ataques que bloqueiam o acesso ao sistema a partir de fontes externas.
+- Negação de Serviço Interna: Ataques que surgem de dentro da própria rede da organização.
+- Ataque a Dados: Alteração, exclusão, ou corrupção de dados críticos.
+- Ataque Físico: Danos físicos ao hardware ou infraestrutura de TI.
+
+
+## Eventos de exploração
+
+- Exploração de Sensores: Captura ou manipulação de dados de sensores.
+- Exploração de Hosts Finais: Ataques direcionados a dispositivos finais, como computadores e servidores.
+- Exploração de Infraestrutura de Rede: Comprometimento de redes para interceptação ou redirecionamento de tráfego.
+- Exploração de Servidor de Aplicações: Vulnerabilidades em servidores que hospedam aplicativos críticos.
+- Exploração de Dados em Trânsito: Interceptação ou manipulação de dados enquanto estão em trânsito na rede.
+
+## Segurança cibernética
+
+Alocação de recursos, processos e estruturas para proteger redes, sistemas, programas e dados.
+
+
+## Bibliografia
