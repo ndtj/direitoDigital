@@ -41,7 +41,41 @@ Cibernética: interação da tecnologia, ser humano e organizações.
 
 ## Segurança cibernética
 
-Alocação de recursos, processos e estruturas para proteger redes, sistemas, programas e dados.
+### Alocação de recursos, processos e estruturas para proteger redes, sistemas, programas e dados.
+
+## Importância da segurança cibernética
+
+- Proteção de dados: Seus dados pessoais, como senhas, informações financeiras e dados de saúde, são valiosos para os criminosos cibernéticos. A segurança cibernética ajuda a proteger esses dados de serem roubados ou expostos.
+- Prevenção de interrupções: Ataques cibernéticos podem causar interrupções em serviços essenciais, como bancos, hospitais e redes elétricas. A segurança cibernética ajuda a prevenir esses tipos de interrupções.
+
+## Importância da segurança cibernética
+
+- Proteção da reputação: Um ataque cibernético pode danificar a reputação de uma empresa ou indivíduo, levando à perda de clientes e confiança.
+- Conformidade com regulamentações: Muitas empresas são obrigadas a cumprir regulamentações de segurança de dados. A segurança cibernética ajuda a garantir que essas regulamentações sejam cumpridas.
+
+## Níveis de questões sobre segurança cibernética
+
+- Individual
+
+Privacidade
+
+- Empresarial
+
+Ação de hackers
+
+- Nacional
+
+Espionagem ou ataques disruptivos
+
+## Principais ameaças cibernéticas
+
+- Malware: São programas maliciosos, como vírus, worms e ransomware, que podem danificar seus dispositivos e roubar seus dados.
+- Phishing: É uma técnica de engenharia social usada para enganar pessoas a fornecer informações confidenciais, como senhas e números de cartão de crédito.
+- Ataques de negação de serviço (DDoS): São ataques que visam tornar um site ou serviço indisponível, inundando-o com tráfego.
+- Hackers: São pessoas que exploram vulnerabilidades em sistemas para obter acesso não autorizado.
+- Ransomware: É um tipo de malware que criptografa os arquivos de um sistema e exige o pagamento de um resgate para restaurá-los.
+
+## Aparte: cookies
 
 
 ## Bibliografia
