@@ -8,6 +8,18 @@ editor: visual
 
 A Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018, é a legislação brasileira que regulamenta o tratamento de dados pessoais de indivíduos, tanto no ambiente físico quanto no digital. A LGPD entrou em vigor em setembro de 2020 e foi inspirada em regulamentações internacionais, como o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia.
 
+## Precedentes da LGPD
+
+- Regulamento Geral de Proteção de Dados (RGPD) da União Europeia: O RGPD, instituído em 2016, foi um marco fundamental para a proteção de dados em nível mundial. A LGPD brasileira, inspirada no RGPD, incorporou muitos dos seus princípios e mecanismos.
+
+- Direito Constitucional: A LGPD encontra respaldo na Constituição Federal, que garante o direito à privacidade e à intimidade. A lei busca dar concretude a esses direitos, estabelecendo regras específicas para o tratamento de dados pessoais.
+
+## Precedentes da LGPD
+
+- Direito do Consumidor: A Lei do Consumidor (Código de Defesa do Consumidor) já previa algumas proteções relacionadas à privacidade e ao tratamento de dados. A LGPD complementa e aprimora essas proteções, especialmente no âmbito digital.
+
+- Legislação setorial: Antes da LGPD, diversos setores já possuíam legislações específicas sobre proteção de dados, como a Lei Geral de Telecomunicações e a Lei Complementar nº 105/2001 (Lei de Acesso à Informação). A LGPD unifica e consolida essas normas, estabelecendo um marco legal abrangente.
+
 ## Proteção de dados
 
 Art. 1º Esta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.
