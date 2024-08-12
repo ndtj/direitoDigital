@@ -1,0 +1,31 @@
+---
+title: "Lei Geral de Proteção de Dados"
+format: revealjs
+editor: visual
+---
+
+## LGPD
+
+A Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018, é a legislação brasileira que regulamenta o tratamento de dados pessoais de indivíduos, tanto no ambiente físico quanto no digital. A LGPD entrou em vigor em setembro de 2020 e foi inspirada em regulamentações internacionais, como o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia.
+
+## Proteção de dados
+
+Art. 1º Esta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.
+
+## Principais pontos do artigo 1º:
+
+- Proteção de direitos fundamentais: A LGPD visa proteger direitos como a privacidade, a intimidade e a autodeterminação informativa.
+- Respeito à dignidade: O tratamento de dados pessoais deve ser realizado de forma a preservar a dignidade da pessoa natural.
+- Valor inerente aos dados pessoais: Os dados pessoais são considerados um bem jurídico tutelado pela lei.
+
+## Objetivos Principais da LGPD:
+
+- Proteção da Privacidade: A LGPD visa garantir o direito à privacidade e à proteção dos dados pessoais de indivíduos, estabelecendo regras claras sobre coleta, armazenamento, compartilhamento e processamento dessas informações.
+
+- Transparência e Controle: A lei assegura que os titulares de dados tenham maior controle sobre suas informações pessoais. Isso inclui o direito de saber como seus dados são utilizados, por quem, e para quais finalidades.
+
+## Objetivos Principais da LGPD:
+
+- Segurança dos Dados: Estabelece que as empresas devem adotar medidas de segurança para proteger os dados pessoais contra acessos não autorizados, situações de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
+
+- Responsabilização: A LGPD impõe a responsabilidade às empresas pelo tratamento adequado dos dados pessoais. Em caso de violação, as empresas podem ser sujeitas a sanções, incluindo multas que podem chegar a 2% do faturamento anual da empresa, limitadas a R$ 50 milhões por infração.
