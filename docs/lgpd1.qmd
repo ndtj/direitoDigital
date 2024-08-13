@@ -1,5 +1,6 @@
 ---
 title: "Lei Geral de Proteção de Dados"
+subtitle: "Parte 1"
 format: revealjs
 editor: visual
 ---
@@ -10,15 +11,15 @@ A Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018, é a le
 
 ## Precedentes da LGPD
 
-- Regulamento Geral de Proteção de Dados (RGPD) da União Europeia: O RGPD, instituído em 2016, foi um marco fundamental para a proteção de dados em nível mundial. A LGPD brasileira, inspirada no RGPD, incorporou muitos dos seus princípios e mecanismos.
+-   Regulamento Geral de Proteção de Dados (RGPD) da União Europeia: O RGPD, instituído em 2016, foi um marco fundamental para a proteção de dados em nível mundial. A LGPD brasileira, inspirada no RGPD, incorporou muitos dos seus princípios e mecanismos.
 
-- Direito Constitucional: A LGPD encontra respaldo na Constituição Federal, que garante o direito à privacidade e à intimidade. A lei busca dar concretude a esses direitos, estabelecendo regras específicas para o tratamento de dados pessoais.
+-   Direito Constitucional: A LGPD encontra respaldo na Constituição Federal, que garante o direito à privacidade e à intimidade. A lei busca dar concretude a esses direitos, estabelecendo regras específicas para o tratamento de dados pessoais.
 
 ## Precedentes da LGPD
 
-- Direito do Consumidor: A Lei do Consumidor (Código de Defesa do Consumidor) já previa algumas proteções relacionadas à privacidade e ao tratamento de dados. A LGPD complementa e aprimora essas proteções, especialmente no âmbito digital.
+-   Direito do Consumidor: A Lei do Consumidor (Código de Defesa do Consumidor) já previa algumas proteções relacionadas à privacidade e ao tratamento de dados. A LGPD complementa e aprimora essas proteções, especialmente no âmbito digital.
 
-- Legislação setorial: Antes da LGPD, diversos setores já possuíam legislações específicas sobre proteção de dados, como a Lei Geral de Telecomunicações e a Lei Complementar nº 105/2001 (Lei de Acesso à Informação). A LGPD unifica e consolida essas normas, estabelecendo um marco legal abrangente.
+-   Legislação setorial: Antes da LGPD, diversos setores já possuíam legislações específicas sobre proteção de dados, como a Lei Geral de Telecomunicações e a Lei Complementar nº 105/2001 (Lei de Acesso à Informação). A LGPD unifica e consolida essas normas, estabelecendo um marco legal abrangente.
 
 ## Proteção de dados
 
@@ -26,18 +27,18 @@ Art. 1º Esta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos me
 
 ## Principais pontos do artigo 1º:
 
-- Proteção de direitos fundamentais: A LGPD visa proteger direitos como a privacidade, a intimidade e a autodeterminação informativa.
-- Respeito à dignidade: O tratamento de dados pessoais deve ser realizado de forma a preservar a dignidade da pessoa natural.
-- Valor inerente aos dados pessoais: Os dados pessoais são considerados um bem jurídico tutelado pela lei.
+-   Proteção de direitos fundamentais: A LGPD visa proteger direitos como a privacidade, a intimidade e a autodeterminação informativa.
+-   Respeito à dignidade: O tratamento de dados pessoais deve ser realizado de forma a preservar a dignidade da pessoa natural.
+-   Valor inerente aos dados pessoais: Os dados pessoais são considerados um bem jurídico tutelado pela lei.
 
 ## Objetivos Principais da LGPD:
 
-- Proteção da Privacidade: A LGPD visa garantir o direito à privacidade e à proteção dos dados pessoais de indivíduos, estabelecendo regras claras sobre coleta, armazenamento, compartilhamento e processamento dessas informações.
+-   Proteção da Privacidade: A LGPD visa garantir o direito à privacidade e à proteção dos dados pessoais de indivíduos, estabelecendo regras claras sobre coleta, armazenamento, compartilhamento e processamento dessas informações.
 
-- Transparência e Controle: A lei assegura que os titulares de dados tenham maior controle sobre suas informações pessoais. Isso inclui o direito de saber como seus dados são utilizados, por quem, e para quais finalidades.
+-   Transparência e Controle: A lei assegura que os titulares de dados tenham maior controle sobre suas informações pessoais. Isso inclui o direito de saber como seus dados são utilizados, por quem, e para quais finalidades.
 
 ## Objetivos Principais da LGPD:
 
-- Segurança dos Dados: Estabelece que as empresas devem adotar medidas de segurança para proteger os dados pessoais contra acessos não autorizados, situações de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
+-   Segurança dos Dados: Estabelece que as empresas devem adotar medidas de segurança para proteger os dados pessoais contra acessos não autorizados, situações de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
 
-- Responsabilização: A LGPD impõe a responsabilidade às empresas pelo tratamento adequado dos dados pessoais. Em caso de violação, as empresas podem ser sujeitas a sanções, incluindo multas que podem chegar a 2% do faturamento anual da empresa, limitadas a R$ 50 milhões por infração.
+-   Responsabilização: A LGPD impõe a responsabilidade às empresas pelo tratamento adequado dos dados pessoais. Em caso de violação, as empresas podem ser sujeitas a sanções, incluindo multas que podem chegar a 2% do faturamento anual da empresa, limitadas a R\$ 50 milhões por infração.
