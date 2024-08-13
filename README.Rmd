@@ -1,9 +1,9 @@
 ---
 output: github_document
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
+  
+  <!-- README.md is generated from README.Rmd. Please edit that file -->
+  
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -14,10 +14,10 @@ knitr::opts_chunk$set(
 # Direito Digital
 
 <!-- badges: start -->
-<!-- badges: end -->
-
-Aulas de Direito Digital:
-
+  <!-- badges: end -->
+  
+  Aulas de Direito Digital:
+  
 - Aula 1: [Segurança Cibernética](https://ndtj.github.io/direitoDigital/ciber.html)
 
 - Aula 2: [LGPD Artigo 1º](https://ndtj.github.io/direitoDigital/lgpd1.html)
