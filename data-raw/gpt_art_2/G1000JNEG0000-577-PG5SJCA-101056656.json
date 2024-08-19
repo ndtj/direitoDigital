@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A decisão judicial trata de um pedido de sigilo na emissão de certidão de registro de imóveis, fundamentado na Lei Geral de Proteção de Dados (LGPD). O juiz indeferiu o pedido, afirmando que o registro de imóveis é público e que a publicidade é essencial para sua eficácia. Embora a LGPD estabeleça princípios de proteção de dados pessoais, no caso em questão, os dados referem-se a uma pessoa jurídica, o que não se enquadra na proteção da lei. O juiz determinou que a identificação do solicitante não deve ser exigida, exceto em casos específicos previstos nas normas da Corregedoria Geral de Justiça. A decisão também estabelece que, se a identificação for fornecida, o solicitante pode requerer a anonimização dos dados.",
+  "lgpd": "O artigo 2º da LGPD menciona os fundamentos da proteção de dados pessoais, incluindo o respeito à privacidade, a autodeterminação informativa e a inviolabilidade da intimidade. No contexto da decisão, o juiz analisa como esses princípios se aplicam ao tratamento de dados pessoais em registros públicos, destacando que a proteção da LGPD não se aplica a dados de pessoas jurídicas, como no caso em questão."
+}
+```

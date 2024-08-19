@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A ação proposta por Zildete Cardoso Santos contra a Boa Vista Serviços S.A. foi julgada improcedente. A autora alegou que a requerida comercializou seus dados pessoais sem autorização, requerendo a proibição dessa prática e indenização por danos morais. O juiz, no entanto, fundamentou sua decisão na Lei de Proteção de Dados (LGPD), afirmando que os dados divulgados eram meramente cadastrais e que a comercialização não configurava ato ilícito, uma vez que não envolvia dados sensíveis e estava amparada pela proteção ao crédito. A autora foi condenada ao pagamento das custas processuais e honorários advocatícios.",
+  "lgpd": "A menção à LGPD (Lei Geral de Proteção de Dados) é relevante no contexto da comercialização de dados pessoais, pois a decisão judicial se baseou na interpretação de que a divulgação de dados cadastrais, que não são sensíveis, não requer consentimento do titular, conforme os artigos 7º e 11 da lei. A LGPD permite o tratamento de dados públicos para fins de proteção ao crédito, o que foi utilizado como justificativa para a improcedência da ação."
+}
+```

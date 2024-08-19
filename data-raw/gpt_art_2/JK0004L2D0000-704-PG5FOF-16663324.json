@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A decisão judicial trata de um pedido de indenização por danos morais feito por Luiz Miguel Rodrigues Moreno contra a empresa Delboni Auriemo Medicina Diagnóstica, que foi retificada para Diagnósticos da América S/A. O juiz considerou que houve compartilhamento indevido de dados sensíveis do autor, relacionados à saúde, com sua irmã, sem o consentimento do autor, o que configura uma violação da Lei Geral de Proteção de Dados (LGPD). No entanto, o pedido foi julgado improcedente, pois não foram demonstrados danos psíquicos significativos, considerando que a divulgação ocorreu para um familiar e não resultou em consequências graves. O juiz também indeferiu o pedido de justiça gratuita ao autor, devido à sua situação financeira.",
+  "lgpd": "A menção ao artigo 2º da LGPD é feita para destacar os fundamentos da proteção de dados pessoais, que incluem o respeito à privacidade e a inviolabilidade da intimidade, da honra e da imagem. O juiz utiliza esse artigo para contextualizar a importância da proteção de dados sensíveis, como os relacionados à saúde, e para fundamentar a análise sobre a legalidade do compartilhamento de informações do autor sem seu consentimento."
+}
+```
