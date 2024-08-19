@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A decisão judicial trata de um pedido de providência relacionado à expedição de certidões pelo 1º Cartório de Registro de Imóveis de São José dos Campos. O juiz indeferiu dois protocolos de solicitação de certidões, argumentando que a divulgação das informações solicitadas violaria a privacidade e a intimidade de terceiros, conforme a Lei Geral de Proteção de Dados (LGPD). O primeiro pedido visava informações sobre a consolidação de propriedade fiduciária, enquanto o segundo buscava dados sobre valores de imóveis em um loteamento específico. O juiz destacou que a publicidade dos registros não é absoluta e deve respeitar as limitações impostas pela LGPD.",
+  "lgpd": "A menção ao artigo 2º da LGPD ocorre no contexto de justificar a proteção da privacidade e dos direitos dos titulares de dados pessoais. O artigo estabelece os fundamentos da proteção de dados, incluindo o respeito à privacidade e a inviolabilidade da intimidade, da honra e da imagem, que são princípios que devem ser observados ao tratar de informações pessoais, especialmente em solicitações que envolvem dados de terceiros."
+}
+```
