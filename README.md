@@ -14,3 +14,6 @@ Aulas de Direito Digital:
 
 - Aula 2: [LGPD Artigo
   1º](https://ndtj.github.io/direitoDigital/slides/lgpd1.html)
+
+- Aula 2: [LGPD Artigos 2 a
+  5](https://ndtj.github.io/direitoDigital/slides/lgpd2.html)
