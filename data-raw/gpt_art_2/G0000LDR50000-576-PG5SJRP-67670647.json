@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A decisão judicial trata de uma ação condenatória movida por Vitor Alves da Silva contra a Boa Vista Serviços S.A., alegando que a empresa compartilhou seus dados pessoais (como telefone, endereço e renda presumida) com terceiros sem sua autorização, violando sua privacidade. O juiz reconheceu a procedência da ação, determinando que a requerida se abstivesse de divulgar os dados do autor e condenou-a ao pagamento de R$ 10.000,00 por danos morais, além de determinar a exclusão dos dados do autor de seu banco de dados. A decisão também incluiu a fixação de multa diária em caso de descumprimento.",
+  "lgpd": "A menção ao artigo 2º da LGPD (Lei Geral de Proteção de Dados) ocorre no contexto de enfatizar que a proteção dos dados pessoais deve respeitar a privacidade do titular. O juiz argumenta que a divulgação do número de telefone móvel celular do requerente, sem seu consentimento, infringe esse direito à privacidade, uma vez que se trata de um dado pessoal e individual, não podendo ser repassado a terceiros sem autorização."
+}
+```

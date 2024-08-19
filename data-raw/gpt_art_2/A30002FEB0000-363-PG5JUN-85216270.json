@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "O Tribunal de Justiça de São Paulo negou o mandado de segurança impetrado por Tiago Cesar Costa, vereador de Mogi Mirim, que solicitava acesso à listagem de pessoas vacinadas com a primeira dose da vacina Coronavac. O tribunal entendeu que a divulgação dos dados solicitados violaria direitos fundamentais à privacidade e à intimidade, conforme previsto na Constituição e na Lei Geral de Proteção de Dados (LGPD). A decisão destacou que a proteção de dados pessoais sensíveis, como informações de saúde, requer consentimento expresso do titular, e que a fiscalização da vacinação pode ser realizada por outros meios, como o Ministério Público.",
+  "lgpd": "A menção ao artigo 2º da LGPD se refere à definição de dados pessoais e à proteção de direitos fundamentais, como a privacidade e a dignidade da pessoa natural. O artigo estabelece que a proteção de dados pessoais deve respeitar a inviolabilidade da intimidade e da vida privada, e que a divulgação de dados sensíveis, como informações sobre saúde, requer consentimento do titular. A decisão judicial enfatizou que a solicitação de divulgação da lista de vacinados infringiria essas disposições da LGPD."
+}
+```

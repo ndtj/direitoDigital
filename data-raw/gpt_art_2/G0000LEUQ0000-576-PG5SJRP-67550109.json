@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A decisão judicial trata de uma ação ajuizada por Juliana Abreu Decrescenzo contra a Boa Vista Serviços S.A., na qual a requerente alegou que seus dados pessoais, especificamente seu número de telefone, estavam sendo repassados a terceiros sem sua autorização, configurando violação de privacidade e intimidade. O juiz reconheceu a ilegalidade da conduta da requerida, determinando que a empresa retirasse os dados da requerente de seu banco de dados e se abstivesse de fornecê-los a terceiros, sob pena de multa. No entanto, o pedido de indenização por danos morais foi julgado improcedente, pois a requerente já possuía anotações de restrição de crédito anteriores, conforme a Súmula 385 do STJ.",
+  "lgpd": "A menção ao artigo 2º da LGPD (Lei Geral de Proteção de Dados) ocorre no contexto da proteção da privacidade e dos direitos dos titulares de dados pessoais. O artigo estabelece que a disciplina da proteção de dados pessoais deve respeitar a privacidade, e a decisão judicial enfatiza que a requerida não pode repassar os números de telefone móveis da requerente a terceiros, pois isso infringe o direito à privacidade garantido pela legislação."
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "resumo": "A decisão judicial trata de uma ação de inexistência de negócio jurídico e repetição de indébito ajuizada por Eulália Maria de Almeida Lopes contra o Banco Pan S.A. A autora, idosa e beneficiária do INSS, alegou ter sido vítima de fraude ao contratar um empréstimo sem seu consentimento. O juiz reconheceu a falha na prestação de serviços do banco, que permitiu o acesso indevido aos dados da autora, e declarou a nulidade do contrato de empréstimo, determinando a restituição dos valores pagos. No entanto, o pedido de indenização por danos morais foi negado, pois não houve abalo significativo à honra da autora. As custas processuais foram divididas entre as partes, e a tutela de urgência foi confirmada.",
+  "lgpd": "A menção à LGPD (Lei Geral de Proteção de Dados) ocorre no contexto da responsabilidade do banco em proteger os dados pessoais de seus clientes. O juiz destacou que a falha na prestação de serviços do banco se deu pelo fato de permitir que terceiros tivessem acesso aos dados bancários da autora, o que facilitou a fraude. A LGPD estabelece diretrizes para a proteção de dados pessoais, e a decisão enfatiza que as instituições financeiras devem adotar medidas de segurança para evitar vazamentos e fraudes."
+}
+```
