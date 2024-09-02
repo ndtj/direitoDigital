@@ -1,0 +1,71 @@
+---
+title: "Lei Geral de Proteção de Dados"
+subtitle: "Parte 3"
+author: "José de Jesus Filho"
+format: revealjs
+editor: visual
+---
+
+## Princípios da LGPD
+
+> Art. 6º As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:
+
+## Finalidade
+
+> I - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;
+
+-   Exemplo: Uma empresa de e-commerce coleta dados de seus clientes para personalizar a experiência de compra, mas posteriormente utiliza esses dados para criar perfis de consumo detalhados e vendê-los para terceiros, sem o consentimento dos clientes. Violação: Os dados foram coletados para uma finalidade específica (personalização da compra) e utilizados para outra finalidade incompatível (venda de dados).
+
+## Adequação
+
+> II - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;
+
+-   Exemplo: Um aplicativo de celular solicita acesso a toda a lista de contatos do usuário para oferecer um serviço de recomendação de amigos. Violação: A coleta de todos os contatos é desproporcional e não necessária para a função do aplicativo.
+
+## Necessidade
+
+> III - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;
+
+-   Exemplo: Um site de notícias solicita dados como endereço completo, número de telefone e CPF para o cadastro de um usuário que deseja apenas receber um newsletter por e-mail. Violação: A coleta de dados excessivos (endereço completo, número de telefone e CPF) não é justificada pela finalidade de envio de um newsletter.
+
+## Livre acesso
+
+> IV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;
+
+-   Exemplo: um banco se nega a fornecer informações sobre as operações realizadas em uma conta corrente, alegando que essas informações são sigilosas. Nesse caso, o banco estaria violando o princípio do livre acesso, pois o titular tem o direito de saber como seus dados financeiros estão sendo utilizados.
+
+## Qualidade dos dados
+
+> V - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;
+
+-   Exemplo: Uma empresa mantém em seu banco de dados informações de clientes desatualizadas, como endereços antigos ou números de telefone incorretos, o que leva ao envio de correspondências para endereços errados. Violação: Os dados não estão atualizados, o que pode gerar transtornos para os clientes e prejudicar a imagem da empresa.
+
+## Transparência
+
+> VI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;
+
+-   Exemplo: Um aplicativo de celular coleta dados de localização dos usuários sem informar claramente essa prática em sua política de privacidade. Violação: A falta de transparência sobre a coleta e o uso dos dados viola o direito do usuário de saber como suas informações estão sendo tratadas.
+
+## Segurança
+
+> VII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;
+
+-   Exemplo: Um hospital sofre um ataque hacker e os dados pessoais de seus pacientes são vazados na internet. Violação: A falta de medidas de segurança adequadas para proteger os dados dos pacientes resultou em uma violação de dados, expondo os indivíduos a riscos como fraude e identidade.
+
+## Prevenção
+
+> VIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;
+
+-   Exemplo: Uma empresa armazena uma grande quantidade de dados pessoais de seus clientes em um servidor sem qualquer sistema de backup ou redundância. Em caso de falha no servidor, os dados poderiam ser perdidos de forma irreparável, causando prejuízos aos clientes e à própria empresa. Essa situação demonstra uma clara violação ao princípio da prevenção, pois a empresa não adotou as medidas necessárias para proteger os dados contra a perda.
+
+## Não discriminação
+
+> IX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;
+
+-   Exemplo: Uma empresa de seguros utiliza dados de origem racial para definir o valor dos seus planos, oferecendo condições menos vantajosas para determinados grupos étnicos. Violação: A utilização de dados para fins discriminatórios é proibida pela LGPD.
+
+## Responsabilização e prestação de contas
+
+> X - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.
+
+-   Exemplo: Uma empresa sofre uma violação de dados e não notifica a autoridade nacional de proteção de dados nem os titulares dos dados afetados. Violação: A empresa não cumpriu com sua obrigação de prestar contas sobre o ocorrido e de tomar as medidas necessárias para mitigar os danos causados.
