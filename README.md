@@ -20,3 +20,6 @@ Aulas de Direito Digital:
 
 - Aula 4: [LGPD Artigo 7 a
   10:](https://ndtj.github.io/direitoDigital/slides/lgpd4.html)
+
+- Aula 6: [LGPD Artigo 15 a
+  41:](https://ndtj.github.io/direitoDigital/slides/lgpd4.html)
