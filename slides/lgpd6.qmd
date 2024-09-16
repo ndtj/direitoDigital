@@ -18,9 +18,11 @@ O Artigo 14 da Lei Geral de Proteção de Dados (LGPD) é especialmente relevant
 > Exceção para contato direto com os pais ou responsáveis: O consentimento não é necessário quando a coleta dos dados for necessária para entrar em contato com os pais ou responsáveis legais, sendo que os dados coletados devem ser usados exclusivamente para essa finalidade e eliminados após o uso.
 
 ## Principais pontos:
+
 > Informações claras sobre o tratamento: Devem ser fornecidas informações claras sobre os tipos de dados coletados, a forma de coleta, o uso, o compartilhamento e as práticas de segurança adotadas para a proteção desses dados.
 
 ## Principais pontos:
+
 > Uso dos dados para o melhor interesse da criança: O tratamento dos dados deve ser feito sempre com o objetivo de garantir o melhor interesse da criança, conforme prevê a legislação brasileira, especialmente o Estatuto da Criança e do Adolescente (ECA).
 
 ## Principais pontos:
@@ -41,7 +43,7 @@ O Artigo 14 da Lei Geral de Proteção de Dados (LGPD) é especialmente relevant
 
 ## Comentários sobre o Artigo 14
 
-> Este artigo, portanto, complementa e fortalece as proteções já estabelecidas no Estatuto da Criança e do Adolescente (ECA), garantindo que, no ambiente digital, os direitos das crianças e adolescentes sejam igualmente respeitados.
+> Este artigo complementa e fortalece as proteções já estabelecidas no Estatuto da Criança e do Adolescente (ECA), garantindo que, no ambiente digital, os direitos das crianças e adolescentes sejam igualmente respeitados.
 
 ## Artigo 15 - Término do Tratamento de Dados
 
@@ -49,11 +51,11 @@ O Artigo 15 determina que o término do tratamento de dados pessoais ocorrerá n
 
 > Quando a finalidade for alcançada ou os dados deixarem de ser necessários: O tratamento deve ser encerrado quando a finalidade específica para a qual os dados foram coletados for atingida ou quando os dados pessoais deixarem de ser necessários ou pertinentes ao alcance dessa finalidade.
 
----
+------------------------------------------------------------------------
 
 > Quando houver revogação do consentimento: Caso o tratamento dos dados seja baseado no consentimento do titular e este consentimento seja revogado, o tratamento deve ser encerrado, salvo se houver outra base legal que justifique a continuidade do tratamento.
 
----
+------------------------------------------------------------------------
 
 > Por determinação da autoridade nacional: O tratamento deve ser encerrado se a Autoridade Nacional de Proteção de Dados (ANPD) determinar o fim do tratamento, nas hipóteses em que houver violação ao disposto na LGPD.
 
@@ -63,7 +65,7 @@ O Artigo 16 especifica o que deve ser feito com os dados pessoais após o térmi
 
 > Eliminação dos dados: A regra geral é que, após o término do tratamento, os dados pessoais sejam eliminados, ou seja, apagados de forma que não possam mais ser acessados ou reutilizados.
 
----
+------------------------------------------------------------------------
 
 Possibilidade de conservação dos dados: Existem exceções que permitem a conservação dos dados pessoais, mesmo após o término do tratamento:
 
@@ -71,21 +73,21 @@ Possibilidade de conservação dos dados: Existem exceções que permitem a cons
 
 > Estudo por órgão de pesquisa: Os dados podem ser mantidos para a realização de estudos por órgãos de pesquisa, garantido, sempre que possível, o anonimato dos dados pessoais.
 
----
+------------------------------------------------------------------------
 
 > Transferência a terceiros: Os dados podem ser transferidos a terceiros, desde que respeitados os requisitos legais de proteção de dados.
 
 > Uso exclusivo do controlador: Os dados podem ser mantidos para uso exclusivo do controlador, vedado o acesso por terceiros, e desde que anonimizados.
 
---- 
+------------------------------------------------------------------------
 
 Os Artigos 15 e 16 são fundamentais para garantir que os dados pessoais não sejam tratados indefinidamente e que o tratamento esteja sempre vinculado a uma finalidade legítima e específica. Ao determinar o término do tratamento quando a finalidade for atingida ou os dados se tornarem desnecessários, a LGPD assegura que os dados pessoais não sejam mantidos sem justificativa, reduzindo o risco de uso indevido.
 
---- 
+------------------------------------------------------------------------
 
 A eliminação dos dados após o término do tratamento é uma medida essencial para proteger a privacidade dos titulares, evitando que seus dados continuem a ser utilizados de forma desnecessária ou sem seu conhecimento. As exceções previstas no Artigo 16 são cuidadosamente delimitadas para garantir que os dados possam ser conservados apenas em situações justificadas, como para o cumprimento de obrigações legais ou para fins de pesquisa, e que a anonimização seja utilizada sempre que possível para minimizar os riscos à privacidade.
 
---- 
+------------------------------------------------------------------------
 
 Esses artigos reforçam a necessidade de responsabilidade e transparência por parte dos controladores de dados, assegurando que o ciclo de vida dos dados pessoais seja gerido de forma segura e em conformidade com os princípios da LGPD.
 
@@ -97,21 +99,21 @@ III - Dos Direitos do Titular
 
 > Correção de Dados (Artigo 18, Inciso III): O titular pode solicitar a correção de dados incompletos, inexatos ou desatualizados.
 
----
-    
+------------------------------------------------------------------------
+
 > Anonimização, Bloqueio ou Eliminação (Artigo 18, Incisos IV e VI): O titular pode pedir a anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a lei, bem como a eliminação dos dados pessoais tratados com o consentimento do titular, exceto nas hipóteses de conservação previstas na LGPD.
 
 > Portabilidade (Artigo 18, Inciso V): O titular tem o direito à portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da Autoridade Nacional de Proteção de Dados (ANPD).
 
 > Informação sobre o Compartilhamento de Dados (Artigo 18, Inciso VII): O titular pode solicitar informações sobre as entidades públicas e privadas com as quais o controlador compartilhou seus dados.
 
----
+------------------------------------------------------------------------
 
 > Revogação do Consentimento (Artigo 18, Inciso IX): O titular pode revogar o consentimento para o tratamento dos seus dados pessoais a qualquer momento, o que implica na interrupção do tratamento, exceto em situações em que houver outra base legal que justifique a continuidade.
 
 > Revisão de Decisões Automatizadas (Artigo 20): O titular tem o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, como decisões de crédito ou contratação de serviços.
 
----
+------------------------------------------------------------------------
 
 > Direito de Oposição (Artigo 18, Inciso IX): O titular pode se opor ao tratamento de seus dados pessoais, caso este seja realizado em desacordo com as disposições da LGPD.
 
@@ -123,21 +125,21 @@ III - Dos Direitos do Titular
 
 > Bases Legais para o Tratamento (Artigos 23 e 24): O tratamento de dados pessoais pelo Poder Público deve ser realizado para o cumprimento de suas competências legais ou para a execução de políticas públicas, sempre em conformidade com a LGPD. O Poder Público também deve garantir a transparência em relação aos dados tratados.
 
----
+------------------------------------------------------------------------
 
 > Compartilhamento de Dados (Artigos 25 e 26): O compartilhamento de dados entre órgãos e entidades do Poder Público deve ser feito apenas para atender a finalidades específicas de execução de políticas públicas, com respeito aos princípios de proteção de dados. O compartilhamento com entidades privadas deve observar os requisitos legais e garantir a proteção dos dados.
 
---- 
+------------------------------------------------------------------------
 
 > Acesso a Dados pelo Poder Público (Artigo 27): O acesso a dados pessoais por parte do Poder Público deve ser restrito e necessário para a realização das atividades da administração pública, seguindo os princípios da finalidade e da necessidade.
 
-## Encarregado pelo Tratamento de Dados
+## Encarregado pelo Tratamento de Dados ou DPO (Data Protection Officer)
 
 Art. 41. O controlador deverá indicar encarregado pelo tratamento de dados pessoais.
 
 § 1º A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, preferencialmente no sítio eletrônico do controlador.
 
---- 
+------------------------------------------------------------------------
 
 § 2º As atividades do encarregado consistem em:
 
@@ -149,6 +151,22 @@ III - orientar os funcionários e os contratados da entidade a respeito das prá
 
 IV - executar as demais atribuições determinadas pelo controlador ou estabelecidas em normas complementares.
 
+------------------------------------------------------------------------
+
+§ 3º A autoridade nacional poderá estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados.
+
+## RESOLUÇÃO CD/ANPD Nº 18, DE 16 DE JULHO DE 2024
+
+- Indicação formal por escrito do encarregado (Art 3º).
+
+- Agentes de Tratamento de Pequeno Porte devem disponibilizar um canal de comunicação (Art. 3, § 3º).
+
+- Autonomia técnica: O encarregado deve ter autonomia técnica para cumprir suas funções, sem interferências indevidas. O controlador deve fornecer os meios necessários para o desempenho de suas atribuições. (Art. 10, inc. III)
+
 ---
 
-§ 3º A autoridade nacional poderá estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados. 
+- Conflito de interesses: O encarregado deve evitar conflitos de interesse em suas funções, declarando qualquer situação que possa configurar esse tipo de problema. O agente de tratamento tem a obrigação de evitar designar uma pessoa para a função de encarregado se houver potencial de conflito.
+
+- Habilidades: Gestão, Direito e TI.
+
+
