@@ -23,3 +23,6 @@ Aulas de Direito Digital:
 
 - Aula 6: [LGPD Artigo 15 a
   41:](https://ndtj.github.io/direitoDigital/slides/lgpd6.html)
+
+- Aula 7: [Engenharia de
+  prompt:](https://ndtj.github.io/direitoDigital/slides/tutorial_prompt.html)
