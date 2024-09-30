@@ -1,0 +1,103 @@
+---
+title: "Engenharia de Prompt aplicada ao direito"
+format: html
+editor: visual
+execute: 
+  echo: false
+---
+
+## Introdução
+
+Os modelos de linguagem de grande porte (LLMs, na sigla em inglês), como o Gemini e o GPT, têm revolucionado o campo do Direito. Isso se deve ao fato de que as peças processuais são geralmente um conjunto de documentos semi ou não estruturados, cujo processamento — seja pela extração de informações, pela geração de cláusulas contratuais ou pela criação automática de manifestações processuais — tem se beneficiado enormemente da inteligência artificial generativa, cujo principal expoente são as LLMs.
+
+Embora a doutrina defina o processo judicial como uma sequência lógica de atos, os documentos que formalizam esses atos nem sempre seguem um padrão, e sua posição no processo pode ser imprevisível. O Conselho Nacional de Justiça (CNJ), ao instituir as Tabelas Processuais Unificadas (TPUs), criou uma taxonomia valiosa para categorizar classes processuais, movimentações e temas, o que facilitou a organização do processo eletrônico. Costumo dizer aos meus alunos que, ao dominar as TPUs, é possível realizar buscas jurisprudenciais e localizar decisões com muito mais facilidade.
+
+Diariamente, milhares de ações são distribuídas nos tribunais brasileiros, gerando um volume de documentos que pode variar de poucas páginas a centenas de milhares. Até pouco tempo, essa valiosa massa de informações ficava restrita às partes e ao magistrado, sendo arquivada após o trânsito em julgado e, muitas vezes, caindo no esquecimento. Com o advento do processo eletrônico, essa dinâmica mudou drasticamente. Hoje, a quantidade de documentos processuais disponíveis nas plataformas digitais dos tribunais é imensa. Isso gerou a necessidade de extrair e estruturar essas informações para torná-las acessíveis e úteis a diversos setores, desde a academia e empresas até o próprio Judiciário.
+
+Contudo, sempre houve um desafio: as técnicas tradicionais para estruturar informações processuais eram limitadas, baseando-se em abordagens determinísticas e heurísticas. Eram determinísticas porque só era possível extrair um dado se sua posição e forma fossem previsíveis, e heurísticas porque exigiam constantes ajustes conforme surgiam novas exceções.
+
+>> Sentença 1: Julgo procedente para condenar Fulano de Tal ao pagamento de R$ 2.500,00 em indenização por dano moral.
+
+>> Sentença 2: Julgo procedente para condenar Beltrano ao pagamento de R$ 4.000,00 em indenização por dano material.
+
+As técnicas heurísticas e determinísticas não teriam dificuldade em estruturar numa planilha esses dispositivos de sentenças da seguinte forma:
+
+```{r}
+tibble::tibble(requerido = c("Fulano de Tal","Beltrano"),
+               merito = c("procedente","procedente"),
+               dano = c("moral", "material"),
+               valor = c(2500, 4000)
+) |> 
+  knitr::kable()
+```
+
+Isso ocorre porque os dados a serem coletados estão dispostos numa mesma ordem. No entanto, um ajuste teria de ser feito se o dispositivo viesse da seguinte forma:
+
+>>  Sentença 3:  Acolho o pedido do autor para o ressarcimento do valor de R$ 829,00
+
+Com a evolução das técnicas de processamento de linguagem natural (PLN), especialmente a partir da criação dos mecanismos de atenção em redes neurais conhecidas como arquitetura transformers, houve uma virada probabilística no processamento de linguagem natural, incluindo a linguagem jurídica. O PLN passou a incluir modelos probabilísticos treinados para uma série de tarefas sobre textos, como compreendê-los, traduzi-los de um idioma para outro, responder perguntas e gerar novos textos. Esses modelos são conhecidos como IA generativa.
+
+As três sentenças acima seriam facilmente estruturadas com as IA generativas.
+
+A interação com a IA generativa ou LLM ocorre via um mecanismo chamado prompt, que nada mais é do que uma entrada de texto, em forma de instrução ou pergunta, para que a IA produza novas textos. Neste tutorial, iremos explorar as técnicas de prompting  úteis para o operador do Direito.
+
+## Conceito de Prompt
+
+Prompts no contexto de IA generativa são instruções ou perguntas, acompanhadas ou não de dados ou exemplos a fim de obter respostas desejadas da IA generativa.
+
+## Exemplos de prompts
+
+## Limitações
+
+1 - Falta de memória persistente
+
+2 - Natureza probabilística: falta de reprodutibilidade
+
+3 - Informação desatualizada
+
+4 - Alucinação
+
+5 - Alto uso de recuso
+
+6 - Janela limitada
+
+7 - Especificidade do domínio
+
+
+## Tópicos importantes
+
+### Chain of thought
+
+### Tree of Thought
+
+Melhora o racioncíno da LLM ao orientar  a LLM a tomar diferentes caminhos antes de encontrar a solução. Diferentemente do CoT, o ToT não segue um processo linear de raciocínio.
+
+1 - Raciocínio estruturado
+
+2 - Explora múltiplos caminhos
+
+3 - Poda e seleção
+
+4 - Ida e volta
+
+5 - Processo de decisão hierárquico
+
+
+
+### Forçar a LLM a ser factual
+Restringir a LLM aos dados fornecidos.
+Forçar respostas.
+Dar exemplos de respostas.
+
+### Explicitar o fim do prompt
+
+"Escreva um poema descrevendo um dia lindo<|endofprompt|>. Era um lindo dia de inverno"
+
+### Forçar a linguagem
+
+### Dar instruções antes dos exemplos.
+
+### Auto-consistência: gerar multiplas respostas par ao mesmo prompt
+
+
+
