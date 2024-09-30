@@ -1,0 +1,9 @@
+---
+title: "Engenharia de prompt aplicada ao Direito"
+format: revealjs
+editor: visual
+---
+
+## Introdução
+
+Os modelos de linguagem em larga escala (LLMs na sigla em inglês) têm representado uma revolução no Direito. E a razão é muito simples, as peças processuais são um amontoado de documentos semi ou não estruturados. Embora a doutrina descreva o processo como uma cadeia lógica de atos, os documentos que materializam esses atos nem sempre são padronizados e sua posição no processo 
