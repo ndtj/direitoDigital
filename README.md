@@ -26,3 +26,6 @@ Aulas de Direito Digital:
 
 - Aula 7: [Engenharia de
   prompt:](https://ndtj.github.io/direitoDigital/slides/tutorial_prompt.html)
+
+- Aula 8: [Crimes
+  digitais:](https://ndtj.github.io/direitoDigital/slides/crimes_digitais.html)
