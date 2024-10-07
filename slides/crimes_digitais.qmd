@@ -6,65 +6,74 @@ editor: visual
 
 ## Conceito
 
-Segundo Marcelo Crespo, crime digital é ato ilícito que usa a tecnologia como meio ou como fim, fraudes eletrônicas, invasão de dispositivos, violação de privacidade, roubo de dados e crimes contra a honra (como difamação e calúnia). 
-
+Segundo Marcelo Crespo, crime digital é ato ilícito que usa a tecnologia como meio ou como fim, fraudes eletrônicas, invasão de dispositivos, violação de privacidade, roubo de dados e crimes contra a honra (como difamação e calúnia).
 
 ## Crimes digitais e sociedade
 
-1. Surgimento da sociedade da informação.
-2. Sociedade de riscos
-3. Ambiente globalizado
+1.  Surgimento da sociedade da informação.
+2.  Sociedade de riscos
+3.  Ambiente globalizado
 
-# Convenção de Budapeste sobre Cibercrime
-A **Convenção de Budapeste sobre o Cibercrime**, também conhecida como **Convenção sobre Cibercrime do Conselho da Europa**, é o primeiro tratado internacional criado para combater crimes cibernéticos. 
+## Convenção de Budapeste sobre Cibercrime
 
----
+A **Convenção de Budapeste sobre o Cibercrime**, também conhecida como **Convenção sobre Cibercrime do Conselho da Europa**, é o primeiro tratado internacional criado para combater crimes cibernéticos.
+
+------------------------------------------------------------------------
+
 Adotada em 23 de novembro de 2001, em Budapeste, Hungria, a convenção busca harmonizar as legislações dos países signatários, promover a cooperação internacional e fornecer diretrizes para investigações e procedimentos legais em crimes cibernéticos.
 
 Embora tenha sido promovida pelo Conselho da Europa, a convenção está aberta à adesão de países de todo o mundo, incluindo não membros.
 
 ## Objetivos Principais da Convenção de Budapeste:
-1. **Harmonização das Legislações Nacionais**: 
-    - Propor que os países adaptem suas legislações para tipificar atos considerados crimes cibernéticos da mesma forma, permitindo uma resposta coordenada e eficaz. 
-    - Exemplos de crimes: acesso não autorizado a sistemas, interferência em dados e sistemas, violação de direitos autorais, fraudes e outros crimes cometidos pela internet.
+
+1.  **Harmonização das Legislações Nacionais**:
+    -   Propor que os países adaptem suas legislações para tipificar atos considerados crimes cibernéticos da mesma forma, permitindo uma resposta coordenada e eficaz.
+    -   Exemplos de crimes: acesso não autorizado a sistemas, interferência em dados e sistemas, violação de direitos autorais, fraudes e outros crimes cometidos pela internet.
 
 ## Objetivos Principais da Convenção de Budapeste:
-2. **Estabelecimento de Medidas Procedimentais**:
-    - Sugere medidas legais e procedimentais para investigação eficiente de crimes cibernéticos.
-    - Inclui: coleta de provas eletrônicas, monitoramento de comunicações, interceptação de dados e preservação de informações armazenadas.
-    
+
+2.  **Estabelecimento de Medidas Procedimentais**:
+    -   Sugere medidas legais e procedimentais para investigação eficiente de crimes cibernéticos.
+    -   Inclui: coleta de provas eletrônicas, monitoramento de comunicações, interceptação de dados e preservação de informações armazenadas.
+
 ## Objetivos Principais da Convenção de Budapeste:
-3. **Promoção da Cooperação Internacional**:
-  - Cria mecanismos para facilitar a cooperação entre os países signatários, por meio de assistência jurídica mútua, extradição e trocas rápidas de informações entre as autoridades competentes.
+
+3.  **Promoção da Cooperação Internacional**:
+
+-   Cria mecanismos para facilitar a cooperação entre os países signatários, por meio de assistência jurídica mútua, extradição e trocas rápidas de informações entre as autoridades competentes.
 
 ## Estrutura e Conteúdo da Convenção
 
 A convenção é dividida em quatro seções principais:
 
 ## Parte 1: Disposições Materiais
+
 Define os principais tipos de crimes cibernéticos que devem ser incluídos na legislação dos países signatários, como:
 
-- Acesso ilegal a sistemas.
-- Interceptação ilegal de comunicações.
-- Interferência em dados e sistemas.
-- Uso indevido de dispositivos.
-- Infrações relacionadas a direitos autorais.
+-   Acesso ilegal a sistemas.
+-   Interceptação ilegal de comunicações.
+-   Interferência em dados e sistemas.
+-   Uso indevido de dispositivos.
+-   Infrações relacionadas a direitos autorais.
 
 ## Parte 2: Medidas Processuais
+
 Estabelece procedimentos para a obtenção de provas digitais, como:
 
-- Preservação rápida de dados armazenados.
-- Coleta de tráfego de dados em tempo real.
-- Acesso a dados armazenados.
-- Busca e apreensão de dados.
+-   Preservação rápida de dados armazenados.
+-   Coleta de tráfego de dados em tempo real.
+-   Acesso a dados armazenados.
+-   Busca e apreensão de dados.
 
 ## Parte 3: Cooperação Internacional
+
 Regras e práticas para a cooperação internacional em investigações e processos penais relacionados a crimes cibernéticos, incluindo:
 
-- Extradição de criminosos.
-- Assistência mútua.
+-   Extradição de criminosos.
+-   Assistência mútua.
 
 ### Parte 4: Disposições Finais
+
 Trata de questões de implementação, adesão e emendas à convenção.
 
 Promulgada por meio do decreto 11.491/2023
@@ -99,8 +108,8 @@ Crimes contra a propriedade intelectual: Pirataria de softwares, distribuição 
 
 ## Lei dos crimes cibernéticos
 
-
 ## Competência
+
 ### Critério Territorial (Lugar do Crime):
 
 Para definir a competência territorial, o Código de Processo Penal (artigo 70) e o Código Penal (artigo 6º) utilizam o critério do lugar do crime, que pode ser o local onde se deu a ação ou omissão, no todo ou em parte, bem como onde se produziu o resultado. No caso dos crimes digitais, esse critério é mais complexo, uma vez que o crime pode ser cometido em um local, mas seus efeitos podem ocorrer em outro (ou até em vários lugares).
@@ -120,15 +129,16 @@ No caso de crimes contra sistemas informáticos (como invasão de dispositivos, 
 ## Competência da Justiça Estadual ou Federal:
 
 ## Justiça Estadual:
+
 Em regra, a maioria dos crimes digitais (como difamação, estelionato digital, violação de privacidade) é julgada pela Justiça Estadual, especialmente quando não há interesse da União envolvido.
 
 ## Justiça Federal:
-A competência da Justiça Federal é estabelecida quando o crime digital envolve interesses da União, de suas autarquias ou empresas públicas, conforme o artigo 109 da Constituição Federal. Exemplos:
-Ataques a sistemas informáticos de órgãos federais (como invasão de sistemas de tribunais, universidades federais, ou portais do governo).
+
+A competência da Justiça Federal é estabelecida quando o crime digital envolve interesses da União, de suas autarquias ou empresas públicas, conforme o artigo 109 da Constituição Federal. Exemplos: Ataques a sistemas informáticos de órgãos federais (como invasão de sistemas de tribunais, universidades federais, ou portais do governo).
 
 ## Justiça Federal
-Crimes que envolvam direitos do consumidor em contextos de comércio eletrônico internacional ou que envolvam transações bancárias e financeiras federais.
-Crimes cibernéticos transnacionais, como aqueles que envolvem cooperação internacional.
+
+Crimes que envolvam direitos do consumidor em contextos de comércio eletrônico internacional ou que envolvam transações bancárias e financeiras federais. Crimes cibernéticos transnacionais, como aqueles que envolvem cooperação internacional.
 
 ## Crimes de Competência dos Juizados Especiais Criminais (JECRIM):
 
