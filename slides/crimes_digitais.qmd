@@ -1,0 +1,147 @@
+---
+title: "Crimes digitais"
+format: revealjs
+editor: visual
+---
+
+## Conceito
+
+Segundo Marcelo Crespo, crime digital é ato ilícito que usa a tecnologia como meio ou como fim, fraudes eletrônicas, invasão de dispositivos, violação de privacidade, roubo de dados e crimes contra a honra (como difamação e calúnia). 
+
+
+## Crimes digitais e sociedade
+
+1. Surgimento da sociedade da informação.
+2. Sociedade de riscos
+3. Ambiente globalizado
+
+# Convenção de Budapeste sobre Cibercrime
+A **Convenção de Budapeste sobre o Cibercrime**, também conhecida como **Convenção sobre Cibercrime do Conselho da Europa**, é o primeiro tratado internacional criado para combater crimes cibernéticos. 
+
+---
+Adotada em 23 de novembro de 2001, em Budapeste, Hungria, a convenção busca harmonizar as legislações dos países signatários, promover a cooperação internacional e fornecer diretrizes para investigações e procedimentos legais em crimes cibernéticos.
+
+Embora tenha sido promovida pelo Conselho da Europa, a convenção está aberta à adesão de países de todo o mundo, incluindo não membros.
+
+## Objetivos Principais da Convenção de Budapeste:
+1. **Harmonização das Legislações Nacionais**: 
+    - Propor que os países adaptem suas legislações para tipificar atos considerados crimes cibernéticos da mesma forma, permitindo uma resposta coordenada e eficaz. 
+    - Exemplos de crimes: acesso não autorizado a sistemas, interferência em dados e sistemas, violação de direitos autorais, fraudes e outros crimes cometidos pela internet.
+
+## Objetivos Principais da Convenção de Budapeste:
+2. **Estabelecimento de Medidas Procedimentais**:
+    - Sugere medidas legais e procedimentais para investigação eficiente de crimes cibernéticos.
+    - Inclui: coleta de provas eletrônicas, monitoramento de comunicações, interceptação de dados e preservação de informações armazenadas.
+    
+## Objetivos Principais da Convenção de Budapeste:
+3. **Promoção da Cooperação Internacional**:
+  - Cria mecanismos para facilitar a cooperação entre os países signatários, por meio de assistência jurídica mútua, extradição e trocas rápidas de informações entre as autoridades competentes.
+
+## Estrutura e Conteúdo da Convenção
+
+A convenção é dividida em quatro seções principais:
+
+## Parte 1: Disposições Materiais
+Define os principais tipos de crimes cibernéticos que devem ser incluídos na legislação dos países signatários, como:
+
+- Acesso ilegal a sistemas.
+- Interceptação ilegal de comunicações.
+- Interferência em dados e sistemas.
+- Uso indevido de dispositivos.
+- Infrações relacionadas a direitos autorais.
+
+## Parte 2: Medidas Processuais
+Estabelece procedimentos para a obtenção de provas digitais, como:
+
+- Preservação rápida de dados armazenados.
+- Coleta de tráfego de dados em tempo real.
+- Acesso a dados armazenados.
+- Busca e apreensão de dados.
+
+## Parte 3: Cooperação Internacional
+Regras e práticas para a cooperação internacional em investigações e processos penais relacionados a crimes cibernéticos, incluindo:
+
+- Extradição de criminosos.
+- Assistência mútua.
+
+### Parte 4: Disposições Finais
+Trata de questões de implementação, adesão e emendas à convenção.
+
+Promulgada por meio do decreto 11.491/2023
+
+## Tipos de crimes
+
+### Crimes próprios
+
+Crimes digitais próprios são aqueles cuja prática depende exclusivamente do uso de tecnologias e de ambientes digitais. Ou seja, esses crimes só ocorrem no contexto cibernético e não possuem um correspondente no mundo offline. A tecnologia é a própria base do delito, que não poderia existir sem a presença de recursos tecnológicos.
+
+## Exemplos de crimes digitais próprios:
+
+Invasão de dispositivo informático (Art. 154-A do Código Penal): Ato de invadir dispositivo alheio para obter, adulterar ou destruir informações sem autorização.
+
+Crimes de disseminação de vírus e malware: Propagação de softwares maliciosos para comprometer a integridade de sistemas e roubar dados.
+
+Phishing e Spoofing: Técnicas usadas para enganar usuários e obter informações confidenciais, como senhas e dados financeiros.
+
+## Crimes impróprios
+
+Crimes digitais impróprios são aqueles que podem ocorrer tanto no ambiente digital quanto fora dele. Ou seja, são delitos tradicionais que ganharam uma nova dimensão no contexto cibernético. A tecnologia serve como um meio facilitador ou como um novo cenário para a prática desses crimes, mas não é uma condição necessária para que eles existam.
+
+## Exemplos de crimes digitais impróprios:
+
+Estelionato digital: Fraudes em ambientes online, como golpes em e-commerce e vendas fraudulentas em plataformas virtuais. Embora o estelionato seja um crime tradicional, ele pode ser executado no contexto digital.
+
+Difamação e calúnia online: Prática de difamar ou caluniar uma pessoa por meio de redes sociais, e-mails ou outras plataformas digitais. Essas ofensas podem ocorrer tanto no mundo físico quanto no digital.
+
+## Exemplos de crimes digitais impróprios:
+
+Crimes contra a propriedade intelectual: Pirataria de softwares, distribuição não autorizada de conteúdo protegido por direitos autorais, como músicas e filmes. São crimes que podem ocorrer fora do ambiente digital, mas são facilitados pela internet.
+
+## Lei dos crimes cibernéticos
+
+
+## Competência
+### Critério Territorial (Lugar do Crime):
+
+Para definir a competência territorial, o Código de Processo Penal (artigo 70) e o Código Penal (artigo 6º) utilizam o critério do lugar do crime, que pode ser o local onde se deu a ação ou omissão, no todo ou em parte, bem como onde se produziu o resultado. No caso dos crimes digitais, esse critério é mais complexo, uma vez que o crime pode ser cometido em um local, mas seus efeitos podem ocorrer em outro (ou até em vários lugares).
+
+## Critério Territorial (Lugar do Crime):
+
+Lugar da Ação ou Execução do Crime: É o local onde se realizou o ato criminoso, como a cidade de onde partiu a mensagem ou ataque cibernético.
+
+Lugar do Resultado: É o local onde o efeito do crime foi sentido, como a cidade onde o sistema ou dispositivo da vítima foi invadido, onde houve o prejuízo financeiro, ou onde ocorreu a lesão a direitos como honra ou imagem.
+
+## Competência Territorial nos Crimes Digitais:
+
+Nos crimes digitais, a competência territorial é usualmente definida no local onde se consumou o delito ou onde ocorreu o prejuízo. Em muitos casos, a competência pode ser deslocada para o domicílio da vítima, especialmente em crimes contra a honra (calúnia, injúria, difamação) praticados pela internet.
+
+No caso de crimes contra sistemas informáticos (como invasão de dispositivos, roubo de dados, ou difusão de vírus), a competência é geralmente estabelecida no local onde está situado o dispositivo ou sistema atingido.
+
+## Competência da Justiça Estadual ou Federal:
+
+## Justiça Estadual:
+Em regra, a maioria dos crimes digitais (como difamação, estelionato digital, violação de privacidade) é julgada pela Justiça Estadual, especialmente quando não há interesse da União envolvido.
+
+## Justiça Federal:
+A competência da Justiça Federal é estabelecida quando o crime digital envolve interesses da União, de suas autarquias ou empresas públicas, conforme o artigo 109 da Constituição Federal. Exemplos:
+Ataques a sistemas informáticos de órgãos federais (como invasão de sistemas de tribunais, universidades federais, ou portais do governo).
+
+## Justiça Federal
+Crimes que envolvam direitos do consumidor em contextos de comércio eletrônico internacional ou que envolvam transações bancárias e financeiras federais.
+Crimes cibernéticos transnacionais, como aqueles que envolvem cooperação internacional.
+
+## Crimes de Competência dos Juizados Especiais Criminais (JECRIM):
+
+Crimes digitais de menor potencial ofensivo, como injúrias ou difamações online, podem ser julgados pelos Juizados Especiais Criminais (JECRIM), desde que a pena máxima não exceda dois anos. Nesses casos, os processos são mais céleres e visam a conciliação entre as partes.
+
+## Conflito de Competência:
+
+Dada a natureza difusa e transnacional de muitos crimes digitais, é comum haver conflitos de competência, especialmente quando o crime envolve múltiplas jurisdições. Nesses casos, o Superior Tribunal de Justiça (STJ) é responsável por solucionar o conflito, estabelecendo qual foro ou tribunal deve julgar a questão.
+
+## Competência em Crimes Cibernéticos Transnacionais:
+
+Quando o crime digital envolve a prática de atos em diversos países, como ataques de hackers, fraudes financeiras transnacionais, ou disseminação internacional de material ilegal, a competência é definida por tratados internacionais de cooperação jurídica e pela jurisdição do local onde o delito produziu efeitos mais significativos. Nesses casos, há cooperação com a Interpol e uso de tratados como a Convenção de Budapeste sobre o Cibercrime.
+
+## Novos Desafios e a Competência no Ambiente Digital:
+
+A definição de competência nos crimes digitais ainda apresenta desafios, considerando a fluidez e o caráter transnacional da internet. Por isso, há uma crescente demanda por regulamentações mais específicas e maior clareza em relação ao tratamento de crimes cibernéticos, para evitar decisões conflitantes e garantir a efetividade da justiça.
