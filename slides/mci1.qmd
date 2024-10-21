@@ -1,0 +1,50 @@
+---
+title: "Marco Civil da Internet 1"
+format: revealjs
+editor: visual
+---
+
+## Marco Civil da Internet
+### Origem
+
+1. Projeto de Lei de crimes virtuais (Eduardo Azeredo)
+
+2. Artigo do Professor Ronaldo Lemos
+
+3. Tramitação
+
+4. Oposição
+
+
+## Objetivo Geral
+
+Ronaldo Lemos: Estabelecer um marco regulatório civil, que defina claramente as regras e responsabilidades com relação a usuários, empresas e demais instituições acessando a rede.
+
+Lei 12.965/2014: Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
+
+Art. 4 – Objetivos. 
+A inclusão digital e a redução de desigualdades;
+A promoção da cidadania na era digital;
+A inovação e a promoção de novos modelos de negócios na Internet.
+
+## Objetivos 
+
+1. **Garantir a liberdade de expressão e privacidade**: O Marco Civil protege o direito dos usuários à livre manifestação de opinião e à privacidade, assegurando que dados pessoais e comunicações sejam tratados com sigilo, salvo com autorização judicial ou consentimento explícito.
+
+2. **Neutralidade da rede**: Define que os provedores de internet não podem discriminar o tráfego com base em conteúdo, origem ou destino, garantindo que todos os dados sejam tratados de forma igual.
+
+## Objetivos
+
+3. **Proteção de dados pessoais**: Estabelece que dados só podem ser coletados, armazenados e compartilhados com autorização do usuário, antecipando a Lei Geral de Proteção de Dados (LGPD) que veio depois para detalhar essas regras.
+
+4. **Responsabilização limitada dos provedores**: Os provedores de aplicações de internet (como plataformas de redes sociais) só podem ser responsabilizados por conteúdo gerado por terceiros se não cumprirem uma ordem judicial para remoção desse conteúdo.
+
+## Objetivos
+
+5. **Transparência e qualidade de serviços**: Garante que os provedores de internet ofereçam serviços de forma clara e transparente, informando o consumidor sobre condições e limitações.
+
+6. **Promoção da inclusão digital**: O Marco Civil também busca estimular a democratização do acesso à internet, considerando-a essencial para o exercício da cidadania no contexto moderno.
+
+
+
+
