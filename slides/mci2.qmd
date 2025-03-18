@@ -5,13 +5,9 @@ format: revealjs
 editor: visual
 ---
 
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
----
 
 ### Introdução
 
@@ -22,8 +18,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Art. 7º - Direitos dos Usuários
 
-> O acesso à internet é essencial ao exercício da cidadania.
-> O usuário tem direito à inviolabilidade da intimidade, à não suspensão da conexão arbitrária e à informação clara sobre coleta e uso de seus dados.
+ O acesso à internet é essencial ao exercício da cidadania.
+ O usuário tem direito à inviolabilidade da intimidade, à não suspensão da conexão arbitrária e à informação clara sobre coleta e uso de seus dados.
 
 ### Comentário
 Este artigo reforça a privacidade e a transparência no uso da internet, assegurando direitos fundamentais aos cidadãos.
@@ -41,7 +37,7 @@ Esse artigo protege os dados dos usuários, exigindo ordem judicial para que pro
 
 ### Art. 13 - Guarda de Registros de Conexão
 
-> Provedores de conexão devem armazenar registros de conexão pelo prazo de um ano, sob sigilo e segurança.
+ Provedores de conexão devem armazenar registros de conexão pelo prazo de um ano, sob sigilo e segurança.
 
 ### Comentário
 A exigência de guarda de registros visa auxiliar investigações, mas deve ser feita com garantias de sigilo para evitar abusos.
@@ -64,13 +60,16 @@ Isso protege a liberdade de expressão e impede censura privada, ao mesmo tempo 
 ### Comentário
 O artigo garante que apenas mediante decisão judicial os dados podem ser acessados por autoridades, protegendo o direito à privacidade dos usuários.
 
----
 
 
-# Críticas ao Marco Civil da Internet
+## Críticas ao Marco Civil da Internet
 
 - **Vigilância e privacidade**: Apesar das garantias legais, há críticas de que a obrigatoriedade de armazenamento de registros pode abrir brechas para vigilância excessiva por parte do Estado e empresas.
 - **Responsabilidade dos provedores**: Alguns argumentam que a exigência de ordem judicial para a remoção de conteúdos pode dificultar a resposta rápida a casos de crimes virtuais, como difamação e discurso de ódio.
+
+
+## Críticas ao Marco Civil da Internet
+
 - **Neutralidade da rede**: Embora prevista na lei, há questionamentos sobre a efetiva aplicação desse princípio, especialmente com a pressão de grandes empresas de telecomunicações.
 - **Efetividade na proteção de dados**: O Marco Civil foi um marco importante, mas sua regulamentação não acompanhou o avanço da Lei Geral de Proteção de Dados (LGPD), gerando dúvidas sobre sua aplicabilidade atual.
 - **Desafios na aplicação**: A implementação da lei depende de fiscalização e interpretação judicial, o que pode gerar insegurança jurídica.
@@ -82,4 +81,3 @@ O artigo garante que apenas mediante decisão judicial os dados podem ser acessa
 - Protege direitos fundamentais e estabelece diretrizes para provedores.
 - Ainda há desafios na aplicação da lei, especialmente em relação à proteção de dados e fake news.
 
----
