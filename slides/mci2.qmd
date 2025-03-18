@@ -1,0 +1,85 @@
+---
+title: "Marco Civil da Internet - parte 2"
+author: "José de Jesus Filho"
+format: revealjs
+editor: visual
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+---
+
+### Introdução
+
+- O Marco Civil da Internet (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
+- Regulamenta a proteção de dados, a neutralidade da rede e a responsabilidade de provedores.
+
+---
+
+### Art. 7º - Direitos dos Usuários
+
+> O acesso à internet é essencial ao exercício da cidadania.
+> O usuário tem direito à inviolabilidade da intimidade, à não suspensão da conexão arbitrária e à informação clara sobre coleta e uso de seus dados.
+
+### Comentário
+Este artigo reforça a privacidade e a transparência no uso da internet, assegurando direitos fundamentais aos cidadãos.
+
+---
+
+### Art. 10 - Guarda e Fornecimento de Dados
+
+ A guarda e disponibilização de registros de conexão e de acesso a aplicações de internet devem observar o direito à privacidade, ao sigilo e à proteção dos dados pessoais.
+ O fornecimento de tais registros somente pode ser feito mediante ordem judicial.
+
+### Comentário
+Esse artigo protege os dados dos usuários, exigindo ordem judicial para que provedores compartilhem informações, equilibrando segurança pública e privacidade.
+---
+
+### Art. 13 - Guarda de Registros de Conexão
+
+> Provedores de conexão devem armazenar registros de conexão pelo prazo de um ano, sob sigilo e segurança.
+
+### Comentário
+A exigência de guarda de registros visa auxiliar investigações, mas deve ser feita com garantias de sigilo para evitar abusos.
+
+---
+
+### Art. 19 - Responsabilidade de Provedores
+
+> Provedores de aplicações de internet não são responsáveis por conteúdos gerados por terceiros, salvo mediante ordem judicial específica.
+
+### Comentário
+Isso protege a liberdade de expressão e impede censura privada, ao mesmo tempo que estabelece um mecanismo para a remoção de conteúdos ilegais.
+
+---
+
+### Art. 22 - Requisição de Registros
+
+> Autoridades administrativas poderão requisitar registros de conexão e de acesso a aplicações para investigação criminal ou instrução processual penal, mediante ordem judicial.
+
+### Comentário
+O artigo garante que apenas mediante decisão judicial os dados podem ser acessados por autoridades, protegendo o direito à privacidade dos usuários.
+
+---
+
+
+# Críticas ao Marco Civil da Internet
+
+- **Vigilância e privacidade**: Apesar das garantias legais, há críticas de que a obrigatoriedade de armazenamento de registros pode abrir brechas para vigilância excessiva por parte do Estado e empresas.
+- **Responsabilidade dos provedores**: Alguns argumentam que a exigência de ordem judicial para a remoção de conteúdos pode dificultar a resposta rápida a casos de crimes virtuais, como difamação e discurso de ódio.
+- **Neutralidade da rede**: Embora prevista na lei, há questionamentos sobre a efetiva aplicação desse princípio, especialmente com a pressão de grandes empresas de telecomunicações.
+- **Efetividade na proteção de dados**: O Marco Civil foi um marco importante, mas sua regulamentação não acompanhou o avanço da Lei Geral de Proteção de Dados (LGPD), gerando dúvidas sobre sua aplicabilidade atual.
+- **Desafios na aplicação**: A implementação da lei depende de fiscalização e interpretação judicial, o que pode gerar insegurança jurídica.
+
+---
+### Conclusão
+
+- O Marco Civil da Internet representa um avanço na regulamentação digital no Brasil.
+- Protege direitos fundamentais e estabelece diretrizes para provedores.
+- Ainda há desafios na aplicação da lei, especialmente em relação à proteção de dados e fake news.
+
+---
