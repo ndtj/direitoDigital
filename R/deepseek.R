@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-deepseek="sk-5bac0c1f50af4da783b924d8f8378799"
+deepseek=""
 
 cjpg <- readRDS(here::here("data/mci_cjpg.rds"))
 
