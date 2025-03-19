@@ -43,6 +43,9 @@ editor: visual
 
 > § 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.
 
+<<<<<<< HEAD:slides/lgpd4.qmd
 ## Artigo 7º
 
+=======
+>>>>>>> 81fcc37 (lgpd4):slides/lpgd4.qmd
 > § 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.
