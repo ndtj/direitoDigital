@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-deepseek=""
+deepseek= Sys.getenv("DEEPSEEK_API_KEY")
 
 cjpg <- readRDS(here::here("data/mci_cjpg.rds"))
 
