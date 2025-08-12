@@ -44,7 +44,7 @@ editor: visual
 
 ## Artigo 3º: Comentário
 
--   A operação de tratamento é realizada no território nacional: Isso significa que qualquer empresa ou órgão, independente de sua nacionalidade, que tratar dados pessoais dentro do Brasil estará sujeito à LGPD.
+-   A operação de tratamento é realizada no território nacional: Isso significa que qualquer empresa ou órgão, independentemente de sua nacionalidade, que tratar dados pessoais dentro do Brasil estará sujeito à LGPD.
 -   A atividade de tratamento tem por objetivo a oferta ou o fornecimento de bens ou serviços ou o tratamento de dados de indivíduos localizados no território nacional: Ou seja, mesmo que a empresa esteja localizada no exterior, se ela oferece produtos ou serviços para consumidores brasileiros ou trata dados de brasileiros, a LGPD será aplicada.
 
 ## Artigo 3º: Comentário
@@ -128,6 +128,52 @@ editor: visual
 > VIII - encarregado: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD); (Redação dada pela Lei nº 13.853, de 2019) Vigência
 
 > IX - agentes de tratamento: o controlador e o operador;
+
+## Órgãos de Tratamento de Dados segundo a LGPD
+
+## Agência Nacional de Proteção de Dados (ANPD)
+
+- **Função:** Autoridade reguladora responsável por fiscalizar e orientar o cumprimento da LGPD.
+- Estabelece diretrizes e normas complementares.
+- Fiscaliza e aplica sanções em casos de descumprimento da lei.
+- Recebe denúncias e reclamações sobre o tratamento de dados.
+- Promove educação e conscientização sobre proteção de dados.
+
+## Controlador
+
+- **Função:** Responsável por tomar decisões sobre o tratamento de dados pessoais.
+- Define as finalidades e os meios do tratamento.
+- Garante o cumprimento da LGPD dentro da organização.
+- Responde legalmente pelo tratamento inadequado dos dados.
+- **Exemplo:** Uma empresa que coleta e usa dados dos clientes para marketing.
+
+## Operador
+
+- **Função:** Trata dados pessoais em nome do controlador, seguindo suas instruções.
+- Realiza operações como armazenamento, processamento e análise.
+- Não toma decisões sobre o tratamento de dados.
+- **Exemplo:** Uma empresa terceirizada que processa a folha de pagamento de funcionários.
+
+## Encarregado (Data Protection Officer - DPO)
+
+- **Função:** Ponto de contato entre empresa, titulares de dados e a ANPD.
+- Responde dúvidas dos titulares de dados.
+- Auxilia na implementação da LGPD dentro da organização.
+- Atua como intermediário em auditorias e investigações.
+- **Exemplo:** Um profissional indicado por uma empresa para responder solicitações de clientes sobre o uso de seus dados.
+
+## Titular dos Dados
+
+- **Função:** Pessoa a quem os dados pessoais pertencem.
+- Tem direitos garantidos pela LGPD, como acesso, correção e exclusão de dados.
+- Pode questionar e solicitar informações sobre o tratamento de seus dados.
+
+## Conclusão
+
+- Cada agente tem um papel essencial na proteção de dados.
+- O cumprimento da LGPD garante mais segurança e transparência no uso de informações pessoais.
+- A ANPD é responsável por fiscalizar e garantir o cumprimento da lei.
+
 
 ## Artigo 5º
 
@@ -226,6 +272,7 @@ A transferência internacional de dados pessoais ocorre quando esses dados são 
 ## Uso Compartilhado de Dados (Inciso XVI)
 
 Uso compartilhado de dados é a comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre privados. Esse conceito é importante para garantir que o compartilhamento de dados entre diferentes entidades respeite os direitos dos titulares e esteja de acordo com a legislação.
+
 
 ## Relatório de Impacto à Proteção de Dados Pessoais (Inciso XVII)
 
