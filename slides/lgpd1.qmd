@@ -17,6 +17,12 @@ A Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018, é a le
 
 ## Precedentes da LGPD
 
+-   CF/88 art. 5º, LXXIX - é assegurado, nos termos da lei, o direito à proteção dos
+    dados pessoais, inclusive nos meios digitais. (Inciso incluído pela
+    Emenda Constitucional nº 115, de 10/02/2022)
+
+## Precedentes da LGPD
+
 -   Direito do Consumidor: A Lei do Consumidor (Código de Defesa do Consumidor) já previa algumas proteções relacionadas à privacidade e ao tratamento de dados. A LGPD complementa e aprimora essas proteções, especialmente no âmbito digital.
 
 -   Legislação setorial: Antes da LGPD, diversos setores já possuíam legislações específicas sobre proteção de dados, como a Lei Geral de Telecomunicações e a Lei Complementar nº 105/2001 (Lei de Acesso à Informação). A LGPD unifica e consolida essas normas, estabelecendo um marco legal abrangente.

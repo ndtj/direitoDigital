@@ -1,0 +1,167 @@
+---
+title: "Constitucionalismo digital: um convidado (in)esperado"
+author: "Baseado no texto de André Karam Trindade e Amanda Antonelo"
+format: revealjs
+---
+
+## título da aula
+
+**Constitucionalismo digital: um convidado (in)esperado**  
+Baseado no artigo publicado na *Revista Brasileira de Direito* (2022)  
+Autores: André Karam Trindade e Amanda Antonelo
+
+
+
+## objetivos da aula
+
+- Apresentar o conceito e as discussões sobre **constitucionalismo digital**
+- Explorar as origens e transformações do constitucionalismo
+- Discutir impactos da revolução tecnológica no Direito
+- Analisar críticas e controvérsias teóricas
+- Refletir sobre implicações democráticas e jurídicas
+
+
+## estrutura da apresentação
+
+1. Introdução: Era Digital e desafios
+2. Origens do constitucionalismo
+3. Revolução tecnológica e momentos constitucionais
+4. Sentidos do constitucionalismo digital
+5. Classificações e debates acadêmicos
+6. Críticas e limites do conceito
+7. Conclusões
+8. Epílogo literário
+
+
+## introdução: era digital
+
+- **Transformação digital**: fenômeno irreversível
+- Superação do paradigma analógico pelo digital
+- Impactos sociais, culturais, econômicos, políticos e jurídicos
+- Tecnologias disruptivas:
+  - Machine Learning
+  - Big Data
+  - Inteligência Artificial
+  - Algoritmos
+
+## novas questões jurídicas
+
+- Dados pessoais: “o novo petróleo do século XXI”
+- Cidadãos cedem privacidade por serviços online “gratuitos”
+- Reconfiguração de direitos fundamentais
+- Concentração de poder nas big techs
+- Disseminação de desinformação
+
+## ameaças à democracia
+
+- Censura, hipervigilância, discriminação algorítmica
+- Decisões automatizadas sem supervisão humana
+- Fake news e efeitos eleitorais
+- Desafios à liberdade de expressão
+- Necessidade de regulação
+
+
+## origem do constitucionalismo
+
+- **Fenômeno histórico-cultural** ligado à constituição da sociedade
+- Dois elementos centrais:
+  - Organização do poder
+  - Limitação do poder
+- Raízes: Revoluções Inglesa, Americana, Francesa
+- Evolução: liberal → social → democrático
+
+## evolução dos modelos
+
+- **Liberal** (séc. XVIII): direitos de liberdade
+- **Social** (séc. XX): direitos sociais e igualdade material
+- **Democrático** (pós-2ª Guerra):
+  - Dignidade humana
+  - Direitos fundamentais
+  - Limites substanciais e procedimentais
+
+
+## novos adjetivos
+
+Além dos modelos clássicos:
+- Constitucionalismo dirigente
+- Constitucionalismo fraterno
+- Constitucionalismo multinível
+- Constitucionalismo popular
+- Constitucionalismo garantista
+- Constitucionalismo global
+- **Constitucionalismo digital**
+
+
+## revolução tecnológica
+
+- **4ª Revolução Industrial** (Indústria 4.0)
+- Alterações nas noções de tempo e espaço
+- Criação de um “universo digital”
+- Desafios inéditos ao Direito
+- Pressão para regular:
+  - Internet
+  - Plataformas digitais
+  - Direitos no ambiente online
+
+## momento constitucional?
+
+- Bruce Ackerman: momentos constitucionais exigem mobilização popular (“We the people”)
+- Pergunta: a revolução digital cria um novo momento constitucional?
+- Autores divididos:
+  - Sim: Celeste, Pollicino
+  - Não: autores do artigo
+
+
+## conceito de constitucionalismo digital
+
+- Termo heterogêneo
+- Pode significar:
+  - Limitação de poder privado (Suzor)
+  - Limitação de poder público e privado (Redecker, Gill, Gasser)
+  - Garantia de direitos na internet
+- Problema: “digital” > “constitucionalismo”
+
+## críticas centrais
+
+- Falta de unidade conceitual
+- Baixa densidade teórica
+- Apropriação da linguagem constitucional
+- Risco de legitimar concentração de poder privado
+- Possível esvaziamento democrático
+
+
+## classificação (Pereira & Keller, 2022)
+
+1. **Iniciativas normativas** – cartas de direitos da internet
+2. **Reconfiguração de proteções** – adaptação de direitos ao digital
+3. **Projeto teórico** – princípios para governança digital
+
+## posição dos autores do artigo
+
+- Constitucionalismo digital **não é**:
+  - Novo paradigma normativo
+  - Teoria jurídica autônoma
+- É apenas uma **tendência** ou **sentido fraco**
+- Modelo vigente: **constitucionalismo democrático**
+
+## conclusões
+
+- Transformação digital exige respostas normativas
+- Não justifica dilatar conceito clássico de constitucionalismo
+- Risco de subverter o projeto democrático
+- Digital deve ser regulado **à luz** do constitucionalismo
+
+## epílogo literário
+
+- Conto “O convidado” de Murilo Rubião como metáfora
+- Constitucionalismo convidado ao “baile” digital
+- Só aceito quando deformado
+- Pergunta final: **o que resta do constitucionalismo no constitucionalismo digital?**
+
+
+## referências principais
+
+- Trindade, André Karam; Antonelo, Amanda. *Constitucionalismo digital: um convidado (in)esperado*. Revista Brasileira de Direito, 2022.
+- Celeste, Edoardo. *Digital Constitutionalism*. Routledge, 2022.
+- Pereira, Jane; Keller, Clara. *Constitucionalismo digital: contradições de um conceito impreciso*. 2022.
+- Ackerman, Bruce. *We the People* (trilogia).

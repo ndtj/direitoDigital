@@ -1,5 +1,9 @@
 .Rproj.user
+<<<<<<< HEAD
 data-raw/
+=======
+data-raw
+>>>>>>> main
 .Rhistory
 .Rdata
 .httr-oauth
