@@ -1,0 +1,153 @@
+---
+title: "Responsabilidade civil de plataformas digitais no Brasil"
+subtitle: "Marco Civil da Internet e novo entendimento do STF"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+
+## 1. Internet, Constituição e direitos fundamentais
+
+- A internet foi consagrada como espaço de comunicação imprescindível à cidadania.  
+- Conflitos típicos: liberdade de expressão × honra, privacidade, dignidade e democracia.  
+- A regulação da responsabilidade de plataformas é peça-chave para proteger bens constitucionais. 
+
+## 2. Marco Civil da Internet – estrutura basilar
+
+Lei nº 12.965/2014 instituiu princípios e direitos da internet, inclusive regras de responsabilidade.  
+Objetivo original:
+- Preservar a liberdade de expressão
+- Evitar censura privada
+- Estabelecer limites para responsabilização de provedores. 
+
+## 3. Provedores de conexão (Art. 18)
+
+- Não respondem por conteúdo de terceiros.  
+- Simples acesso não implica ingerência no conteúdo.  
+Esse é um ponto consolidado na doutrina e jurisprudência. 
+
+## 4. Provedores de aplicação
+
+São plataformas que:
+
+- hospedam conteúdos de terceiros,
+- gerenciam interação entre usuários,
+- operam algoritmos de recomendação.
+
+Eles podem ser responsabilizados — desde que observadas as regras legais. 
+
+## 5. Regime original do art. 19 – Regra geral
+
+O texto do art. 19 estabelecia que:
+
+> "O provedor de aplicações de internet só pode ser responsabilizado civilmente por conteúdo de terceiros se, após **ordem judicial específica**, não remover o conteúdo apontado como infringente dentro do prazo assinalado."
+
+## 6. Intenção normativa
+
+- blindar plataformas de responsabilidade automática;  
+- evitar censura privada;  
+- deslocar à jurisdição judicial a análise inicial da ilicitude. 
+
+## 7. Exceções já previstas
+
+- Quando o art. 21 dispensa ordem judicial (ex.: compartilhamento não consensual de conteúdo íntimo).  
+Essa regra previa um regime de *notice-and-take-down* simplificado.
+
+## 8. Estado de “omissão” do art. 19 (STF)
+
+O STF concluiu que o art. 19, tal como estava, produzia um estado de **omissão parcial**:  
+Ele **não protegia adequadamente bens jurídicos de alta relevância**, como a dignidade humana, direitos de crianças e minorias, e o regular funcionamento das instituições democráticas. 
+Por isso, em 26 de junho de 2025, o Tribunal declarou a **inconstitucionalidade parcial** do art. 19.
+
+## 8. A decisão do STF – Parâmetros gerais
+
+O STF firmou que:
+
+1. A exigência de ordem judicial não pode ser absoluta em todos os casos.  
+2. O provedor de aplicações possui um **dever de cuidado** diante de conteúdos ilícitos graves.  
+3. Diferentes regimes de responsabilização podem ser aplicáveis conforme o tipo de conteúdo e envolvimento da plataforma. 
+
+## 9. Conteúdos graves e dever de cuidado
+
+Situações em que o provedor pode ser responsabilizado sem ordem judicial:
+
+- Conteúdos que atentem contra a democracia;  
+- Exploração sexual infantil;  
+- Incentivo à violência ou crimes graves;  
+- Propagação massiva de desinformação prejudicial. 
+Esse novo parâmetro alinha a responsabilização à efetiva tutela de direitos fundamentais em contextos de alto risco. 
+
+## 10. Artes de retaliação após decisão judicial
+
+O STF determinou que:
+
+- se um conteúdo já foi reconhecido como ilícito por decisão judicial, as plataformas devem removê-lo de modo **pro-ativo**, impedindo republicações idênticas sem nova ordem judicial;  
+- isso reduz a necessidade de múltiplas decisões repetidas para o mesmo conteúdo ilícito. 
+
+## 11. Regime residual para “honor crimes”
+
+A regra tradicional do art. 19 — de exigir ordem judicial prévia — **permanece válida** especialmente para:
+
+- crimes contra honra (difamação, injúria, calúnia) que requerem exame judicial para fundamentar a remoção. 
+
+## 12. Regras adicionais definidas pelo STF
+
+Além da interpretação do art. 19, o STF incluiu parâmetros complementares:
+
+- plataformas devem contar com mecanismos de atendimento e canais de reclamação acessíveis;  
+- auto-regulação e transparência são incentivadas;  
+- representação fixa no Brasil facilita a responsabilização e comunicação. 
+
+## 13. Implicações para plataformas
+
+Com a decisão:
+
+- aumenta a responsabilização de plataformas que não agem com diligência;
+- reduz a blindagem contra demandas civis por conteúdo ilícito;
+- incentiva a adoção de políticas claras de moderação e prevenção. 
+
+## 14. Continuidade do art. 19 (interpretação constitucional)
+
+Embora parcialmente inconstitucional, o art. 19 continua sendo interpretado como norma válida no que:
+
+- protege serviços privados de comunicação (mensageria, e-mail, reuniões fechadas);  
+- resguarda sigilo das comunicações. 
+
+## 15. Comparação – Antes e Depois
+
+**Antes (modelo original):**  
+- Obrigação de retirada vinculada à ordem judicial.
+- Ênfase em blindagem e proteção da livre expressão.
+
+**Depois (interpretação STF):**  
+- Dever de cuidado baseado em conteúdo e risco.
+- Menos dependência de ordem judicial.
+- Art. 21 assume papel mais amplo. 
+
+## 16. Desafios e críticas
+
+Críticas ao novo regime incluem:
+
+- risco de overblocking (remoção excessiva de conteúdo legítimo);  
+- insegurança jurídica para plataformas menores;  
+- potencial impactação da liberdade de expressão se não calibrado. 
+
+## 17. Balancing de direitos fundamentais
+
+O STF reafirmou:
+
+- liberdade de expressão é central, mas não absoluta;
+- deve ser ponderada com dignidade, igualdade e democracia;
+- proteção efetiva de direitos fundamentais exige regime adaptado à realidade digital. 
+
+## 18. Conclusão
+
+A evolução do regime de responsabilidade:
+
+- do modelo estático e reativo do art. 19;
+- para um modelo de responsabilidade qualificada por dever de cuidado;
+- representa um marco de desenvolvimento do direito digital brasileiro.
+
+Plataformas agora enfrentam expectativas concretas de atuação diligente na remoção de conteúdo prejudicial, em sintonia com parâmetros constitucionais.
+

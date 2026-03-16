@@ -1,0 +1,313 @@
+---
+title: "Arquitetura Constitucional da Internet no Brasil: Neutralidade de Rede e Autodeterminação Informativa"
+author: "Apresentação"
+format: revealjs
+---
+
+## A arquitetura normativa da internet no Brasil
+
+Duas leis estruturantes:
+
+- Marco Civil da Internet (Lei 12.965/2014)
+- Lei Geral de Proteção de Dados (Lei 13.709/2018)
+
+--- 
+Hipótese central:
+
+> O MCI organiza a infraestrutura da rede a partir da neutralidade.  
+> A LGPD organiza o fluxo informacional a partir da autodeterminação informativa.
+
+São dois eixos complementares:
+- Neutralidade → estrutura da circulação
+- Autodeterminação → controle sobre dados pessoais
+
+## O Marco Civil como “Constituição da Internet”
+
+O MCI estabelece:
+
+- Fundamentos (art. 2º)
+- Princípios (art. 3º)
+- Direitos dos usuários (art. 7º)
+- Regime de responsabilidade
+
+Ele não regula conteúdos.
+Ele regula a arquitetura da rede.
+
+
+## O princípio da neutralidade de rede
+
+Art. 9º do MCI:
+
+> O responsável pela transmissão deve tratar de forma isonômica quaisquer pacotes de dados.
+
+Neutralidade significa:
+
+- Não discriminar
+- Não degradar
+- Não priorizar por conteúdo, origem ou destino
+
+---
+
+## Estrutura normativa da neutralidade
+
+A neutralidade impõe:
+
+- Tratamento isonômico do tráfego
+- Proibição de bloqueios arbitrários
+- Proibição de “vias rápidas” comerciais
+
+Exceções:
+
+- Requisitos técnicos indispensáveis
+- Serviços de emergência
+
+---
+
+## Neutralidade como princípio estrutural
+
+A neutralidade não protege apenas consumidores.
+
+Ela protege:
+
+- Livre iniciativa
+- Livre concorrência
+- Liberdade de expressão
+- Pluralismo informacional
+
+Sem neutralidade:
+
+- Plataformas dominantes podem ser favorecidas
+- Pequenos inovadores são prejudicados
+- Surge discriminação econômica invisível
+
+---
+
+## Neutralidade e democracia
+
+Se o provedor puder:
+
+- Priorizar certos conteúdos
+- Bloquear aplicações
+- Diferenciar preços por serviço
+
+Teremos:
+
+- Fragmentação da esfera pública digital
+- Interferência privada na circulação de ideias
+
+A neutralidade preserva a abertura da rede.
+
+---
+
+## Modelo regulatório do MCI
+
+O MCI adota um modelo:
+
+- Estrutural
+- Ex ante
+- Arquitetônico
+
+Ele regula a infraestrutura.
+
+Não depende de consentimento do usuário.
+É uma obrigação objetiva do provedor.
+
+---
+
+# PARTE II  
+# A LGPD E A AUTODETERMINAÇÃO INFORMATIVA
+
+---
+
+## Fundamento da LGPD
+
+Art. 2º, II:
+
+> A autodeterminação informativa é fundamento da proteção de dados.
+
+Aqui o foco não é o tráfego.
+É o tratamento de dados pessoais.
+
+---
+
+## O que é autodeterminação informativa?
+
+Direito do titular de:
+
+- Saber quais dados são coletados
+- Decidir sobre seu tratamento
+- Controlar uso e compartilhamento
+- Exigir correção ou exclusão
+
+É um direito de controle informacional.
+
+---
+
+## Mudança de paradigma
+
+Antes:
+
+Proteção baseada na “esfera privada”.
+
+Depois da experiência alemã (censo de 1983):
+
+Proteção baseada no poder de decisão sobre dados pessoais.
+
+Não importa se o dado é íntimo.
+Importa que seja pessoal.
+
+---
+
+## Estrutura normativa da LGPD
+
+A LGPD organiza:
+
+- Bases legais
+- Princípios (finalidade, adequação, necessidade)
+- Direitos do titular
+- Deveres do controlador
+- Accountability
+
+Ela regula o fluxo informacional.
+
+---
+
+## Autodeterminação e consentimento
+
+O consentimento é instrumento,
+mas não é o núcleo absoluto.
+
+A LGPD reconhece:
+
+- Assimetria informacional
+- Desequilíbrio de poder
+- Consentimento fictício
+
+Por isso existem:
+
+- Outras bases legais
+- Deveres de transparência
+- Relatórios de impacto
+
+---
+
+## Autodeterminação e riscos tecnológicos
+
+A autodeterminação responde a:
+
+- Big data
+- Perfis comportamentais
+- Machine learning
+- Vigilância algorítmica
+
+Risco central:
+
+Formação de perfis sem controle do titular.
+
+---
+
+## Dimensão objetiva da autodeterminação
+
+A LGPD não protege apenas escolhas individuais.
+
+Ela impõe:
+
+- Deveres organizacionais
+- Segurança da informação
+- Governança de dados
+- Responsabilização
+
+É um modelo estrutural + procedimental.
+
+---
+
+# PARTE III  
+# COMPARAÇÃO ESTRUTURAL
+
+---
+
+## Neutralidade vs Autodeterminação
+
+| Marco Civil | LGPD |
+|-------------|------|
+| Infraestrutura da rede | Fluxo de dados pessoais |
+| Igualdade de tráfego | Controle informacional |
+| Obrigação do provedor | Direitos do titular + deveres do controlador |
+| Proteção estrutural da circulação | Proteção estrutural da personalidade |
+
+---
+
+## Dois níveis de proteção
+
+Neutralidade protege:
+
+→ A arquitetura da circulação
+
+Autodeterminação protege:
+
+→ A arquitetura da informação pessoal
+
+Uma sem a outra é insuficiente.
+
+---
+
+## Complementaridade
+
+Sem neutralidade:
+
+- A infraestrutura pode ser manipulada.
+
+Sem autodeterminação:
+
+- A informação pode ser explorada.
+
+Neutralidade = igualdade no transporte  
+Autodeterminação = controle sobre o conteúdo pessoal transportado
+
+---
+
+## Implicações para IA
+
+Sistemas de IA dependem de:
+
+- Grandes volumes de dados
+- Inferências automatizadas
+- Perfis comportamentais
+
+Neutralidade garante:
+- Abertura do ecossistema digital
+
+Autodeterminação garante:
+- Limites à exploração informacional
+
+---
+
+## Arquitetura constitucional implícita
+
+O Brasil construiu dois pilares:
+
+1. Pilar estrutural da rede (MCI)
+2. Pilar estrutural dos dados (LGPD)
+
+Ambos derivados de:
+
+- Dignidade da pessoa humana
+- Liberdade
+- Democracia
+
+---
+
+## Conclusão
+
+O Marco Civil organiza a internet como espaço público aberto.
+
+A LGPD organiza a internet como espaço de proteção da personalidade.
+
+Neutralidade e autodeterminação são:
+
+> Dois princípios estruturantes da ordem digital brasileira.
+
+Sem neutralidade, há captura econômica da rede.  
+Sem autodeterminação, há captura informacional da pessoa.
+
+A arquitetura digital constitucional depende de ambos.
