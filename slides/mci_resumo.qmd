@@ -1,0 +1,163 @@
+
+---
+title: "Marco Civil da Internet: estrutura e principais artigos"
+author: "Direito digital"
+format: revealjs
+---
+
+## Marco Civil da Internet
+
+Lei nº 12.965/2014
+
+Conhecida como **Marco Civil da Internet**, a lei estabelece:
+
+- princípios para o uso da internet
+- direitos dos usuários
+- deveres de provedores
+- regras de responsabilidade de plataformas
+
+## Contexto de criação
+
+A lei foi aprovada em 2014 após amplo debate público.
+
+O processo envolveu:
+
+- consulta pública online
+- participação da sociedade civil
+- discussão acadêmica
+- debate no Congresso
+
+## Arquitetura normativa da internet**
+
+- fundamentos
+- princípios
+- objetivos
+
+
+## Direitos dos usuários**
+
+- privacidade
+- dados
+- neutralidade
+
+## Responsabilidade das plataformas**
+
+- regime de responsabilidade
+- remoção de conteúdos
+- debates atuais no STF
+
+## Artigo 2º — Fundamentos
+
+O artigo 2º estabelece os **fundamentos do uso da internet no Brasil**.
+
+Entre os principais:
+
+- liberdade de expressão
+- direitos humanos
+- pluralidade e diversidade
+- abertura e colaboração
+- livre iniciativa
+
+
+## Artigo 3º — Princípios
+
+O artigo 3º define princípios que orientam toda a interpretação da lei.
+
+Entre eles:
+
+- liberdade de expressão
+- proteção da privacidade
+- proteção de dados pessoais
+- neutralidade da rede
+- estabilidade e segurança da rede
+- responsabilização proporcional dos agentes
+
+
+## Artigo 4º — Objetivos
+
+O artigo 4º estabelece objetivos da disciplina da internet.
+
+Entre eles:
+
+- promover o acesso à internet
+- ampliar acesso à informação
+- incentivar inovação tecnológica
+- fortalecer a cidadania digital
+
+
+## Artigo 7º — Direitos dos usuários
+
+O artigo 7º é o principal catálogo de direitos do Marco Civil.
+
+Entre os direitos previstos:
+
+- inviolabilidade da intimidade
+- proteção da vida privada
+- sigilo das comunicações
+- não suspensão arbitrária da conexão
+- transparência no tratamento de dados
+- consentimento para coleta de dados
+
+
+## Exemplo prático
+
+Imagine a seguinte situação:
+
+Uma plataforma coleta dados de navegação e os compartilha com terceiros sem informar o usuário.
+
+Problemas jurídicos:
+
+- violação do dever de transparência
+- ausência de consentimento
+- possível violação do art. 7º do MCI
+
+## Artigo 9º — Neutralidade da rede
+
+O princípio da neutralidade determina que provedores de conexão devem:
+
+**tratar de forma igual todos os pacotes de dados.**
+
+Não podem discriminar tráfego por:
+
+- conteúdo
+- aplicação
+- origem ou destino
+- serviço
+
+## Exemplo prático de neutralidade
+
+Imagine que um provedor decida:
+
+- reduzir velocidade do YouTube
+- favorecer sua própria plataforma de streaming
+
+Isso pode violar o **artigo 9º do Marco Civil**, pois caracteriza discriminação de tráfego.
+
+Exceções são permitidas apenas para:
+
+- requisitos técnicos
+- serviços de emergência.
+
+## Artigos 10 e 11 — Proteção de dados
+
+Esses artigos tratam da **proteção de registros e dados pessoais**.
+
+Regras principais:
+
+- dados só podem ser fornecidos mediante ordem judicial
+- deve haver respeito à privacidade
+- empresas estrangeiras devem respeitar a lei brasileira quando operam no país.
+
+## Artigos 13 e 15 — Guarda de registros
+
+O Marco Civil estabelece deveres de guarda de registros.
+
+**Provedores de conexão**
+
+- devem guardar registros por **1 ano**
+
+**Provedores de aplicações**
+
+- devem guardar registros por **6 meses**
+
+Esses dados são importantes para **investigações e processos judiciais**.
