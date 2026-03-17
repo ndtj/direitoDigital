@@ -22,8 +22,7 @@ knitr::opts_chunk$set(
 
 - Aula 2: [Marco Civil da Internet 2](https://ndtj.github.io/direitoDigital/slides/mci2.html)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+- Aula 3: [Marco Civil da Internet art. 19](https://ndtj.github.io/direitoDigital/slides/mci2026_12.html)
 - Aula 3: [LGPD Artigo 1º](https://ndtj.github.io/direitoDigital/slides/lgpd1.html)
 
 =======
