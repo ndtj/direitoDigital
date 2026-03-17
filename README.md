@@ -15,21 +15,18 @@ Aulas de Direito Digital:
 - Aula 2: [Marco Civil da Internet
   2](https://ndtj.github.io/direitoDigital/slides/mci2.html)
 
+- Aula 3: [Marco Civil da Internet art.
+  19](https://ndtj.github.io/direitoDigital/slides/mci_2026_12.html)
+
 - Aula 3: [LGPD Artigo
   1º](https://ndtj.github.io/direitoDigital/slides/lgpd1.html)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - Aula 3: [LGPD Artigo
   1º](https://ndtj.github.io/direitoDigital/slides/lgpd2.html)
 
->>>>>>> main
-=======
 - Aula 3: [LGPD Artigo
   1º](https://ndtj.github.io/direitoDigital/slides/lgpd2.html)
 
->>>>>>> 8541dd8 (corrige slides lgpd)
 - Aula 4: [LGPD Artigo 6:
   Princípios](https://ndtj.github.io/direitoDigital/slides/lgpd3.html)
 
