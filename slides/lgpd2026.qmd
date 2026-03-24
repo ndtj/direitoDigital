@@ -1,0 +1,345 @@
+---
+title: "Proteção de dados pessoais como direito fundamental"
+format: revealjs
+---
+
+## problema inicial
+
+-   por que proteger dados pessoais?
+-   qual a relação com privacidade?
+-   por que isso virou direito fundamental?
+
+## ponto de partida
+
+A proteção de dados pessoais não surge do nada.
+
+Ela é resultado de um processo histórico e jurídico ligado:
+
+-   à dignidade da pessoa humana\
+-   à evolução dos direitos fundamentais\
+-   ao avanço tecnológico
+
+## fundamento constitucional
+
+-   dignidade da pessoa humana\
+-   igualdade\
+-   liberdade\
+-   promoção do bem de todos
+
+A Constituição de 1988 estrutura esses valores como base do sistema jurídico.
+
+## reconhecimento como direito fundamental
+
+-   proteção de dados foi expressamente incluída na Constituição\
+-   inclusive no ambiente digital
+
+👉 consequência: não é apenas um tema técnico — é um direito fundamental
+
+## ideia central do capítulo
+
+A proteção de dados:
+
+-   nasce da privacidade\
+-   mas não se confunde com ela\
+-   e evolui para um direito autônomo
+
+## privacidade como ponto de partida
+
+Privacidade é essencial para:
+
+-   democracia\
+-   liberdade individual\
+-   desenvolvimento da personalidade
+
+## duas dimensões da liberdade
+
+-   liberdade negativa → não sofrer interferência\
+-   liberdade positiva → controlar suas informações
+
+## problema conceitual
+
+Privacidade, intimidade e dados pessoais:
+
+-   são frequentemente confundidos\
+-   mas não são a mesma coisa
+
+## distinção inicial
+
+-   vida privada → esfera mais ampla\
+-   intimidade → núcleo mais interno\
+-   dados pessoais → projeções informacionais da pessoa
+
+## dificuldade prática
+
+A Constituição separa:
+
+-   vida privada\
+-   intimidade
+
+Mas:
+
+👉 na prática, os conceitos se sobrepõem
+
+## influência internacional
+
+Duas tradições:
+
+-   americana → ligada à propriedade\
+-   europeia → ligada à dignidade e personalidade
+
+## mudança importante
+
+O direito brasileiro adota uma visão:
+
+👉 personalista (centrada na pessoa)
+
+não apenas patrimonial
+
+## o que é intimidade
+
+-   esfera mais interna da pessoa\
+-   envolve sentimentos, escolhas e identidade
+
+Exemplos:
+
+-   orientação sexual\
+-   crenças\
+-   pensamentos
+
+## o que é privacidade
+
+-   controle sobre a exposição da vida\
+-   separação entre público e privado
+
+👉 direito de “ser deixado em paz”
+
+## dimensões da privacidade
+
+-   corpo\
+-   mente\
+-   domicílio\
+-   comunicações\
+-   vida familiar\
+-   dados pessoais
+
+## exemplo importante
+
+Localização por GPS:
+
+-   não é só tecnologia\
+-   é dado sobre o corpo e comportamento
+
+👉 mostra a ligação entre dados e personalidade
+
+## teoria das esferas (alemã)
+
+Três níveis:
+
+1.  esfera privada (externa)\
+2.  esfera íntima (intermediária)\
+3.  núcleo do segredo (central)
+
+## evolução histórica
+
+Século XIX:
+
+-   surge o direito à privacidade\
+-   “right to be let alone”
+
+Contexto:
+
+-   crescimento da imprensa\
+-   exposição indevida da vida privada
+
+## mudança contemporânea
+
+A privacidade evolui para:
+
+-   controle de dados\
+-   autodeterminação informativa\
+-   proteção contra discriminação
+
+## ponto de virada
+
+A proteção de dados:
+
+👉 não é só privacidade digital
+
+👉 é algo maior
+
+## autonomia do direito de dados
+
+A proteção de dados:
+
+-   não depende da privacidade\
+-   tem estrutura própria\
+-   regula fluxos informacionais
+
+## exemplo importante
+
+Dados públicos + cruzamento de dados:
+
+👉 podem revelar aspectos íntimos
+
+➡️ mesmo sem violar diretamente a privacidade
+
+## consequência
+
+Proteção de dados:
+
+-   atua preventivamente\
+-   protege contra inferências
+
+## relação com discriminação
+
+Dados podem ser usados para:
+
+-   perfis automatizados\
+-   decisões injustas\
+-   exclusão social
+
+## função do direito de dados
+
+-   evitar discriminação\
+-   garantir igualdade\
+-   proteger autonomia
+
+## dados como direito da personalidade
+
+Os dados pessoais:
+
+👉 são extensão da pessoa
+
+não apenas informação neutra
+
+## mudança de paradigma
+
+Antes:
+
+-   foco no patrimônio
+
+Agora:
+
+-   foco na pessoa
+
+## direitos da personalidade
+
+Protegem:
+
+-   identidade\
+-   honra\
+-   imagem\
+-   privacidade\
+-   dados pessoais
+
+## base internacional
+
+-   Declaração Universal (1948)\
+-   Convenção Europeia\
+-   Pacto de San José\
+-   Carta da União Europeia
+
+## no Brasil
+
+-   Constituição de 1988\
+-   Código Civil\
+-   LGPD
+
+## ideia-chave
+
+Dados pessoais:
+
+👉 representam a identidade do indivíduo
+
+## exemplos de dados pessoais
+
+-   CPF\
+-   endereço\
+-   telefone\
+-   profissão\
+-   dados bancários\
+-   e-mail
+
+## conceito fundamental
+
+Dado pessoal:
+
+👉 qualquer informação que identifique ou possa identificar alguém
+
+## ponto crítico
+
+Mesmo dados isolados:
+
+-   podem parecer inofensivos
+
+Mas:
+
+👉 combinados → revelam a pessoa
+
+## autodeterminação informativa
+
+Direito de:
+
+-   acessar dados\
+-   corrigir dados\
+-   controlar uso
+
+## exemplo
+
+Correção de dados:
+
+-   não é só privacidade\
+-   é identidade
+
+## impacto tecnológico
+
+-   decisões automatizadas\
+-   perfis algorítmicos\
+-   classificação de pessoas
+
+## risco central
+
+O tratamento de dados pode:
+
+-   ampliar direitos\
+-   ou restringi-los
+
+## dimensão coletiva
+
+Proteção de dados também envolve:
+
+-   grupos sociais\
+-   riscos estruturais
+
+## redefinição de pessoa
+
+O direito precisa repensar:
+
+-   quem é a pessoa\
+-   como ela é representada por dados
+
+## síntese do capítulo
+
+-   proteção de dados nasce da privacidade\
+-   mas supera essa lógica\
+-   torna-se direito autônomo
+
+## conclusão intermediária
+
+A proteção de dados:
+
+-   é direito fundamental\
+-   é direito da personalidade\
+-   regula o poder sobre informações
+
+## gancho para os próximos capítulos
+
+Pergunta central:
+
+👉 como aplicar isso na prática?
+
+Especialmente:
+
+-   no Estado\
+-   no Judiciário\
+-   no processo eletrônico
