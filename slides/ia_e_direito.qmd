@@ -1,0 +1,947 @@
+---
+title: "Inteligência Artificial e Direito"
+subtitle: "Fundamentos, Regulação e Usos Práticos"
+author: ""
+date: today
+date-format: "DD/MM/YYYY"
+lang: pt-BR
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: slide
+    progress: true
+    toc: true
+    toc-title: "Sumário"
+    toc-depth: 1
+    footer: "IA e Direito | Apresentação para Alunos de Direito"
+    chalkboard: true
+    scrollable: true
+    highlight-style: github
+    css: |
+      .reveal h1 { font-size: 1.8em; color: #1a1a2e; }
+      .reveal h2 { font-size: 1.3em; color: #16213e; }
+      .reveal h3 { font-size: 1.1em; color: #0f3460; }
+      .reveal .slides section { text-align: left; }
+      .callout-tip { background-color: #e8f5e9; border-left: 4px solid #388e3c; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+      .callout-warning { background-color: #fff3e0; border-left: 4px solid #f57c00; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+      .callout-danger { background-color: #fce4ec; border-left: 4px solid #c62828; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+      .debate-box { background-color: #e3f2fd; border-left: 4px solid #1565c0; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+      .exercise-box { background-color: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+      table { font-size: 0.78em; width: 100%; }
+      th { background-color: #1a1a2e; color: white; }
+      tr:nth-child(even) { background-color: #f5f5f5; }
+---
+
+# Módulo 1 {background-color="#1a1a2e" color="white"}
+## O que é IA e como ela funciona?
+
+---
+
+## Um ponto de partida: o que mudou?
+
+Em novembro de 2022, o ChatGPT foi lançado ao público.
+
+- **5 dias** → 1 milhão de usuários
+- **2 meses** → 100 milhões de usuários
+
+O ritmo de adoção foi **sem precedentes** na história da tecnologia.
+
+. . .
+
+::: {.debate-box}
+💬 **Para aquecimento:** Alguém já usou IA para alguma tarefa jurídica? O que aconteceu?
+:::
+
+---
+
+## O que é Inteligência Artificial?
+
+Definição do fundador da disciplina, **John McCarthy (1956)**:
+
+> *"A ciência e a engenharia de fazer máquinas inteligentes, especialmente programas de computador inteligentes."*
+
+**Language AI** é o subcampo focado em sistemas capazes de compreender, processar e gerar linguagem humana.
+
+. . .
+
+Conceitos essenciais (Glossário GOV.BR, 2025):
+
+| Termo | Definição |
+|---|---|
+| **Algoritmo** | Sequência finita de instruções para resolver um problema |
+| **Aprendizado de máquina** | A IA aprende com exemplos, sem ser explicitamente programada |
+| **Aprendizado profundo** | Redes neurais com múltiplas camadas de processamento |
+| **IA generativa** | Tecnologia que *cria* conteúdo novo: texto, imagem, áudio |
+| **LLM** | Grande Modelo de Linguagem (*Large Language Model*) |
+| **Prompt** | Comando de texto fornecido à IA para obter uma resposta |
+| **Alucinação** | Respostas incorretas geradas com aparência de verdade |
+
+---
+
+## Como um LLM funciona: o essencial
+
+O texto é dividido em **tokens** (pedaços de palavras convertidos em números). Cada token vira um vetor numérico — um **embedding** — que captura seu significado no contexto.
+
+O mecanismo de **atenção** permite à IA entender contexto:
+
+> *"O juiz rejeitou o recurso porque **ele** não tinha fundamentação."*
+
+A IA identifica que "ele" se refere ao *recurso*, não ao *juiz* — porque o mecanismo de atenção relaciona as palavras entre si simultaneamente, não uma a uma.
+
+. . .
+
+Dois tipos de modelo:
+
+| Tipo | Foco | Uso no direito |
+|---|---|---|
+| **Representação** (ex: BERT) | Compreender texto | Triagem, busca semântica, classificação de processos |
+| **Generativo** (ex: GPT, Claude) | Gerar texto | Minutas, resumos, análise de peças |
+
+---
+
+## Como um LLM é criado?
+
+Dois estágios:
+
+**1. Pré-treinamento** — o modelo lê bilhões de textos da internet, aprendendo linguagem, fatos e raciocínio. Resultado: **modelo base**.
+
+**2. Ajuste fino** (*fine-tuning*) — o modelo base é treinado para seguir instruções, responder perguntas ou executar tarefas específicas. Resultado: **modelo especializado**.
+
+. . .
+
+| | Proprietários | Abertos |
+|---|---|---|
+| **Acesso** | Via API (pago) | Download direto |
+| **Dados compartilhados?** | Sim, com o provedor | Não (se rodado localmente) |
+| **Fine-tuning próprio?** | Limitado | Total |
+| **Relevância jurídica** | Risco ao sigilo profissional | Mais adequado para dados sigilosos |
+
+. . .
+
+::: {.callout-tip}
+Entender *como* um modelo é criado e *por quem* é hospedado é o primeiro passo para avaliar se seu uso é compatível com as obrigações deontológicas do advogado.
+:::
+
+---
+
+# Módulo 2 {background-color="#1a1a2e" color="white"}
+## A Evolução Recente: de Prompts a Agentes
+
+*Como chegamos até aqui — e para onde estamos indo*
+
+---
+
+## Uma evolução em camadas
+
+As fases **não se substituem** — cada nova camada se apoia na anterior.
+
+| Fase | Período | O que representa |
+|---|---|---|
+| **Prompts e engenharia de prompt** | 2022–2023 | Instrução textual cuidadosamente formulada para obter respostas úteis |
+| **RAG** | 2023 | IA responde com base em documentos reais da sua base |
+| **Function calling / ferramentas** | 2023 | IA pode chamar sistemas externos e usar os resultados no raciocínio |
+| **IA agêntica** | 2023–2024 | IA executa sequências de tarefas de forma autônoma |
+| **Modelos de raciocínio** | 2024–2025 | IA "pensa antes de responder" com cadeia de raciocínio interna |
+| **MCP** | Nov/2024 | Protocolo padrão para conectar IA a qualquer sistema externo |
+| **Skills** | 2025 | Pacotes de instrução especializados e reutilizáveis |
+| **Agentes de código** | 2025 | IA escreve, testa e executa código com supervisão mínima |
+
+. . .
+
+::: {.callout-tip}
+**O movimento é claro:** a IA sai do papel de *respondedora* e passa a ser *executora autônoma* de fluxos de trabalho inteiros. O profissional do direito passa a ser o **supervisor estratégico**.
+:::
+
+---
+
+## IA Agêntica: o que muda na prática?
+
+Na fase de **prompts simples**, cada interação é isolada:
+
+```
+Usuário → Prompt → IA → Resposta
+```
+
+Na **IA agêntica**, a IA planeja e executa múltiplos passos autonomamente:
+
+```
+Usuário → Objetivo → IA planeja → Etapa 1 → Etapa 2 → ... → Resultado
+                         ↑                                       |
+                         └───────── feedback / correção ─────────┘
+```
+
+. . .
+
+O elo técnico que torna isso possível é o ***function calling***: a IA pode chamar ferramentas externas — buscar jurisprudência, acessar o PJe, enviar notificações — e incorporar os resultados no seu raciocínio.
+
+. . .
+
+**Exemplos jurídicos:**
+
+- IA recebe um processo, lê todas as peças, identifica pontos controvertidos, pesquisa jurisprudência e redige minuta para revisão do magistrado
+- IA monitora andamentos de um escritório, identifica prazos críticos e elabora rascunho das petições correspondentes
+- IA analisa contratos em massa, sinaliza cláusulas problemáticas e gera relatório consolidado
+
+---
+
+## Modelos de Raciocínio
+
+Uma mudança qualitativa recente: a IA passou a **pensar antes de responder**.
+
+**Modelo tradicional:**
+```
+Prompt → [processamento único] → Resposta
+```
+
+**Modelo de raciocínio:**
+```
+Prompt → [cadeia de raciocínio interna]  → Resposta mais fundamentada
+           ↳ "Primeiro preciso entender X..."
+           ↳ "Isso contradiz Y, então..."
+           ↳ "A conclusão mais coerente é..."
+```
+
+. . .
+
+**Por que isso importa para o direito?**
+
+Tarefas jurídicas exigem raciocínio estruturado: interpretar normas, sopesar princípios conflitantes, construir argumentação lógica. Modelos de raciocínio são significativamente mais precisos nesse tipo de tarefa.
+
+. . .
+
+::: {.callout-tip}
+A cadeia de raciocínio pode ser exibida ao usuário — o que aumenta a **explicabilidade**, requisito do PL 2338/2023 para sistemas de alto risco.
+:::
+
+---
+
+## MCP e Skills
+
+**MCP (Model Context Protocol)** — lançado em novembro de 2024 — é um protocolo aberto que resolve um problema central: como fazer *qualquer* IA se conectar de forma padronizada a ferramentas e sistemas externos.
+
+**Analogia:** o MCP é para a IA o que o USB é para periféricos — um conector universal.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Sem MCP:**
+
+Cada integração é desenvolvida do zero. Um sistema que acessa o PJe precisa de código específico, diferente de outro que acessa o portal do STJ.
+:::
+
+::: {.column width="50%"}
+**Com MCP:**
+
+Um servidor MCP para o PJe funciona com qualquer IA compatível. A ferramenta se conecta uma vez, e qualquer modelo pode usá-la.
+:::
+
+::::
+
+. . .
+
+**Skills** são pacotes de instrução especializada — a IA aprende a realizar uma tarefa do jeito certo para aquele contexto: o protocolo do escritório, a metodologia do tribunal.
+
+**Agentes de código** vão além: IA que opera no terminal, lê e escreve arquivos, executa código e constrói sistemas completos com supervisão humana mínima.
+
+---
+
+# Módulo 3 {background-color="#1a1a2e" color="white"}
+## RAG e a Busca Jurídica Inteligente
+
+*A técnica que permite conversar com uma vasta massa de textos jurídicos*
+
+---
+
+## O Problema que o RAG Resolve
+
+LLMs têm dois limites críticos para uso jurídico:
+
+1. **Limite de contexto:** não conseguem processar toda a jurisprudência de um tribunal de uma vez
+2. **Desconhecimento interno:** não sabem o que está na *sua* base de documentos — e quando não sabem, podem *inventar*
+
+. . .
+
+**RAG — Retrieval-Augmented Generation** (Geração Aumentada por Recuperação) resolve os dois:
+
+```
+Pergunta do usuário
+       ↓
+Busca semântica na base de documentos
+       ↓
+Recupera os trechos mais relevantes
+       ↓
+[trechos recuperados] + [pergunta] → LLM gera resposta
+       ↓
+Resposta ancorada em documentos reais, com fontes citáveis
+```
+
+. . .
+
+::: {.callout-tip}
+Com RAG, a IA não "inventa" — ela **cita documentos reais** da sua base. Isso reduz drasticamente o risco de alucinação em contextos jurídicos, onde a rastreabilidade das fontes é essencial.
+:::
+
+---
+
+## RAG no Direito: Conversando com a Jurisprudência
+
+RAG permite o que seria impossível manualmente: **conversar com uma massa inteira de textos jurídicos**.
+
+| Base indexada | Pergunta possível |
+|---|---|
+| Toda a jurisprudência de um tribunal | "Qual a posição dominante sobre cláusulas abusivas em contratos de adesão nos últimos 3 anos?" |
+| Contratos ativos de um escritório | "Algum contrato contém cláusula de foro em SP com arbitragem?" |
+| Legislação consolidada | "Qual o prazo prescricional aplicável a este caso?" |
+| Pareceres e peças internas | "Já tivemos casos similares? Como foram resolvidos?" |
+| Processos de um cliente | "Resuma todas as decisões desfavoráveis dos últimos 2 anos" |
+| Autos de um processo complexo | "Quais fatos foram admitidos por ambas as partes?" |
+
+. . .
+
+::: {.debate-box}
+💬 O sistema **Galileu (TRT-4)** usa uma lógica próxima ao RAG: recupera decisões anteriores do próprio magistrado e jurisprudência do TST antes de sugerir a minuta — RAG especializado por gabinete.
+:::
+
+---
+
+## RAG vs. Fine-tuning: Quando Usar Cada Um?
+
+| | **RAG** | **Fine-tuning** |
+|---|---|---|
+| **O que faz** | Conecta a IA a documentos em tempo real | Retreina o modelo com dados jurídicos |
+| **Custo** | Baixo — indexar documentos é simples | Alto — requer compute e expertise |
+| **Atualização** | Instantânea — adicione documentos à base | Lenta — exige novo ciclo de treinamento |
+| **Transparência** | Alta — cita as fontes usadas | Baixa — difícil rastrear a origem |
+| **Alucinação** | Muito reduzida — ancora nas fontes | Ainda presente |
+| **Ideal para** | Bases que mudam (jurisprudência, contratos) | Comportamento e estilo especializado |
+
+. . .
+
+::: {.callout-tip}
+**Para o direito, RAG é geralmente o ponto de partida ideal:** baixo custo, alta rastreabilidade das fontes, e compatível com a exigência de **explicabilidade** do PL 2338/2023 e da Resolução CNJ nº 615/2025.
+:::
+
+---
+
+# Módulo 4 {background-color="#1a1a2e" color="white"}
+## Riscos e Conceitos Jurídicos Essenciais
+
+*A tecnologia é poderosa — e seus riscos também*
+
+---
+
+## O Problema da Alucinação
+
+A IA pode gerar **informações falsas com aparência de verdade**:
+
+- Citação de jurisprudência inexistente
+- Números de processo inventados
+- Datas erradas em contratos
+- Interpretações equivocadas da lei com fundamentação convincente
+
+. . .
+
+**Caso internacional — *Mata v. Avianca* (EUA, 2023)**
+
+Advogados submeteram peças com jurisprudência gerada por IA que simplesmente não existia. Foram multados e admoestados pelo juiz federal.
+
+. . .
+
+**Casos brasileiros**
+
+Há relatos crescentes nos tribunais brasileiros de petições contendo súmulas inexistentes, decisões com ementa correta mas número e data errados, e referências a artigos de lei com redação que nunca existiu.
+
+. . .
+
+::: {.callout-danger}
+🚨 O Glossário GOV.BR define: *"Alucinação: respostas incorretas ou fictícias geradas pela IA que, apesar de convincentes, são erradas ou enganosas, apresentando informações fabricadas, imprecisas ou sem fundamento factual."*
+:::
+
+---
+
+## Vieses Algorítmicos
+
+O Glossário do Governo Digital identifica três tipos com consequências jurídicas diretas:
+
+| Tipo | Definição | Exemplo jurídico |
+|---|---|---|
+| **Viés algorítmico** | IA replica discriminações dos dados de treinamento | Sistema de reconhecimento facial com viés racial |
+| **Viés de automação** | Tendência de aceitar cegamente o que a IA sugere | Magistrado assina minuta sem revisão crítica |
+| **Viés de exclusão** | Grupos sub-representados são mal interpretados pela IA | IA treinada em dados do sudeste decide caso da região norte |
+
+. . .
+
+::: {.callout-danger}
+**Dado brasileiro:** 90% das pessoas presas por reconhecimento facial no Brasil em 2019 eram negras — evidência de viés sistêmico com consequências gravíssimas para direitos fundamentais.
+:::
+
+. . .
+
+::: {.debate-box}
+💬 **Debate:** Um sistema treinado em decisões judiciais históricas pode reproduzir e amplificar discriminações do passado?
+:::
+
+---
+
+## Racismo Algorítmico e Direitos Fundamentais
+
+O Glossário GOV.BR traz um conceito específico:
+
+> *"Racismo algorítmico: viés discriminatório reproduzido por sistemas de IA devido a desigualdades presentes nos dados de treinamento, levando à perpetuação de preconceitos raciais."*
+
+No contexto jurídico brasileiro, isso se manifesta em:
+
+- Sistemas de reconhecimento facial com maior taxa de erro para pessoas negras
+- Algoritmos de análise de risco em processos criminais que penalizam fatores correlacionados com raça
+- Sistemas de triagem que reproduzem padrões históricos de decisão discriminatória
+
+. . .
+
+::: {.callout-danger}
+🚨 O risco não é hipotético. É estrutural: se os dados refletem uma sociedade desigual, o modelo aprende essa desigualdade e a aplica em escala — muito mais rápido e de forma muito menos visível do que um humano faria.
+:::
+
+---
+
+## O Viés de Automação: o Risco Invisível
+
+O Glossário GOV.BR define:
+
+> *"Viés de automação: tendência de aceitar cegamente as respostas fornecidas por sistemas automatizados, ignorando a análise crítica e o bom senso humano."*
+
+É o risco mais insidioso para profissionais do direito — porque não exige nenhuma falha técnica do sistema.
+
+. . .
+
+**Manifestações práticas:**
+
+- Magistrado assina minuta sem ler com atenção porque "a IA já verificou"
+- Advogado não confere as citações porque "o modelo é muito bom"
+- Servidor aceita classificação de risco de processo sem questionar
+
+. . .
+
+::: {.debate-box}
+💬 Se a taxa de aprovação das sugestões da IA for de 95%, ainda existe **supervisão humana significativa** — ou apenas uma homologação automática com responsabilidade formal?
+:::
+
+---
+
+## Propriedade Intelectual e IA
+
+Tensões ainda sem resolução clara no direito brasileiro:
+
+**Autoria:** quem é o autor de um texto gerado por IA? O usuário? O desenvolvedor? A IA não tem personalidade jurídica.
+
+**Treinamento:** os dados usados para treinar modelos violam direitos autorais dos criadores originais?
+
+. . .
+
+**O que o PL 2338/2023 prevê:**
+
+- Fornecedores devem **divulgar** quais conteúdos foram usados no treinamento
+- Criadores têm direito de **opt-out** — recusar que suas obras treinem modelos
+- Exercer o opt-out não pode ser tratado como conduta anticoncorrencial
+- O SIA criará um *sandbox* regulatório para testar modelos de compensação justa a criadores
+
+---
+
+## Proteção de Dados (LGPD)
+
+| Conceito (LGPD) | Relevância para IA |
+|---|---|
+| **Dados pessoais** — informação sobre pessoa identificada ou identificável | Qualquer dado de cliente ou parte inserido em IA |
+| **Dados sensíveis** — origem racial, saúde, biometria, religião, vida sexual | Proteção reforçada — vedado tratamento sem base legal específica |
+| **RIPD** — Relatório de Impacto à Proteção de Dados | Exigido pela LGPD para tratamentos de alto risco |
+| **Anonimização** — dado que não permite identificar o titular | Técnica usada pelo Anonimizador do TJPA |
+
+. . .
+
+::: {.callout-warning}
+⚠️ Dados inseridos em plataformas externas de IA podem ser utilizados para treinar outros modelos — potencial violação simultânea do sigilo profissional e da LGPD. O advogado que usa IA é **operador** nos termos do PL 2338/2023 e pode responder pelos danos.
+:::
+
+---
+
+## Transparência, Explicabilidade e Supervisão Humana
+
+Três conceitos do Glossário GOV.BR com peso jurídico direto:
+
+**Transparência**
+> Dever de informar claramente quando conteúdo ou decisão é gerado por IA, permitindo auditoria e contestação.
+*Relevância:* devido processo legal; direito à informação das partes.
+
+. . .
+
+**Explicabilidade**
+> Capacidade do sistema de explicar os critérios e processos usados para tomar decisões.
+*Relevância:* fundamentação das decisões; direito ao contraditório.
+
+. . .
+
+**Supervisão Humana Significativa**
+> Capacidade *efetiva* — não apenas formal — de supervisores qualificados de compreender o sistema, monitorar decisões, intervir e reverter resultados antes que causem dano.
+*Relevância:* distingue supervisão real de homologação automática.
+
+. . .
+
+::: {.debate-box}
+💬 Uma sentença elaborada com auxílio de IA, sem que as partes saibam, viola o devido processo legal?
+:::
+
+---
+
+# Módulo 5 {background-color="#1a1a2e" color="white"}
+## Regulação da IA
+
+*Onde estamos e para onde vamos*
+
+---
+
+## O Cenário Regulatório Global
+
+| Iniciativa | Jurisdição | Ano | Característica |
+|---|---|---|---|
+| **EU AI Act** | União Europeia | 2024 | Primeira lei abrangente sobre IA no mundo |
+| **Executive Order** Biden | EUA | 2023 | Diretrizes executivas para uso seguro da IA |
+| **Declaração de Bletchley** | Internacional | 2023 | Acordo multilateral sobre riscos de IA avançada |
+| **PL 2338/2023** | Brasil | 2024/2025 | Aprovado pelo Senado em dezembro de 2024 |
+
+. . .
+
+::: {.callout-tip}
+O Brasil não simplesmente copiou o modelo europeu. A proposta brasileira trilha um caminho próprio, combinando abordagem baseada em risco com ênfase nos direitos fundamentais constitucionais — uma contribuição relevante do Sul Global ao debate regulatório internacional.
+:::
+
+---
+
+## A Abordagem Baseada em Risco
+
+Quanto maior o risco, maiores as obrigações.
+
+| Nível | Exemplos | Consequência |
+|---|---|---|
+| **Risco excessivo** | Manipulação psicológica, *social scoring*, armas autônomas, material de exploração infantil, previsão de reincidência criminal | **Proibido** |
+| **Alto risco** | Segurança pública, saúde, justiça criminal, educação, recrutamento, infraestrutura crítica | Obrigações rigorosas + auditoria periódica |
+| **Médio risco** | Sistemas com impacto moderado, dados não sensíveis | Obrigações intermediárias |
+| **Baixo risco** | Aplicações internas e experimentais | Requisitos mínimos |
+
+. . .
+
+::: {.callout-warning}
+⚠️ O **viés de automação** pode transformar um sistema de baixo risco em um de alto risco na prática — a classificação não depende só da tecnologia, mas de como ela é usada.
+:::
+
+---
+
+## O PL 2338/2023: Cinco Pilares
+
+**1. Princípios**
+Autodeterminação, não discriminação, transparência, rastreabilidade, não maleficência, proporcionalidade.
+
+. . .
+
+**2. Direitos Individuais**
+Para todos: informação prévia, privacidade, não discriminação.
+Para sistemas de alto risco: explicação, contestação, revisão humana, grau de contribuição da IA, dados processados.
+
+. . .
+
+**3. Classificação de Riscos**
+Sistema flexível: o SIA pode ajustar classificações caso a caso e atualizar a lista completa.
+
+. . .
+
+**4. Obrigações**
+Avaliação de risco, documentação, responsável pela conformidade, testes de desempenho, medidas anti-discriminação. Entidades públicas: consulta pública prévia + divulgação das avaliações de risco.
+
+. . .
+
+**5. Inovação**
+P&D público, proteção de direitos autorais, *sandbox* regulatório para modelos de remuneração de criadores.
+
+---
+
+## A Inovação Institucional: O SIA
+
+O **Sistema Nacional de Regulação e Governança de IA (SIA)** é a principal inovação estrutural do PL:
+
+**Modelo híbrido:**
+
+- **Reguladores setoriais** (ANATEL, ANVISA, Banco Central etc.) atuam dentro de suas competências — têm expertise técnica no mercado
+- **Coordenador central** (provavelmente a ANPD) garante proteção de direitos fundamentais — tem expertise em direitos individuais
+
+. . .
+
+**Por que esse modelo importa?**
+
+Reguladores setoriais tendem a focar em eficiência de mercado. A coordenação central garante que a proteção de direitos fundamentais não seja subordinada à lógica econômica setorial.
+
+---
+
+## Resolução CNJ nº 615/2025
+
+O Judiciário se auto-regulou antes da lei geral:
+
+| Regra | Conteúdo |
+|---|---|
+| **Caráter auxiliar** | IA tem função exclusivamente auxiliar |
+| **Vedação de automatismo** | Proibida decisão judicial sem supervisão humana |
+| **Alto risco** | Auditorias periódicas e relatórios de impacto |
+| **Catálogo público** | CNJ publica lista de aplicações de IA em uso |
+| **Capacitação prévia** | Uso só liberado após treinamento em uso ético |
+| **Transparência** | Relatórios públicos de impacto e desempenho |
+
+. . .
+
+::: {.callout-tip}
+A Resolução entrou em vigor em março de 2025 — antes mesmo do PL 2338/2023 ser votado pela Câmara. O Judiciário estabeleceu suas próprias regras internas antes da lei geral chegar.
+:::
+
+---
+
+# Módulo 6 {background-color="#1a1a2e" color="white"}
+## IA no Judiciário Brasileiro
+
+*Da regulação à prática: o que os tribunais já fazem*
+
+---
+
+## IAJus 2026: Um Ecossistema em Formação
+
+Em 24 de abril de 2026, o CNJ realizou o **IAJus 2026 — Encontro de Integração em IA do Judiciário**, com **16 soluções selecionadas** em 4 categorias.
+
+O evento também lançou:
+
+- **Sinapses 2.0** — repositório nacional de modelos de IA para compartilhamento entre tribunais
+- **2ª edição** da pesquisa sobre IA generativa no Judiciário brasileiro
+- **Edital** de chamamento público para novas soluções
+
+. . .
+
+::: {.callout-tip}
+A plataforma **Sinapses** resolve um problema real: evitar que cada tribunal reinvente a roda. Um modelo desenvolvido em um tribunal pode ser compartilhado com outros sem custo de desenvolvimento adicional — lógica colaborativa de inovação pública.
+:::
+
+---
+
+## Categoria 1 — Triagem e Gestão do Acervo
+
+| Tribunal | Ferramenta | O que faz |
+|---|---|---|
+| **TRF-2** | Intelliagent | Integra soluções de IA à interface dos sistemas para análise e gestão de processos |
+| **TJPA** | Anonimizador | Remove dados sensíveis de documentos automaticamente, em conformidade com a LGPD |
+| **TRT-9** | ELO TRIAGEM | Classifica e prioriza processos automaticamente |
+| **TRF-1** | SILVA | Triagem, organização de acervos e geração de minutas em lote para matérias repetitivas |
+
+. . .
+
+::: {.callout-tip}
+O **Anonimizador do TJPA** foi desenvolvido de forma **agnóstica** — pode ser replicado por qualquer tribunal ou órgão público. É IA aplicada diretamente à conformidade com a LGPD.
+:::
+
+---
+
+## Categoria 2 — Apoio à Decisão Judicial
+
+| Tribunal | Ferramenta | Diferencial |
+|---|---|---|
+| **TRT-4** | **Galileu** | Lê petições e contestações, sugere estrutura de sentença com jurisprudência do TST. Adotado em toda a Justiça do Trabalho. |
+| **TRF-3** | LIA3R | Pesquisa jurídica e elaboração de minutas, desenvolvida pelos próprios magistrados e servidores |
+| **TJRJ** | **Assis** | Gera minutas baseadas no perfil decisório individual de cada juiz, com dados em nuvem isolada |
+| **STJ** | STJ Logos | Análise de admissibilidade de recursos e geração de relatórios decisórios |
+
+. . .
+
+::: {.callout-warning}
+Sobre o Galileu: *"Não realiza análises jurídicas, não avalia provas, nem toma decisões. Ele apenas gera minutas e apresenta sugestões de subsídios potenciais, que são obrigatoriamente revisadas e avaliadas pelos magistrados."* — equipe do TRT-4.
+:::
+
+---
+
+## Categorias 3 e 4 — Gestão e Serviços ao Cidadão
+
+**Gestão administrativa:**
+
+| Tribunal | Ferramenta | Aplicação |
+|---|---|---|
+| **TJTO** | Giseli | Gestão inteligente de serventias extrajudiciais (cartórios) |
+| **TSE** | Trilha + ChatTSE | Organização de fluxos administrativos e atendimento interno |
+| **TRT-18** | Ata Automatizada | Transcrição e estruturação automática de atas de audiências |
+
+**Serviços ao cidadão:**
+
+| Tribunal | Ferramenta | Impacto |
+|---|---|---|
+| **TJPB** | SIMPLIFICA | Traduz decisões e andamentos para linguagem simples e acessível |
+| **TRT-14** | Aterma-IA | Facilita a atermação — ação trabalhista sem advogado |
+| **TJMT** | Hannah | Mapa de admissibilidade com 14 critérios para filtrar recursos |
+| **TRT-1** | Anti-robôs PJe | Protege o sistema contra acesso massivo automatizado |
+
+---
+
+## O Princípio da Reserva Humana
+
+Todos os sistemas compartilham um denominador: **a IA auxilia, não decide**.
+
+O juiz auxiliar responsável pelo projeto Hannah (TJMT) resume:
+
+> *"A discussão ética a respeito do uso da IA foi o que nos levou à construção de um sistema que não retirasse a responsabilidade do ato de julgar. A IA não pode, em nenhuma hipótese, nos substituir. Ela é um auxílio para a construção da decisão, mas não substitui quem decide."*
+
+. . .
+
+::: {.debate-box}
+💬 **Debate crítico:** Se a taxa de aprovação das sugestões da IA for de 95%, ainda há supervisão humana *significativa* — ou apenas homologação automática com responsabilidade formal?
+
+Isso tem implicações para: fundamentação das decisões, direito ao contraditório, e responsabilidade civil do Estado.
+:::
+
+---
+
+# Módulo 7 {background-color="#1a1a2e" color="white"}
+## IA nos Escritórios de Advocacia
+
+*Ferramentas, riscos e responsabilidade profissional*
+
+---
+
+## O que já é possível automatizar
+
+**Pesquisa e análise:**
+
+- Pesquisa jurisprudencial semântica — encontra casos por significado, não por palavra-chave exata
+- Resumos de processos extensos com identificação dos pontos controvertidos
+- Identificação de precedentes aplicáveis a um caso concreto via RAG
+
+**Redação:**
+
+- Minutas de contratos e cláusulas padronizadas
+- Revisão sistemática de NDAs e contratos com checklists configuráveis segundo a metodologia do escritório
+- Petições em matérias repetitivas com base no acervo interno
+
+**Gestão:**
+
+- Monitoramento de prazos e andamentos em escala
+- Triagem de correspondências e demandas
+- Tradução da linguagem jurídica para o cliente em linguagem acessível
+
+. . .
+
+::: {.callout-tip}
+A lógica de **skills** (pacotes de instrução especializados) permite ao escritório *codificar sua metodologia* — a IA passa a aplicá-la de forma consistente, como um protocolo institucional que não depende de um único profissional.
+:::
+
+---
+
+## Riscos Éticos e Deontológicos
+
+| Questão | O problema | O que ainda não está resolvido |
+|---|---|---|
+| **Sigilo profissional** | Dados de clientes em plataformas externas podem ser usados para treinar outros modelos | O Código de Ética da OAB não regulou expressamente o uso de IA |
+| **Responsabilidade** | Peça com alucinação pode configurar negligência profissional | Quem responde: o advogado, o escritório ou o fornecedor da IA? |
+| **Transparência** | Deve-se informar ao cliente que IA foi usada? | Não há obrigação expressa ainda — mas há debate crescente |
+| **Competência** | Não entender os limites da ferramenta é, em si, um risco | Quando o uso inadequado de IA configura imperícia? |
+
+. . .
+
+::: {.callout-warning}
+⚠️ O PL 2338/2023 prevê responsabilidade solidária entre **fornecedor** e **operador** do sistema de IA pelos danos causados. O advogado que usa IA é operador — e pode responder pelos danos decorrentes de seu uso.
+:::
+
+---
+
+## Boas Práticas para o Profissional Jurídico
+
+| Prática | Por quê |
+|---|---|
+| **Verificar toda saída da IA** | Alucinações são convincentes e frequentes em contexto jurídico |
+| **Usar modelos locais ou com contrato de não-treinamento** para dados sigilosos | Sigilo profissional e LGPD |
+| **Documentar o uso de IA** no processo de trabalho | Rastreabilidade e responsabilidade |
+| **Manter supervisão humana real**, não apenas formal | Viés de automação é o risco mais insidioso |
+| **Capacitar-se nos limites técnicos** da ferramenta | Usar sem entender é imperícia potencial |
+| **Acompanhar a regulação** em tramitação | O PL 2338/2023 ainda aguarda a Câmara — obrigações mudarão |
+
+---
+
+# Módulo 8 {background-color="#1a1a2e" color="white"}
+## Síntese, Exercício Prático e Encerramento
+
+---
+
+## O Fio que Conecta os Módulos
+
+```
+Fundamentos técnicos (M1–M3)
+        ↓
+  explicam por que surgem os
+        ↓
+Riscos jurídicos (M4)
+        ↓
+    que justificam a
+        ↓
+Regulação (M5)
+        ↓
+  que se traduz em regras para o
+        ↓
+Judiciário (M6) e Escritórios (M7)
+```
+
+. . .
+
+A lógica não é apenas descritiva — é normativa: quanto mais autônoma e opaca for a IA, maior a necessidade de supervisão, explicabilidade e accountability.
+
+---
+
+## O que Muda para o Profissional do Direito?
+
+| Antes | Com IA |
+|---|---|
+| Pesquisa manual de jurisprudência | Busca semântica em toda a base de um tribunal via RAG |
+| Redação de minutas do zero | Minutas sugeridas calibradas por gabinete |
+| Triagem manual de processos | Classificação e priorização automatizadas |
+| Leitura integral de peças longas | Resumos estruturados com pontos controvertidos |
+| Monitoramento manual de prazos | Alertas automáticos com rascunho já preparado |
+
+. . .
+
+> *A habilidade mais valiosa do jurista na era da IA não é operar a ferramenta — é saber **quando confiar nela e quando não confiar**.*
+
+---
+
+## Exercício Prático
+
+::: {.exercise-box}
+**🔬 Teste de alucinação jurídica**
+
+**Passo 1:** Faça a seguinte pergunta a um LLM de sua escolha:
+
+> *"Cite três decisões do STJ sobre responsabilidade civil de plataformas digitais por conteúdo de terceiros, indicando o número do processo, relator, data e ementa."*
+
+**Passo 2:** Verifique cada citação no site do STJ.
+
+**Passo 3:** Discuta em grupo:
+
+- Quantas das citações existem de fato?
+- As que existem têm os dados corretos?
+- A ementa corresponde ao conteúdo real do julgado?
+- Qual seria o impacto de protocolar essa peça sem verificar?
+
+**Tempo sugerido:** 15 minutos
+:::
+
+---
+
+## Questões em Aberto para o Direito
+
+::: {.debate-box}
+1. A IA pode ser testemunha, perito ou parte num processo?
+
+2. Sistemas que recomendam condenações ou absolvições violam o princípio do juiz natural?
+
+3. Deve haver obrigação de *disclosure* quando IA foi usada na elaboração de peças processuais?
+
+4. Como garantir que a IA no Judiciário não amplie as desigualdades de acesso à justiça?
+
+5. O viés de automação — aceitar sugestões da IA sem revisão crítica — pode configurar cerceamento de defesa?
+
+6. Sistemas treinados em dados históricos de decisões reproduzem e ampliam discriminações do passado?
+
+7. A responsabilidade civil pelo dano causado por IA no exercício da advocacia é do advogado, do escritório ou do fornecedor — ou dos três?
+:::
+
+---
+
+## Encerramento
+
+::: {.debate-box}
+*"Os sistemas algorítmicos não somente ordenam e organizam o que vemos, mas também produzem as condições de possibilidade do que é possível ser visto."*
+
+— Anna Bentes, *Inteligência Artificial e Desafios Regulatórios* (Forense, 2026)
+:::
+
+. . .
+
+A IA não transforma apenas as ferramentas do jurista — transforma o que é possível questionar, o que é visível nos autos, o que chega à atenção do magistrado.
+
+Entender isso não é opcional para quem vai exercer o direito nos próximos anos. **É uma condição de competência profissional.**
+
+. . .
+
+*Esta apresentação foi produzida com apoio de IA generativa e revisada pelo docente.*
+
+---
+
+## Fontes e Referências
+
+**Fundamentos técnicos:**
+Maarten Grootendorst & Jay Alammar, *Hands-On Large Language Models* (O'Reilly, 2024)
+
+**Glossário oficial:**
+Governo Digital / MGI, *Glossário de Termos Relacionados à IA* (2025) — gov.br
+
+**Regulação:**
+Laura Schertel Mendes & Beatriz Kira, "Brussels to Brasilia: Brazil's Distinct Path in AI Regulation" (2024) · PL 2338/2023 · Resolução CNJ nº 615/2025
+
+**IA e subjetividade:**
+Anna Bentes, "Inteligência Artificial e Economia da Atenção" in *Inteligência Artificial e Desafios Regulatórios* (Forense, 2026)
+
+**Judiciário:**
+CNJ, *IAJus 2026 — Soluções Selecionadas* (2026) · Portais institucionais: TRT-4, TJRJ, STJ, TJPA, TJMT, TJPB
+
+**Advocacia:**
+Lawvable, *Awesome Legal Skills* — github.com/lawvable/awesome-legal-skills
+
+---
+
+# Apêndice {background-color="#37474f" color="white"}
+## Tokenização e Embeddings em Detalhe
+
+*Material complementar para quem quiser aprofundar*
+
+---
+
+## Tokenização: Como a IA Divide o Texto
+
+O texto é dividido em pedaços chamados **tokens** antes de ser processado:
+
+```
+"Habeas corpus"  → ["Hab", "eas", " corp", "us"]
+"Réu"            → ["R", "éu"]
+"apelação"       → ["ap", "ela", "ção"]
+```
+
+Cada token recebe um **ID numérico** único. A IA só processa números — nunca palavras diretamente.
+
+. . .
+
+Quatro abordagens de tokenização:
+
+| Abordagem | Unidade | Vantagem | Desvantagem |
+|---|---|---|---|
+| **Por palavra** | Palavras inteiras | Intuitivo | Não lida com palavras novas |
+| **Por subpalavra** | Partes de palavras | Flexível, vocabulário eficiente | Menos intuitivo |
+| **Por caractere** | Letras individuais | Lida com qualquer palavra | Contexto muito menor |
+| **Por byte** | Bytes Unicode | Universal, multilingual | Sequências muito longas |
+
+---
+
+## Embeddings: O Significado em Números
+
+Cada token é convertido em um **vetor** — uma lista de números que captura seu significado:
+
+- Palavras semanticamente próximas ficam **próximas no espaço matemático**
+- "Réu" fica próximo de "acusado", distante de "autor"
+- "Sentença" fica próxima de "decisão", distante de "contrato"
+
+. . .
+
+Isso permite **busca semântica**: em vez de buscar pela palavra exata, busca-se pelo significado.
+
+Exemplo: uma busca por *"inadimplemento contratual"* pode retornar documentos que falam em *"descumprimento de obrigação"* ou *"mora do devedor"* — porque os embeddings identificam que os conceitos são próximos, mesmo com palavras diferentes.
+
+. . .
+
+::: {.callout-tip}
+Este é o mecanismo que torna o RAG possível: os documentos da base são convertidos em embeddings, a pergunta do usuário também vira um embedding, e o sistema encontra os documentos mais próximos semanticamente.
+:::
