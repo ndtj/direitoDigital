@@ -1,0 +1,2049 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<script src="ia_e_direito_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ia_e_direito_files/libs/quarto-html/tabby.min.js"></script>
+<script src="ia_e_direito_files/libs/quarto-html/popper.min.js"></script>
+<script src="ia_e_direito_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="ia_e_direito_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ia_e_direito_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="ia_e_direito_files/libs/quarto-html/quarto-syntax-highlighting-a06763021a52c43c40a351ac8b799b8f.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.36">
+
+  <meta name="author" content="">
+  <title>Inteligência Artificial e Direito</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="ia_e_direito_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="ia_e_direito_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="ia_e_direito_files/libs/revealjs/dist/theme/quarto-0427d8d92a431aa6a6430e53ec02a470.css">
+  <link rel="stylesheet" href=".reveal h1 { font-size: 1.8em; color: #1a1a2e; }
+.reveal h2 { font-size: 1.3em; color: #16213e; }
+.reveal h3 { font-size: 1.1em; color: #0f3460; }
+.reveal .slides section { text-align: left; }
+.callout-tip { background-color: #e8f5e9; border-left: 4px solid #388e3c; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+.callout-warning { background-color: #fff3e0; border-left: 4px solid #f57c00; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+.callout-danger { background-color: #fce4ec; border-left: 4px solid #c62828; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+.debate-box { background-color: #e3f2fd; border-left: 4px solid #1565c0; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+.exercise-box { background-color: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 0.5em 1em; margin: 0.5em 0; border-radius: 4px; }
+table { font-size: 0.78em; width: 100%; }
+th { background-color: #1a1a2e; color: white; }
+tr:nth-child(even) { background-color: #f5f5f5; }">
+  <link href="ia_e_direito_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="ia_e_direito_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="ia_e_direito_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="ia_e_direito_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="ia_e_direito_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="ia_e_direito_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Inteligência Artificial e Direito</h1>
+  <p class="subtitle">Fundamentos, Regulação e Usos Práticos</p>
+
+<div class="quarto-title-authors">
+</div>
+
+  <p class="date">29/04/2026</p>
+</section><section id="TOC">
+<nav role="doc-toc"> 
+<h2 id="toc-title">Sumário</h2>
+<ul>
+<li><a href="#/módulo-1" id="/toc-módulo-1">Módulo 1</a></li>
+<li><a href="#/módulo-2" id="/toc-módulo-2">Módulo 2</a></li>
+<li><a href="#/módulo-3" id="/toc-módulo-3">Módulo 3</a></li>
+<li><a href="#/módulo-4" id="/toc-módulo-4">Módulo 4</a></li>
+<li><a href="#/módulo-5" id="/toc-módulo-5">Módulo 5</a></li>
+<li><a href="#/módulo-6" id="/toc-módulo-6">Módulo 6</a></li>
+<li><a href="#/módulo-7" id="/toc-módulo-7">Módulo 7</a></li>
+<li><a href="#/módulo-8" id="/toc-módulo-8">Módulo 8</a></li>
+<li><a href="#/apêndice" id="/toc-apêndice">Apêndice</a></li>
+</ul>
+</nav>
+</section>
+<section>
+<section id="módulo-1" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 1</h1>
+
+</section>
+<section id="o-que-é-ia-e-como-ela-funciona" class="slide level2">
+<h2>O que é IA e como ela funciona?</h2>
+</section>
+<section id="um-ponto-de-partida-o-que-mudou" class="slide level2">
+<h2>Um ponto de partida: o que mudou?</h2>
+<p>Em novembro de 2022, o ChatGPT foi lançado ao público.</p>
+<ul>
+<li><strong>5 dias</strong> → 1 milhão de usuários</li>
+<li><strong>2 meses</strong> → 100 milhões de usuários</li>
+</ul>
+<p>O ritmo de adoção foi <strong>sem precedentes</strong> na história da tecnologia.</p>
+<div class="fragment">
+<div class="debate-box">
+<p>💬 <strong>Para aquecimento:</strong> Alguém já usou IA para alguma tarefa jurídica? O que aconteceu?</p>
+</div>
+</div>
+</section>
+<section id="o-que-é-inteligência-artificial" class="slide level2">
+<h2>O que é Inteligência Artificial?</h2>
+<p>Definição do fundador da disciplina, <strong>John McCarthy (1956)</strong>:</p>
+<blockquote>
+<p><em>“A ciência e a engenharia de fazer máquinas inteligentes, especialmente programas de computador inteligentes.”</em></p>
+</blockquote>
+<p><strong>Language AI</strong> é o subcampo focado em sistemas capazes de compreender, processar e gerar linguagem humana.</p>
+<div class="fragment">
+<p>Conceitos essenciais (Glossário GOV.BR, 2025):</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Termo</th>
+<th>Definição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Algoritmo</strong></td>
+<td>Sequência finita de instruções para resolver um problema</td>
+</tr>
+<tr class="even">
+<td><strong>Aprendizado de máquina</strong></td>
+<td>A IA aprende com exemplos, sem ser explicitamente programada</td>
+</tr>
+<tr class="odd">
+<td><strong>Aprendizado profundo</strong></td>
+<td>Redes neurais com múltiplas camadas de processamento</td>
+</tr>
+<tr class="even">
+<td><strong>IA generativa</strong></td>
+<td>Tecnologia que <em>cria</em> conteúdo novo: texto, imagem, áudio</td>
+</tr>
+<tr class="odd">
+<td><strong>LLM</strong></td>
+<td>Grande Modelo de Linguagem (<em>Large Language Model</em>)</td>
+</tr>
+<tr class="even">
+<td><strong>Prompt</strong></td>
+<td>Comando de texto fornecido à IA para obter uma resposta</td>
+</tr>
+<tr class="odd">
+<td><strong>Alucinação</strong></td>
+<td>Respostas incorretas geradas com aparência de verdade</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="como-um-llm-funciona-o-essencial" class="slide level2">
+<h2>Como um LLM funciona: o essencial</h2>
+<p>O texto é dividido em <strong>tokens</strong> (pedaços de palavras convertidos em números). Cada token vira um vetor numérico — um <strong>embedding</strong> — que captura seu significado no contexto.</p>
+<p>O mecanismo de <strong>atenção</strong> permite à IA entender contexto:</p>
+<blockquote>
+<p><em>“O juiz rejeitou o recurso porque <strong>ele</strong> não tinha fundamentação.”</em></p>
+</blockquote>
+<p>A IA identifica que “ele” se refere ao <em>recurso</em>, não ao <em>juiz</em> — porque o mecanismo de atenção relaciona as palavras entre si simultaneamente, não uma a uma.</p>
+<div class="fragment">
+<p>Dois tipos de modelo:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo</th>
+<th>Foco</th>
+<th>Uso no direito</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Representação</strong> (ex: BERT)</td>
+<td>Compreender texto</td>
+<td>Triagem, busca semântica, classificação de processos</td>
+</tr>
+<tr class="even">
+<td><strong>Generativo</strong> (ex: GPT, Claude)</td>
+<td>Gerar texto</td>
+<td>Minutas, resumos, análise de peças</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="como-um-llm-é-criado" class="slide level2">
+<h2>Como um LLM é criado?</h2>
+<p>Dois estágios:</p>
+<p><strong>1. Pré-treinamento</strong> — o modelo lê bilhões de textos da internet, aprendendo linguagem, fatos e raciocínio. Resultado: <strong>modelo base</strong>.</p>
+<p><strong>2. Ajuste fino</strong> (<em>fine-tuning</em>) — o modelo base é treinado para seguir instruções, responder perguntas ou executar tarefas específicas. Resultado: <strong>modelo especializado</strong>.</p>
+<div class="fragment">
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Proprietários</th>
+<th>Abertos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Acesso</strong></td>
+<td>Via API (pago)</td>
+<td>Download direto</td>
+</tr>
+<tr class="even">
+<td><strong>Dados compartilhados?</strong></td>
+<td>Sim, com o provedor</td>
+<td>Não (se rodado localmente)</td>
+</tr>
+<tr class="odd">
+<td><strong>Fine-tuning próprio?</strong></td>
+<td>Limitado</td>
+<td>Total</td>
+</tr>
+<tr class="even">
+<td><strong>Relevância jurídica</strong></td>
+<td>Risco ao sigilo profissional</td>
+<td>Mais adequado para dados sigilosos</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>Entender <em>como</em> um modelo é criado e <em>por quem</em> é hospedado é o primeiro passo para avaliar se seu uso é compatível com as obrigações deontológicas do advogado.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-2" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 2</h1>
+
+</section>
+<section id="a-evolução-recente-de-prompts-a-agentes" class="slide level2">
+<h2>A Evolução Recente: de Prompts a Agentes</h2>
+<p><em>Como chegamos até aqui — e para onde estamos indo</em></p>
+</section>
+<section id="uma-evolução-em-camadas" class="slide level2">
+<h2>Uma evolução em camadas</h2>
+<p>As fases <strong>não se substituem</strong> — cada nova camada se apoia na anterior.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fase</th>
+<th>Período</th>
+<th>O que representa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Prompts e engenharia de prompt</strong></td>
+<td>2022–2023</td>
+<td>Instrução textual cuidadosamente formulada para obter respostas úteis</td>
+</tr>
+<tr class="even">
+<td><strong>RAG</strong></td>
+<td>2023</td>
+<td>IA responde com base em documentos reais da sua base</td>
+</tr>
+<tr class="odd">
+<td><strong>Function calling / ferramentas</strong></td>
+<td>2023</td>
+<td>IA pode chamar sistemas externos e usar os resultados no raciocínio</td>
+</tr>
+<tr class="even">
+<td><strong>IA agêntica</strong></td>
+<td>2023–2024</td>
+<td>IA executa sequências de tarefas de forma autônoma</td>
+</tr>
+<tr class="odd">
+<td><strong>Modelos de raciocínio</strong></td>
+<td>2024–2025</td>
+<td>IA “pensa antes de responder” com cadeia de raciocínio interna</td>
+</tr>
+<tr class="even">
+<td><strong>MCP</strong></td>
+<td>Nov/2024</td>
+<td>Protocolo padrão para conectar IA a qualquer sistema externo</td>
+</tr>
+<tr class="odd">
+<td><strong>Skills</strong></td>
+<td>2025</td>
+<td>Pacotes de instrução especializados e reutilizáveis</td>
+</tr>
+<tr class="even">
+<td><strong>Agentes de código</strong></td>
+<td>2025</td>
+<td>IA escreve, testa e executa código com supervisão mínima</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>O movimento é claro:</strong> a IA sai do papel de <em>respondedora</em> e passa a ser <em>executora autônoma</em> de fluxos de trabalho inteiros. O profissional do direito passa a ser o <strong>supervisor estratégico</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="ia-agêntica-o-que-muda-na-prática" class="slide level2">
+<h2>IA Agêntica: o que muda na prática?</h2>
+<p>Na fase de <strong>prompts simples</strong>, cada interação é isolada:</p>
+<pre><code>Usuário → Prompt → IA → Resposta</code></pre>
+<p>Na <strong>IA agêntica</strong>, a IA planeja e executa múltiplos passos autonomamente:</p>
+<pre><code>Usuário → Objetivo → IA planeja → Etapa 1 → Etapa 2 → ... → Resultado
+                         ↑                                       |
+                         └───────── feedback / correção ─────────┘</code></pre>
+<div class="fragment">
+<p>O elo técnico que torna isso possível é o <strong><em>function calling</em></strong>: a IA pode chamar ferramentas externas — buscar jurisprudência, acessar o PJe, enviar notificações — e incorporar os resultados no seu raciocínio.</p>
+</div>
+<div class="fragment">
+<p><strong>Exemplos jurídicos:</strong></p>
+<ul>
+<li>IA recebe um processo, lê todas as peças, identifica pontos controvertidos, pesquisa jurisprudência e redige minuta para revisão do magistrado</li>
+<li>IA monitora andamentos de um escritório, identifica prazos críticos e elabora rascunho das petições correspondentes</li>
+<li>IA analisa contratos em massa, sinaliza cláusulas problemáticas e gera relatório consolidado</li>
+</ul>
+</div>
+</section>
+<section id="modelos-de-raciocínio" class="slide level2">
+<h2>Modelos de Raciocínio</h2>
+<p>Uma mudança qualitativa recente: a IA passou a <strong>pensar antes de responder</strong>.</p>
+<p><strong>Modelo tradicional:</strong></p>
+<pre><code>Prompt → [processamento único] → Resposta</code></pre>
+<p><strong>Modelo de raciocínio:</strong></p>
+<pre><code>Prompt → [cadeia de raciocínio interna]  → Resposta mais fundamentada
+           ↳ "Primeiro preciso entender X..."
+           ↳ "Isso contradiz Y, então..."
+           ↳ "A conclusão mais coerente é..."</code></pre>
+<div class="fragment">
+<p><strong>Por que isso importa para o direito?</strong></p>
+<p>Tarefas jurídicas exigem raciocínio estruturado: interpretar normas, sopesar princípios conflitantes, construir argumentação lógica. Modelos de raciocínio são significativamente mais precisos nesse tipo de tarefa.</p>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>A cadeia de raciocínio pode ser exibida ao usuário — o que aumenta a <strong>explicabilidade</strong>, requisito do PL 2338/2023 para sistemas de alto risco.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="mcp-e-skills" class="slide level2">
+<h2>MCP e Skills</h2>
+<p><strong>MCP (Model Context Protocol)</strong> — lançado em novembro de 2024 — é um protocolo aberto que resolve um problema central: como fazer <em>qualquer</em> IA se conectar de forma padronizada a ferramentas e sistemas externos.</p>
+<p><strong>Analogia:</strong> o MCP é para a IA o que o USB é para periféricos — um conector universal.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Sem MCP:</strong></p>
+<p>Cada integração é desenvolvida do zero. Um sistema que acessa o PJe precisa de código específico, diferente de outro que acessa o portal do STJ.</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Com MCP:</strong></p>
+<p>Um servidor MCP para o PJe funciona com qualquer IA compatível. A ferramenta se conecta uma vez, e qualquer modelo pode usá-la.</p>
+</div></div>
+<div class="fragment">
+<p><strong>Skills</strong> são pacotes de instrução especializada — a IA aprende a realizar uma tarefa do jeito certo para aquele contexto: o protocolo do escritório, a metodologia do tribunal.</p>
+<p><strong>Agentes de código</strong> vão além: IA que opera no terminal, lê e escreve arquivos, executa código e constrói sistemas completos com supervisão humana mínima.</p>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-3" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 3</h1>
+
+</section>
+<section id="rag-e-a-busca-jurídica-inteligente" class="slide level2">
+<h2>RAG e a Busca Jurídica Inteligente</h2>
+<p><em>A técnica que permite conversar com uma vasta massa de textos jurídicos</em></p>
+</section>
+<section id="o-problema-que-o-rag-resolve" class="slide level2 scrollable">
+<h2>O Problema que o RAG Resolve</h2>
+<p>LLMs têm dois limites críticos para uso jurídico:</p>
+<ol type="1">
+<li><strong>Limite de contexto:</strong> não conseguem processar toda a jurisprudência de um tribunal de uma vez</li>
+<li><strong>Desconhecimento interno:</strong> não sabem o que está na <em>sua</em> base de documentos — e quando não sabem, podem <em>inventar</em></li>
+</ol>
+<div class="fragment">
+<p><strong>RAG — Retrieval-Augmented Generation</strong> (Geração Aumentada por Recuperação) resolve os dois:</p>
+<pre><code>Pergunta do usuário
+       ↓
+Busca semântica na base de documentos
+       ↓
+Recupera os trechos mais relevantes
+       ↓
+[trechos recuperados] + [pergunta] → LLM gera resposta
+       ↓
+Resposta ancorada em documentos reais, com fontes citáveis</code></pre>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>Com RAG, a IA não “inventa” — ela <strong>cita documentos reais</strong> da sua base. Isso reduz drasticamente o risco de alucinação em contextos jurídicos, onde a rastreabilidade das fontes é essencial.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="rag-no-direito-conversando-com-a-jurisprudência" class="slide level2">
+<h2>RAG no Direito: Conversando com a Jurisprudência</h2>
+<p>RAG permite o que seria impossível manualmente: <strong>conversar com uma massa inteira de textos jurídicos</strong>.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Base indexada</th>
+<th>Pergunta possível</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Toda a jurisprudência de um tribunal</td>
+<td>“Qual a posição dominante sobre cláusulas abusivas em contratos de adesão nos últimos 3 anos?”</td>
+</tr>
+<tr class="even">
+<td>Contratos ativos de um escritório</td>
+<td>“Algum contrato contém cláusula de foro em SP com arbitragem?”</td>
+</tr>
+<tr class="odd">
+<td>Legislação consolidada</td>
+<td>“Qual o prazo prescricional aplicável a este caso?”</td>
+</tr>
+<tr class="even">
+<td>Pareceres e peças internas</td>
+<td>“Já tivemos casos similares? Como foram resolvidos?”</td>
+</tr>
+<tr class="odd">
+<td>Processos de um cliente</td>
+<td>“Resuma todas as decisões desfavoráveis dos últimos 2 anos”</td>
+</tr>
+<tr class="even">
+<td>Autos de um processo complexo</td>
+<td>“Quais fatos foram admitidos por ambas as partes?”</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="debate-box">
+<p>💬 O sistema <strong>Galileu (TRT-4)</strong> usa uma lógica próxima ao RAG: recupera decisões anteriores do próprio magistrado e jurisprudência do TST antes de sugerir a minuta — RAG especializado por gabinete.</p>
+</div>
+</div>
+</section>
+<section id="rag-vs.-fine-tuning-quando-usar-cada-um" class="slide level2">
+<h2>RAG vs.&nbsp;Fine-tuning: Quando Usar Cada Um?</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>RAG</strong></th>
+<th><strong>Fine-tuning</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>O que faz</strong></td>
+<td>Conecta a IA a documentos em tempo real</td>
+<td>Retreina o modelo com dados jurídicos</td>
+</tr>
+<tr class="even">
+<td><strong>Custo</strong></td>
+<td>Baixo — indexar documentos é simples</td>
+<td>Alto — requer compute e expertise</td>
+</tr>
+<tr class="odd">
+<td><strong>Atualização</strong></td>
+<td>Instantânea — adicione documentos à base</td>
+<td>Lenta — exige novo ciclo de treinamento</td>
+</tr>
+<tr class="even">
+<td><strong>Transparência</strong></td>
+<td>Alta — cita as fontes usadas</td>
+<td>Baixa — difícil rastrear a origem</td>
+</tr>
+<tr class="odd">
+<td><strong>Alucinação</strong></td>
+<td>Muito reduzida — ancora nas fontes</td>
+<td>Ainda presente</td>
+</tr>
+<tr class="even">
+<td><strong>Ideal para</strong></td>
+<td>Bases que mudam (jurisprudência, contratos)</td>
+<td>Comportamento e estilo especializado</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Para o direito, RAG é geralmente o ponto de partida ideal:</strong> baixo custo, alta rastreabilidade das fontes, e compatível com a exigência de <strong>explicabilidade</strong> do PL 2338/2023 e da Resolução CNJ nº 615/2025.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-4" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 4</h1>
+
+</section>
+<section id="riscos-e-conceitos-jurídicos-essenciais" class="slide level2">
+<h2>Riscos e Conceitos Jurídicos Essenciais</h2>
+<p><em>A tecnologia é poderosa — e seus riscos também</em></p>
+</section>
+<section id="o-problema-da-alucinação" class="slide level2">
+<h2>O Problema da Alucinação</h2>
+<p>A IA pode gerar <strong>informações falsas com aparência de verdade</strong>:</p>
+<ul>
+<li>Citação de jurisprudência inexistente</li>
+<li>Números de processo inventados</li>
+<li>Datas erradas em contratos</li>
+<li>Interpretações equivocadas da lei com fundamentação convincente</li>
+</ul>
+<div class="fragment">
+<p><strong>Caso internacional — <em>Mata v. Avianca</em> (EUA, 2023)</strong></p>
+<p>Advogados submeteram peças com jurisprudência gerada por IA que simplesmente não existia. Foram multados e admoestados pelo juiz federal.</p>
+</div>
+<div class="fragment">
+<p><strong>Casos brasileiros</strong></p>
+<p>Há relatos crescentes nos tribunais brasileiros de petições contendo súmulas inexistentes, decisões com ementa correta mas número e data errados, e referências a artigos de lei com redação que nunca existiu.</p>
+</div>
+<div class="fragment">
+<div class="callout-danger">
+<p>🚨 O Glossário GOV.BR define: <em>“Alucinação: respostas incorretas ou fictícias geradas pela IA que, apesar de convincentes, são erradas ou enganosas, apresentando informações fabricadas, imprecisas ou sem fundamento factual.”</em></p>
+</div>
+</div>
+</section>
+<section id="vieses-algorítmicos" class="slide level2">
+<h2>Vieses Algorítmicos</h2>
+<p>O Glossário do Governo Digital identifica três tipos com consequências jurídicas diretas:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo</th>
+<th>Definição</th>
+<th>Exemplo jurídico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Viés algorítmico</strong></td>
+<td>IA replica discriminações dos dados de treinamento</td>
+<td>Sistema de reconhecimento facial com viés racial</td>
+</tr>
+<tr class="even">
+<td><strong>Viés de automação</strong></td>
+<td>Tendência de aceitar cegamente o que a IA sugere</td>
+<td>Magistrado assina minuta sem revisão crítica</td>
+</tr>
+<tr class="odd">
+<td><strong>Viés de exclusão</strong></td>
+<td>Grupos sub-representados são mal interpretados pela IA</td>
+<td>IA treinada em dados do sudeste decide caso da região norte</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout-danger">
+<p><strong>Dado brasileiro:</strong> 90% das pessoas presas por reconhecimento facial no Brasil em 2019 eram negras — evidência de viés sistêmico com consequências gravíssimas para direitos fundamentais.</p>
+</div>
+</div>
+<div class="fragment">
+<div class="debate-box">
+<p>💬 <strong>Debate:</strong> Um sistema treinado em decisões judiciais históricas pode reproduzir e amplificar discriminações do passado?</p>
+</div>
+</div>
+</section>
+<section id="racismo-algorítmico-e-direitos-fundamentais" class="slide level2">
+<h2>Racismo Algorítmico e Direitos Fundamentais</h2>
+<p>O Glossário GOV.BR traz um conceito específico:</p>
+<blockquote>
+<p><em>“Racismo algorítmico: viés discriminatório reproduzido por sistemas de IA devido a desigualdades presentes nos dados de treinamento, levando à perpetuação de preconceitos raciais.”</em></p>
+</blockquote>
+<p>No contexto jurídico brasileiro, isso se manifesta em:</p>
+<ul>
+<li>Sistemas de reconhecimento facial com maior taxa de erro para pessoas negras</li>
+<li>Algoritmos de análise de risco em processos criminais que penalizam fatores correlacionados com raça</li>
+<li>Sistemas de triagem que reproduzem padrões históricos de decisão discriminatória</li>
+</ul>
+<div class="fragment">
+<div class="callout-danger">
+<p>🚨 O risco não é hipotético. É estrutural: se os dados refletem uma sociedade desigual, o modelo aprende essa desigualdade e a aplica em escala — muito mais rápido e de forma muito menos visível do que um humano faria.</p>
+</div>
+</div>
+</section>
+<section id="o-viés-de-automação-o-risco-invisível" class="slide level2">
+<h2>O Viés de Automação: o Risco Invisível</h2>
+<p>O Glossário GOV.BR define:</p>
+<blockquote>
+<p><em>“Viés de automação: tendência de aceitar cegamente as respostas fornecidas por sistemas automatizados, ignorando a análise crítica e o bom senso humano.”</em></p>
+</blockquote>
+<p>É o risco mais insidioso para profissionais do direito — porque não exige nenhuma falha técnica do sistema.</p>
+<div class="fragment">
+<p><strong>Manifestações práticas:</strong></p>
+<ul>
+<li>Magistrado assina minuta sem ler com atenção porque “a IA já verificou”</li>
+<li>Advogado não confere as citações porque “o modelo é muito bom”</li>
+<li>Servidor aceita classificação de risco de processo sem questionar</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="debate-box">
+<p>💬 Se a taxa de aprovação das sugestões da IA for de 95%, ainda existe <strong>supervisão humana significativa</strong> — ou apenas uma homologação automática com responsabilidade formal?</p>
+</div>
+</div>
+</section>
+<section id="propriedade-intelectual-e-ia" class="slide level2">
+<h2>Propriedade Intelectual e IA</h2>
+<p>Tensões ainda sem resolução clara no direito brasileiro:</p>
+<p><strong>Autoria:</strong> quem é o autor de um texto gerado por IA? O usuário? O desenvolvedor? A IA não tem personalidade jurídica.</p>
+<p><strong>Treinamento:</strong> os dados usados para treinar modelos violam direitos autorais dos criadores originais?</p>
+<div class="fragment">
+<p><strong>O que o PL 2338/2023 prevê:</strong></p>
+<ul>
+<li>Fornecedores devem <strong>divulgar</strong> quais conteúdos foram usados no treinamento</li>
+<li>Criadores têm direito de <strong>opt-out</strong> — recusar que suas obras treinem modelos</li>
+<li>Exercer o opt-out não pode ser tratado como conduta anticoncorrencial</li>
+<li>O SIA criará um <em>sandbox</em> regulatório para testar modelos de compensação justa a criadores</li>
+</ul>
+</div>
+</section>
+<section id="proteção-de-dados-lgpd" class="slide level2">
+<h2>Proteção de Dados (LGPD)</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conceito (LGPD)</th>
+<th>Relevância para IA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Dados pessoais</strong> — informação sobre pessoa identificada ou identificável</td>
+<td>Qualquer dado de cliente ou parte inserido em IA</td>
+</tr>
+<tr class="even">
+<td><strong>Dados sensíveis</strong> — origem racial, saúde, biometria, religião, vida sexual</td>
+<td>Proteção reforçada — vedado tratamento sem base legal específica</td>
+</tr>
+<tr class="odd">
+<td><strong>RIPD</strong> — Relatório de Impacto à Proteção de Dados</td>
+<td>Exigido pela LGPD para tratamentos de alto risco</td>
+</tr>
+<tr class="even">
+<td><strong>Anonimização</strong> — dado que não permite identificar o titular</td>
+<td>Técnica usada pelo Anonimizador do TJPA</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Aviso</strong></p>
+</div>
+<div class="callout-content">
+<p>⚠️ Dados inseridos em plataformas externas de IA podem ser utilizados para treinar outros modelos — potencial violação simultânea do sigilo profissional e da LGPD. O advogado que usa IA é <strong>operador</strong> nos termos do PL 2338/2023 e pode responder pelos danos.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="transparência-explicabilidade-e-supervisão-humana" class="slide level2">
+<h2>Transparência, Explicabilidade e Supervisão Humana</h2>
+<p>Três conceitos do Glossário GOV.BR com peso jurídico direto:</p>
+<p><strong>Transparência</strong> &gt; Dever de informar claramente quando conteúdo ou decisão é gerado por IA, permitindo auditoria e contestação. <em>Relevância:</em> devido processo legal; direito à informação das partes.</p>
+<div class="fragment">
+<p><strong>Explicabilidade</strong> &gt; Capacidade do sistema de explicar os critérios e processos usados para tomar decisões. <em>Relevância:</em> fundamentação das decisões; direito ao contraditório.</p>
+</div>
+<div class="fragment">
+<p><strong>Supervisão Humana Significativa</strong> &gt; Capacidade <em>efetiva</em> — não apenas formal — de supervisores qualificados de compreender o sistema, monitorar decisões, intervir e reverter resultados antes que causem dano. <em>Relevância:</em> distingue supervisão real de homologação automática.</p>
+</div>
+<div class="fragment">
+<div class="debate-box">
+<p>💬 Uma sentença elaborada com auxílio de IA, sem que as partes saibam, viola o devido processo legal?</p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-5" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 5</h1>
+
+</section>
+<section id="regulação-da-ia" class="slide level2">
+<h2>Regulação da IA</h2>
+<p><em>Onde estamos e para onde vamos</em></p>
+</section>
+<section id="o-cenário-regulatório-global" class="slide level2">
+<h2>O Cenário Regulatório Global</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Iniciativa</th>
+<th>Jurisdição</th>
+<th>Ano</th>
+<th>Característica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>EU AI Act</strong></td>
+<td>União Europeia</td>
+<td>2024</td>
+<td>Primeira lei abrangente sobre IA no mundo</td>
+</tr>
+<tr class="even">
+<td><strong>Executive Order</strong> Biden</td>
+<td>EUA</td>
+<td>2023</td>
+<td>Diretrizes executivas para uso seguro da IA</td>
+</tr>
+<tr class="odd">
+<td><strong>Declaração de Bletchley</strong></td>
+<td>Internacional</td>
+<td>2023</td>
+<td>Acordo multilateral sobre riscos de IA avançada</td>
+</tr>
+<tr class="even">
+<td><strong>PL 2338/2023</strong></td>
+<td>Brasil</td>
+<td>2024/2025</td>
+<td>Aprovado pelo Senado em dezembro de 2024</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>O Brasil não simplesmente copiou o modelo europeu. A proposta brasileira trilha um caminho próprio, combinando abordagem baseada em risco com ênfase nos direitos fundamentais constitucionais — uma contribuição relevante do Sul Global ao debate regulatório internacional.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="a-abordagem-baseada-em-risco" class="slide level2">
+<h2>A Abordagem Baseada em Risco</h2>
+<p>Quanto maior o risco, maiores as obrigações.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nível</th>
+<th>Exemplos</th>
+<th>Consequência</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Risco excessivo</strong></td>
+<td>Manipulação psicológica, <em>social scoring</em>, armas autônomas, material de exploração infantil, previsão de reincidência criminal</td>
+<td><strong>Proibido</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Alto risco</strong></td>
+<td>Segurança pública, saúde, justiça criminal, educação, recrutamento, infraestrutura crítica</td>
+<td>Obrigações rigorosas + auditoria periódica</td>
+</tr>
+<tr class="odd">
+<td><strong>Médio risco</strong></td>
+<td>Sistemas com impacto moderado, dados não sensíveis</td>
+<td>Obrigações intermediárias</td>
+</tr>
+<tr class="even">
+<td><strong>Baixo risco</strong></td>
+<td>Aplicações internas e experimentais</td>
+<td>Requisitos mínimos</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Aviso</strong></p>
+</div>
+<div class="callout-content">
+<p>⚠️ O <strong>viés de automação</strong> pode transformar um sistema de baixo risco em um de alto risco na prática — a classificação não depende só da tecnologia, mas de como ela é usada.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="o-pl-23382023-cinco-pilares" class="slide level2">
+<h2>O PL 2338/2023: Cinco Pilares</h2>
+<p><strong>1. Princípios</strong> Autodeterminação, não discriminação, transparência, rastreabilidade, não maleficência, proporcionalidade.</p>
+<div class="fragment">
+<p><strong>2. Direitos Individuais</strong> Para todos: informação prévia, privacidade, não discriminação. Para sistemas de alto risco: explicação, contestação, revisão humana, grau de contribuição da IA, dados processados.</p>
+</div>
+<div class="fragment">
+<p><strong>3. Classificação de Riscos</strong> Sistema flexível: o SIA pode ajustar classificações caso a caso e atualizar a lista completa.</p>
+</div>
+<div class="fragment">
+<p><strong>4. Obrigações</strong> Avaliação de risco, documentação, responsável pela conformidade, testes de desempenho, medidas anti-discriminação. Entidades públicas: consulta pública prévia + divulgação das avaliações de risco.</p>
+</div>
+<div class="fragment">
+<p><strong>5. Inovação</strong> P&amp;D público, proteção de direitos autorais, <em>sandbox</em> regulatório para modelos de remuneração de criadores.</p>
+</div>
+</section>
+<section id="a-inovação-institucional-o-sia" class="slide level2">
+<h2>A Inovação Institucional: O SIA</h2>
+<p>O <strong>Sistema Nacional de Regulação e Governança de IA (SIA)</strong> é a principal inovação estrutural do PL:</p>
+<p><strong>Modelo híbrido:</strong></p>
+<ul>
+<li><strong>Reguladores setoriais</strong> (ANATEL, ANVISA, Banco Central etc.) atuam dentro de suas competências — têm expertise técnica no mercado</li>
+<li><strong>Coordenador central</strong> (provavelmente a ANPD) garante proteção de direitos fundamentais — tem expertise em direitos individuais</li>
+</ul>
+<div class="fragment">
+<p><strong>Por que esse modelo importa?</strong></p>
+<p>Reguladores setoriais tendem a focar em eficiência de mercado. A coordenação central garante que a proteção de direitos fundamentais não seja subordinada à lógica econômica setorial.</p>
+</div>
+</section>
+<section id="resolução-cnj-nº-6152025" class="slide level2">
+<h2>Resolução CNJ nº 615/2025</h2>
+<p>O Judiciário se auto-regulou antes da lei geral:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Regra</th>
+<th>Conteúdo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Caráter auxiliar</strong></td>
+<td>IA tem função exclusivamente auxiliar</td>
+</tr>
+<tr class="even">
+<td><strong>Vedação de automatismo</strong></td>
+<td>Proibida decisão judicial sem supervisão humana</td>
+</tr>
+<tr class="odd">
+<td><strong>Alto risco</strong></td>
+<td>Auditorias periódicas e relatórios de impacto</td>
+</tr>
+<tr class="even">
+<td><strong>Catálogo público</strong></td>
+<td>CNJ publica lista de aplicações de IA em uso</td>
+</tr>
+<tr class="odd">
+<td><strong>Capacitação prévia</strong></td>
+<td>Uso só liberado após treinamento em uso ético</td>
+</tr>
+<tr class="even">
+<td><strong>Transparência</strong></td>
+<td>Relatórios públicos de impacto e desempenho</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>A Resolução entrou em vigor em março de 2025 — antes mesmo do PL 2338/2023 ser votado pela Câmara. O Judiciário estabeleceu suas próprias regras internas antes da lei geral chegar.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-6" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 6</h1>
+
+</section>
+<section id="ia-no-judiciário-brasileiro" class="slide level2">
+<h2>IA no Judiciário Brasileiro</h2>
+<p><em>Da regulação à prática: o que os tribunais já fazem</em></p>
+</section>
+<section id="iajus-2026-um-ecossistema-em-formação" class="slide level2">
+<h2>IAJus 2026: Um Ecossistema em Formação</h2>
+<p>Em 24 de abril de 2026, o CNJ realizou o <strong>IAJus 2026 — Encontro de Integração em IA do Judiciário</strong>, com <strong>16 soluções selecionadas</strong> em 4 categorias.</p>
+<p>O evento também lançou:</p>
+<ul>
+<li><strong>Sinapses 2.0</strong> — repositório nacional de modelos de IA para compartilhamento entre tribunais</li>
+<li><strong>2ª edição</strong> da pesquisa sobre IA generativa no Judiciário brasileiro</li>
+<li><strong>Edital</strong> de chamamento público para novas soluções</li>
+</ul>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>A plataforma <strong>Sinapses</strong> resolve um problema real: evitar que cada tribunal reinvente a roda. Um modelo desenvolvido em um tribunal pode ser compartilhado com outros sem custo de desenvolvimento adicional — lógica colaborativa de inovação pública.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="categoria-1-triagem-e-gestão-do-acervo" class="slide level2">
+<h2>Categoria 1 — Triagem e Gestão do Acervo</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tribunal</th>
+<th>Ferramenta</th>
+<th>O que faz</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>TRF-2</strong></td>
+<td>Intelliagent</td>
+<td>Integra soluções de IA à interface dos sistemas para análise e gestão de processos</td>
+</tr>
+<tr class="even">
+<td><strong>TJPA</strong></td>
+<td>Anonimizador</td>
+<td>Remove dados sensíveis de documentos automaticamente, em conformidade com a LGPD</td>
+</tr>
+<tr class="odd">
+<td><strong>TRT-9</strong></td>
+<td>ELO TRIAGEM</td>
+<td>Classifica e prioriza processos automaticamente</td>
+</tr>
+<tr class="even">
+<td><strong>TRF-1</strong></td>
+<td>SILVA</td>
+<td>Triagem, organização de acervos e geração de minutas em lote para matérias repetitivas</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>O <strong>Anonimizador do TJPA</strong> foi desenvolvido de forma <strong>agnóstica</strong> — pode ser replicado por qualquer tribunal ou órgão público. É IA aplicada diretamente à conformidade com a LGPD.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="categoria-2-apoio-à-decisão-judicial" class="slide level2">
+<h2>Categoria 2 — Apoio à Decisão Judicial</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tribunal</th>
+<th>Ferramenta</th>
+<th>Diferencial</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>TRT-4</strong></td>
+<td><strong>Galileu</strong></td>
+<td>Lê petições e contestações, sugere estrutura de sentença com jurisprudência do TST. Adotado em toda a Justiça do Trabalho.</td>
+</tr>
+<tr class="even">
+<td><strong>TRF-3</strong></td>
+<td>LIA3R</td>
+<td>Pesquisa jurídica e elaboração de minutas, desenvolvida pelos próprios magistrados e servidores</td>
+</tr>
+<tr class="odd">
+<td><strong>TJRJ</strong></td>
+<td><strong>Assis</strong></td>
+<td>Gera minutas baseadas no perfil decisório individual de cada juiz, com dados em nuvem isolada</td>
+</tr>
+<tr class="even">
+<td><strong>STJ</strong></td>
+<td>STJ Logos</td>
+<td>Análise de admissibilidade de recursos e geração de relatórios decisórios</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Aviso</strong></p>
+</div>
+<div class="callout-content">
+<p>Sobre o Galileu: <em>“Não realiza análises jurídicas, não avalia provas, nem toma decisões. Ele apenas gera minutas e apresenta sugestões de subsídios potenciais, que são obrigatoriamente revisadas e avaliadas pelos magistrados.”</em> — equipe do TRT-4.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="categorias-3-e-4-gestão-e-serviços-ao-cidadão" class="slide level2">
+<h2>Categorias 3 e 4 — Gestão e Serviços ao Cidadão</h2>
+<p><strong>Gestão administrativa:</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tribunal</th>
+<th>Ferramenta</th>
+<th>Aplicação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>TJTO</strong></td>
+<td>Giseli</td>
+<td>Gestão inteligente de serventias extrajudiciais (cartórios)</td>
+</tr>
+<tr class="even">
+<td><strong>TSE</strong></td>
+<td>Trilha + ChatTSE</td>
+<td>Organização de fluxos administrativos e atendimento interno</td>
+</tr>
+<tr class="odd">
+<td><strong>TRT-18</strong></td>
+<td>Ata Automatizada</td>
+<td>Transcrição e estruturação automática de atas de audiências</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Serviços ao cidadão:</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tribunal</th>
+<th>Ferramenta</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>TJPB</strong></td>
+<td>SIMPLIFICA</td>
+<td>Traduz decisões e andamentos para linguagem simples e acessível</td>
+</tr>
+<tr class="even">
+<td><strong>TRT-14</strong></td>
+<td>Aterma-IA</td>
+<td>Facilita a atermação — ação trabalhista sem advogado</td>
+</tr>
+<tr class="odd">
+<td><strong>TJMT</strong></td>
+<td>Hannah</td>
+<td>Mapa de admissibilidade com 14 critérios para filtrar recursos</td>
+</tr>
+<tr class="even">
+<td><strong>TRT-1</strong></td>
+<td>Anti-robôs PJe</td>
+<td>Protege o sistema contra acesso massivo automatizado</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="o-princípio-da-reserva-humana" class="slide level2">
+<h2>O Princípio da Reserva Humana</h2>
+<p>Todos os sistemas compartilham um denominador: <strong>a IA auxilia, não decide</strong>.</p>
+<p>O juiz auxiliar responsável pelo projeto Hannah (TJMT) resume:</p>
+<blockquote>
+<p><em>“A discussão ética a respeito do uso da IA foi o que nos levou à construção de um sistema que não retirasse a responsabilidade do ato de julgar. A IA não pode, em nenhuma hipótese, nos substituir. Ela é um auxílio para a construção da decisão, mas não substitui quem decide.”</em></p>
+</blockquote>
+<div class="fragment">
+<div class="debate-box">
+<p>💬 <strong>Debate crítico:</strong> Se a taxa de aprovação das sugestões da IA for de 95%, ainda há supervisão humana <em>significativa</em> — ou apenas homologação automática com responsabilidade formal?</p>
+<p>Isso tem implicações para: fundamentação das decisões, direito ao contraditório, e responsabilidade civil do Estado.</p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-7" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 7</h1>
+
+</section>
+<section id="ia-nos-escritórios-de-advocacia" class="slide level2">
+<h2>IA nos Escritórios de Advocacia</h2>
+<p><em>Ferramentas, riscos e responsabilidade profissional</em></p>
+</section>
+<section id="o-que-já-é-possível-automatizar" class="slide level2">
+<h2>O que já é possível automatizar</h2>
+<p><strong>Pesquisa e análise:</strong></p>
+<ul>
+<li>Pesquisa jurisprudencial semântica — encontra casos por significado, não por palavra-chave exata</li>
+<li>Resumos de processos extensos com identificação dos pontos controvertidos</li>
+<li>Identificação de precedentes aplicáveis a um caso concreto via RAG</li>
+</ul>
+<p><strong>Redação:</strong></p>
+<ul>
+<li>Minutas de contratos e cláusulas padronizadas</li>
+<li>Revisão sistemática de NDAs e contratos com checklists configuráveis segundo a metodologia do escritório</li>
+<li>Petições em matérias repetitivas com base no acervo interno</li>
+</ul>
+<p><strong>Gestão:</strong></p>
+<ul>
+<li>Monitoramento de prazos e andamentos em escala</li>
+<li>Triagem de correspondências e demandas</li>
+<li>Tradução da linguagem jurídica para o cliente em linguagem acessível</li>
+</ul>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>A lógica de <strong>skills</strong> (pacotes de instrução especializados) permite ao escritório <em>codificar sua metodologia</em> — a IA passa a aplicá-la de forma consistente, como um protocolo institucional que não depende de um único profissional.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="riscos-éticos-e-deontológicos" class="slide level2">
+<h2>Riscos Éticos e Deontológicos</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Questão</th>
+<th>O problema</th>
+<th>O que ainda não está resolvido</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sigilo profissional</strong></td>
+<td>Dados de clientes em plataformas externas podem ser usados para treinar outros modelos</td>
+<td>O Código de Ética da OAB não regulou expressamente o uso de IA</td>
+</tr>
+<tr class="even">
+<td><strong>Responsabilidade</strong></td>
+<td>Peça com alucinação pode configurar negligência profissional</td>
+<td>Quem responde: o advogado, o escritório ou o fornecedor da IA?</td>
+</tr>
+<tr class="odd">
+<td><strong>Transparência</strong></td>
+<td>Deve-se informar ao cliente que IA foi usada?</td>
+<td>Não há obrigação expressa ainda — mas há debate crescente</td>
+</tr>
+<tr class="even">
+<td><strong>Competência</strong></td>
+<td>Não entender os limites da ferramenta é, em si, um risco</td>
+<td>Quando o uso inadequado de IA configura imperícia?</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Aviso</strong></p>
+</div>
+<div class="callout-content">
+<p>⚠️ O PL 2338/2023 prevê responsabilidade solidária entre <strong>fornecedor</strong> e <strong>operador</strong> do sistema de IA pelos danos causados. O advogado que usa IA é operador — e pode responder pelos danos decorrentes de seu uso.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="boas-práticas-para-o-profissional-jurídico" class="slide level2">
+<h2>Boas Práticas para o Profissional Jurídico</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prática</th>
+<th>Por quê</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Verificar toda saída da IA</strong></td>
+<td>Alucinações são convincentes e frequentes em contexto jurídico</td>
+</tr>
+<tr class="even">
+<td><strong>Usar modelos locais ou com contrato de não-treinamento</strong> para dados sigilosos</td>
+<td>Sigilo profissional e LGPD</td>
+</tr>
+<tr class="odd">
+<td><strong>Documentar o uso de IA</strong> no processo de trabalho</td>
+<td>Rastreabilidade e responsabilidade</td>
+</tr>
+<tr class="even">
+<td><strong>Manter supervisão humana real</strong>, não apenas formal</td>
+<td>Viés de automação é o risco mais insidioso</td>
+</tr>
+<tr class="odd">
+<td><strong>Capacitar-se nos limites técnicos</strong> da ferramenta</td>
+<td>Usar sem entender é imperícia potencial</td>
+</tr>
+<tr class="even">
+<td><strong>Acompanhar a regulação</strong> em tramitação</td>
+<td>O PL 2338/2023 ainda aguarda a Câmara — obrigações mudarão</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="módulo-8" class="title-slide slide level1 center" data-background-color="#1a1a2e" color="white">
+<h1>Módulo 8</h1>
+
+</section>
+<section id="síntese-exercício-prático-e-encerramento" class="slide level2">
+<h2>Síntese, Exercício Prático e Encerramento</h2>
+</section>
+<section id="o-fio-que-conecta-os-módulos" class="slide level2">
+<h2>O Fio que Conecta os Módulos</h2>
+<pre><code>Fundamentos técnicos (M1–M3)
+        ↓
+  explicam por que surgem os
+        ↓
+Riscos jurídicos (M4)
+        ↓
+    que justificam a
+        ↓
+Regulação (M5)
+        ↓
+  que se traduz em regras para o
+        ↓
+Judiciário (M6) e Escritórios (M7)</code></pre>
+<div class="fragment">
+<p>A lógica não é apenas descritiva — é normativa: quanto mais autônoma e opaca for a IA, maior a necessidade de supervisão, explicabilidade e accountability.</p>
+</div>
+</section>
+<section id="o-que-muda-para-o-profissional-do-direito" class="slide level2">
+<h2>O que Muda para o Profissional do Direito?</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Antes</th>
+<th>Com IA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pesquisa manual de jurisprudência</td>
+<td>Busca semântica em toda a base de um tribunal via RAG</td>
+</tr>
+<tr class="even">
+<td>Redação de minutas do zero</td>
+<td>Minutas sugeridas calibradas por gabinete</td>
+</tr>
+<tr class="odd">
+<td>Triagem manual de processos</td>
+<td>Classificação e priorização automatizadas</td>
+</tr>
+<tr class="even">
+<td>Leitura integral de peças longas</td>
+<td>Resumos estruturados com pontos controvertidos</td>
+</tr>
+<tr class="odd">
+<td>Monitoramento manual de prazos</td>
+<td>Alertas automáticos com rascunho já preparado</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<blockquote>
+<p><em>A habilidade mais valiosa do jurista na era da IA não é operar a ferramenta — é saber <strong>quando confiar nela e quando não confiar</strong>.</em></p>
+</blockquote>
+</div>
+</section>
+<section id="exercício-prático" class="slide level2">
+<h2>Exercício Prático</h2>
+<div class="exercise-box">
+<p><strong>🔬 Teste de alucinação jurídica</strong></p>
+<p><strong>Passo 1:</strong> Faça a seguinte pergunta a um LLM de sua escolha:</p>
+<blockquote>
+<p><em>“Cite três decisões do STJ sobre responsabilidade civil de plataformas digitais por conteúdo de terceiros, indicando o número do processo, relator, data e ementa.”</em></p>
+</blockquote>
+<p><strong>Passo 2:</strong> Verifique cada citação no site do STJ.</p>
+<p><strong>Passo 3:</strong> Discuta em grupo:</p>
+<ul>
+<li>Quantas das citações existem de fato?</li>
+<li>As que existem têm os dados corretos?</li>
+<li>A ementa corresponde ao conteúdo real do julgado?</li>
+<li>Qual seria o impacto de protocolar essa peça sem verificar?</li>
+</ul>
+<p><strong>Tempo sugerido:</strong> 15 minutos</p>
+</div>
+</section>
+<section id="questões-em-aberto-para-o-direito" class="slide level2 scrollable">
+<h2>Questões em Aberto para o Direito</h2>
+<div class="debate-box">
+<ol type="1">
+<li><p>A IA pode ser testemunha, perito ou parte num processo?</p></li>
+<li><p>Sistemas que recomendam condenações ou absolvições violam o princípio do juiz natural?</p></li>
+<li><p>Deve haver obrigação de <em>disclosure</em> quando IA foi usada na elaboração de peças processuais?</p></li>
+<li><p>Como garantir que a IA no Judiciário não amplie as desigualdades de acesso à justiça?</p></li>
+<li><p>O viés de automação — aceitar sugestões da IA sem revisão crítica — pode configurar cerceamento de defesa?</p></li>
+<li><p>Sistemas treinados em dados históricos de decisões reproduzem e ampliam discriminações do passado?</p></li>
+<li><p>A responsabilidade civil pelo dano causado por IA no exercício da advocacia é do advogado, do escritório ou do fornecedor — ou dos três?</p></li>
+</ol>
+</div>
+</section>
+<section id="encerramento" class="slide level2">
+<h2>Encerramento</h2>
+<div class="debate-box">
+<p><em>“Os sistemas algorítmicos não somente ordenam e organizam o que vemos, mas também produzem as condições de possibilidade do que é possível ser visto.”</em></p>
+<p>— Anna Bentes, <em>Inteligência Artificial e Desafios Regulatórios</em> (Forense, 2026)</p>
+</div>
+<div class="fragment">
+<p>A IA não transforma apenas as ferramentas do jurista — transforma o que é possível questionar, o que é visível nos autos, o que chega à atenção do magistrado.</p>
+<p>Entender isso não é opcional para quem vai exercer o direito nos próximos anos. <strong>É uma condição de competência profissional.</strong></p>
+</div>
+<div class="fragment">
+<p><em>Esta apresentação foi produzida com apoio de IA generativa e revisada pelo docente.</em></p>
+</div>
+</section>
+<section id="fontes-e-referências" class="slide level2">
+<h2>Fontes e Referências</h2>
+<p><strong>Fundamentos técnicos:</strong> Maarten Grootendorst &amp; Jay Alammar, <em>Hands-On Large Language Models</em> (O’Reilly, 2024)</p>
+<p><strong>Glossário oficial:</strong> Governo Digital / MGI, <em>Glossário de Termos Relacionados à IA</em> (2025) — gov.br</p>
+<p><strong>Regulação:</strong> Laura Schertel Mendes &amp; Beatriz Kira, “Brussels to Brasilia: Brazil’s Distinct Path in AI Regulation” (2024) · PL 2338/2023 · Resolução CNJ nº 615/2025</p>
+<p><strong>IA e subjetividade:</strong> Anna Bentes, “Inteligência Artificial e Economia da Atenção” in <em>Inteligência Artificial e Desafios Regulatórios</em> (Forense, 2026)</p>
+<p><strong>Judiciário:</strong> CNJ, <em>IAJus 2026 — Soluções Selecionadas</em> (2026) · Portais institucionais: TRT-4, TJRJ, STJ, TJPA, TJMT, TJPB</p>
+<p><strong>Advocacia:</strong> Lawvable, <em>Awesome Legal Skills</em> — github.com/lawvable/awesome-legal-skills</p>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="apêndice" class="title-slide slide level1 center" data-background-color="#37474f" color="white">
+<h1>Apêndice</h1>
+
+</section>
+<section id="tokenização-e-embeddings-em-detalhe" class="slide level2">
+<h2>Tokenização e Embeddings em Detalhe</h2>
+<p><em>Material complementar para quem quiser aprofundar</em></p>
+</section>
+<section id="tokenização-como-a-ia-divide-o-texto" class="slide level2">
+<h2>Tokenização: Como a IA Divide o Texto</h2>
+<p>O texto é dividido em pedaços chamados <strong>tokens</strong> antes de ser processado:</p>
+<pre><code>"Habeas corpus"  → ["Hab", "eas", " corp", "us"]
+"Réu"            → ["R", "éu"]
+"apelação"       → ["ap", "ela", "ção"]</code></pre>
+<p>Cada token recebe um <strong>ID numérico</strong> único. A IA só processa números — nunca palavras diretamente.</p>
+<div class="fragment">
+<p>Quatro abordagens de tokenização:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Abordagem</th>
+<th>Unidade</th>
+<th>Vantagem</th>
+<th>Desvantagem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Por palavra</strong></td>
+<td>Palavras inteiras</td>
+<td>Intuitivo</td>
+<td>Não lida com palavras novas</td>
+</tr>
+<tr class="even">
+<td><strong>Por subpalavra</strong></td>
+<td>Partes de palavras</td>
+<td>Flexível, vocabulário eficiente</td>
+<td>Menos intuitivo</td>
+</tr>
+<tr class="odd">
+<td><strong>Por caractere</strong></td>
+<td>Letras individuais</td>
+<td>Lida com qualquer palavra</td>
+<td>Contexto muito menor</td>
+</tr>
+<tr class="even">
+<td><strong>Por byte</strong></td>
+<td>Bytes Unicode</td>
+<td>Universal, multilingual</td>
+<td>Sequências muito longas</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="embeddings-o-significado-em-números" class="slide level2">
+<h2>Embeddings: O Significado em Números</h2>
+<p>Cada token é convertido em um <strong>vetor</strong> — uma lista de números que captura seu significado:</p>
+<ul>
+<li>Palavras semanticamente próximas ficam <strong>próximas no espaço matemático</strong></li>
+<li>“Réu” fica próximo de “acusado”, distante de “autor”</li>
+<li>“Sentença” fica próxima de “decisão”, distante de “contrato”</li>
+</ul>
+<div class="fragment">
+<p>Isso permite <strong>busca semântica</strong>: em vez de buscar pela palavra exata, busca-se pelo significado.</p>
+<p>Exemplo: uma busca por <em>“inadimplemento contratual”</em> pode retornar documentos que falam em <em>“descumprimento de obrigação”</em> ou <em>“mora do devedor”</em> — porque os embeddings identificam que os conceitos são próximos, mesmo com palavras diferentes.</p>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Dica</strong></p>
+</div>
+<div class="callout-content">
+<p>Este é o mecanismo que torna o RAG possível: os documentos da base são convertidos em embeddings, a pergunta do usuário também vira um embedding, e o sistema encontra os documentos mais próximos semanticamente.</p>
+</div>
+</div>
+</div>
+
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>IA e Direito | Apresentação para Alunos de Direito</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="ia_e_direito_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="ia_e_direito_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="ia_e_direito_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="ia_e_direito_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiada");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiada");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

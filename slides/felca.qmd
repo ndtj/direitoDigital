@@ -1,0 +1,309 @@
+---
+title: "ECA digital (Lei Felca)"
+subtitle: "Regulação do ambiente digital e proteção de crianças e adolescentes"
+author: "José de Jesus Filho"
+format: revealjs
+
+---
+## 🌐 Introdução
+
+- Lei nº 15.211/2025 (ECA Digital)
+- Entrada em vigor: março de 2026
+- Extensão do Estatuto da Criança e do Adolescente ao ambiente digital
+- Responde a riscos específicos da internet:
+  - exposição excessiva
+  - exploração econômica
+  - acesso a conteúdos nocivos
+- Mudança de paradigma: proteção offline → proteção híbrida (offline + online)
+
+## 📌 Contexto de criação
+
+- Crescimento da presença infantil em plataformas digitais
+- Casos de exploração e adultização amplamente divulgados
+- Pressão social e política por regulação mais rígida
+- Influência de debates internacionais (UE, EUA)
+- Tramitação relativamente rápida no Congresso
+
+## 🎯 Finalidade da lei
+
+- Garantir direitos fundamentais no ambiente digital:
+  - dignidade
+  - privacidade
+  - desenvolvimento saudável
+- Prevenir danos antes que ocorram
+- Reduzir assimetrias entre crianças e plataformas
+- Responsabilizar atores do ecossistema digital
+- Concretizar o princípio da proteção integral
+
+## 🧩 Estrutura geral da lei
+
+- Deveres impostos às plataformas digitais
+- Responsabilidades atribuídas a pais e responsáveis
+- Regras específicas sobre tratamento de dados
+- Mecanismos de controle e supervisão estatal
+- Previsão de sanções administrativas relevantes
+
+## 🔞 Verificação de idade
+
+- Superação do modelo de autodeclaração
+- Exigência de mecanismos confiáveis de aferição
+- Diferenciação de acesso por faixa etária
+- Obrigação de impedir acesso a conteúdos inadequados
+- Centralidade do tema na aplicação prática da lei
+
+## 📱 Exemplo: redes sociais
+
+- Situação típica:
+  - adolescente cria conta em TikTok ou Instagram
+- Modelo anterior:
+  - basta declarar idade
+- Novo cenário:
+  - validação por documento ou biometria
+  - possível autorização parental
+- Consequência:
+  - aumento de custo e fricção
+  - possível exclusão de usuários
+
+## 🎮 Exemplo: jogos online
+
+- Plataformas como Roblox e Fortnite
+- Riscos:
+  - interação com desconhecidos
+  - compras impulsivas (microtransações)
+  - exposição a linguagem imprópria
+  
+## 🎮 Exemplo: jogos online
+
+- Exigências da lei:
+  - controle parental ativo
+  - restrição de funcionalidades
+  - limitação por idade
+- Impacto direto na experiência do usuário
+
+## 👨‍👩‍👧 Controle parental
+
+- Obrigatório para menores de 16 anos
+- Contas vinculadas a responsáveis legais
+- Ferramentas devem ser claras e acessíveis
+- Responsáveis passam a ter papel ativo
+- Mudança de lógica: autonomia → supervisão
+
+## 📱 Exemplo: controle parental
+
+- Funcionalidades esperadas:
+  - limite de tempo de uso
+  - bloqueio de mensagens de desconhecidos
+  - aprovação de downloads
+  - controle de compras
+- Exemplo concreto:
+  - pai define uso de 2h/dia e bloqueia chat
+- Implicação:
+  - plataformas precisam redesenhar interfaces
+
+## 🔐 Proteção de dados pessoais
+
+- Restrição ao tratamento de dados de menores
+- Proibição de publicidade comportamental
+- Exigência de configurações mais protetivas por padrão
+- Integração com princípios da LGPD:
+  - finalidade
+  - necessidade
+  - minimização
+- Criança como titular especialmente vulnerável
+
+## 📊 Exemplo: publicidade digital
+
+- Modelo anterior:
+  - anúncios baseados em histórico e comportamento
+- Novo modelo:
+  - publicidade contextual (não personalizada)
+- Consequências:
+  - redução de receita para plataformas
+  - mudança no modelo de negócios
+  - incentivo a novas formas de monetização
+
+## 📉 Design seguro (safety by design)
+
+- Plataformas devem antecipar riscos
+- Arquitetura deve reduzir exposição a danos
+- Evitar mecanismos de engajamento excessivo
+- Incorporar proteção desde a concepção
+- Aproximação com regulação europeia
+
+## ⚙️ Exemplo: mudanças de design
+
+- Redução ou eliminação de autoplay
+- Limitação de notificações constantes
+- Alteração de algoritmos de recomendação
+- Redução de conteúdo potencialmente viciante
+- Impacto direto no modelo de atenção
+
+## 🚫 Conteúdos proibidos e nocivos
+
+- Conteúdos inadequados para menores
+- Exploração e abuso infantil
+- Conteúdos que incentivem comportamentos prejudiciais
+- Dever de remoção rápida
+- Possível obrigação de reporte às autoridades
+
+## 📸 Exemplo: influenciadores mirins
+
+- Crianças com perfis monetizados
+- Produção de conteúdo patrocinado
+- Riscos:
+  - exploração econômica
+  - exposição excessiva
+- Possíveis efeitos da lei:
+  - restrições à monetização
+  - maior fiscalização
+- Debate: trabalho infantil digital
+
+## ⚠️ Exemplo: sharenting
+
+- Pais compartilham rotinas e imagens dos filhos
+- Conteúdo viraliza em redes sociais
+- Riscos:
+  - violação de privacidade
+  - uso indevido por terceiros
+- Lei pode:
+  - limitar práticas abusivas
+  - incentivar responsabilização
+
+## 💰 Impactos econômicos
+
+- Redução de receitas com publicidade direcionada
+- Custos elevados de compliance
+- Necessidade de investimento em tecnologia
+- Impacto desproporcional em empresas menores
+- Possível concentração de mercado
+
+## 🎮 Exemplo: loot boxes
+
+- Compra de itens aleatórios em jogos
+- Similaridade com jogos de azar
+- Problema:
+  - crianças não compreendem riscos
+- Regulação:
+  - restrição ou proibição
+- Impacto na indústria de games
+
+## 🧠 Papel da ANPD
+
+- Autoridade central na proteção de dados
+- Emissão de orientações técnicas
+- Fiscalização do cumprimento da lei
+- Interpretação de conceitos abertos
+- Atuação coordenada com outros órgãos
+
+## 📄 ANPD – aferição de idade
+
+- Não existe solução única obrigatória
+- Abordagem baseada em risco
+- Mecanismos devem ser:
+  - proporcionais
+  - seguros
+  - menos invasivos
+- Evitar coleta excessiva de dados
+- Incentivo à inovação regulada
+
+## ⚙️ Exemplo: modelos de aferição
+
+- Baixo risco:
+  - autodeclaração
+- Médio risco:
+  - confirmação adicional
+- Alto risco:
+  - documento ou biometria
+- Escolha depende do tipo de conteúdo
+- Lógica: proporcionalidade regulatória
+
+## ⚖️ Relação com o Marco Civil da Internet
+
+- Marco Civil:
+  - responsabilidade após ordem judicial
+- ECA Digital:
+  - atuação preventiva
+- Mudança relevante:
+  - do reativo para o proativo
+- Possível tensão normativa
+
+## 📱 Exemplo: moderação de conteúdo
+
+- Situação:
+  - conteúdo potencialmente inadequado
+- Antes:
+  - remoção após decisão judicial
+- Agora:
+  - remoção preventiva pelas plataformas
+- Consequência:
+  - risco de overblocking
+
+## 🌍 Comparação internacional
+
+- Aproximação com o Digital Services Act (UE)
+- Elementos comuns:
+  - proteção de menores
+  - deveres de cuidado
+- Diferenças:
+  - menor detalhamento no Brasil
+  - maior discricionariedade
+
+## ⚠️ Controvérsias centrais
+
+- Risco de censura privada
+- Conceitos jurídicos indeterminados
+- Ampliação da vigilância digital
+- Custos de implementação elevados
+- Dúvidas sobre efetividade prática
+
+## 📉 Exemplo: overblocking
+
+- Conteúdo educativo sobre sexualidade
+- Algoritmo classifica como impróprio
+- Plataforma remove automaticamente
+- Problema:
+  - erro de classificação
+  - impacto na liberdade de expressão
+
+## 🔐 Paradoxo regulatório
+
+- Objetivo:
+  - proteger crianças
+- Meio:
+  - aumentar controle e monitoramento
+- Resultado:
+  - mais coleta de dados
+  - mais vigilância
+- Tensão com privacidade
+
+## 🧠 Interpretação teórica
+
+- Regulação baseada em risco
+- Governança privada (plataformas como reguladores)
+- Constitucionalismo digital
+- Proteção de vulneráveis
+- Expansão do direito para o ambiente tecnológico
+
+## 📌 Desafios práticos
+
+- Implementação tecnológica complexa
+- Custos elevados para empresas
+- Fiscalização limitada do Estado
+- Baixa educação digital da população
+- Necessidade de regulamentação complementar
+
+## 🚀 Conclusão
+
+- Marco importante na regulação digital brasileira
+- Alinhamento com tendências internacionais
+- Forte foco na proteção infantil
+- Ainda em fase de consolidação prática
+- Resultados dependerão da aplicação concreta
+
+## 💬 Questões para debate
+
+- Verificação de idade é tecnicamente viável?
+- Plataformas devem decidir o que é conteúdo nocivo?
+- Há risco de censura privada?
+- Qual o limite da intervenção estatal na família?
+- A lei equilibra bem proteção e liberdade?

@@ -1,7 +1,9 @@
+---
 title: "ECA Digital (Lei Felca)"
 subtitle: "Proteção de crianças e adolescentes no ambiente digital"
 author: "José de Jesus Filho"
 format: revealjs
+---
 
 ## 🌐 Introdução
 

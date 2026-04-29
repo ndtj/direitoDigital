@@ -1,0 +1,946 @@
+---
+title: "Lei Geral de Proteção de Dados Pessoais (LGPD)"
+subtitle: "Lei nº 13.709/2018 — fundamentos, estrutura e aplicação prática"
+author: "Aula elaborada com base nos guias orientativos da ANPD e no texto legal"
+date: today
+lang: pt-BR
+format:
+  revealjs:
+    theme: serif
+    slide-number: true
+    toc: true
+    toc-depth: 1
+    toc-title: "Roteiro da aula"
+    transition: slide
+    chalkboard: true
+    logo: ""
+    footer: "LGPD — Lei nº 13.709/2018"
+    highlight-style: github
+    code-fold: true
+    scrollable: true
+---
+
+## Por que proteger dados pessoais?
+
+Vivemos em um mundo onde bilhões de operações digitais ocorrem a cada segundo. A cada clique, compra, cadastro ou acesso a um serviço público, dados pessoais são gerados, armazenados e processados.
+
+. . .
+
+Sem regras claras, esse fluxo pode:
+
+- alimentar discriminação (crédito, emprego, saúde)
+- violar a privacidade e a dignidade das pessoas
+- criar assimetrias de poder entre empresas e cidadãos
+- expor indivíduos a fraudes, perseguições e danos morais
+
+. . .
+
+> A proteção de dados pessoais é, antes de tudo, uma questão de **direitos fundamentais**.
+
+## Contexto histórico e internacional
+
+**Décadas de 1970–1990:** primeiras leis nacionais de proteção de dados na Europa (Suécia, Alemanha, França).
+
+**1995:** Diretiva Europeia 95/46/CE — marco do modelo europeu de proteção de dados.
+
+**2016/2018:** Regulamento Geral de Proteção de Dados da União Europeia (**GDPR**) — inspiração direta para a LGPD.
+
+**2018:** sanção da **Lei nº 13.709** — Lei Geral de Proteção de Dados Pessoais (**LGPD**).
+
+**2020:** entrada em vigor da LGPD (setembro de 2020); sanções administrativas a partir de agosto de 2021.
+
+**2022:** a **Emenda Constitucional nº 115** elevou a proteção de dados pessoais ao rol dos direitos e garantias fundamentais (art. 5º, LXXIX, da CF/88).
+
+## A proteção de dados como direito fundamental
+
+Com a EC nº 115/2022, o art. 5º, LXXIX da Constituição Federal passou a prever expressamente:
+
+> *"é assegurado, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais."*
+
+. . .
+
+Isso tem consequências práticas relevantes:
+
+- integra o núcleo dos direitos fundamentais, com proteção constitucional reforçada
+- reforça a vinculação de toda a administração pública às normas da LGPD
+- serve de parâmetro de interpretação para todo o ordenamento infraconstitucional
+
+# Parte I — Estrutura e âmbito de aplicação da LGPD
+
+## O que é a LGPD?
+
+A **Lei nº 13.709, de 14 de agosto de 2018**, dispõe sobre o tratamento de dados pessoais, inclusive em meio digital, por pessoa natural ou jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural (art. 1º).
+
+. . .
+
+A lei foi alterada pela **Lei nº 13.853/2019**, que, entre outras mudanças:
+
+- criou a **ANPD** — então "Autoridade Nacional de Proteção de Dados", transformada em agência reguladora pela **Lei nº 15.352/2026**
+- instituiu o **CNPD** (Conselho Nacional de Proteção de Dados Pessoais e da Privacidade)
+- ajustou prazos e definições
+
+## Âmbito de aplicação (art. 3º)
+
+A LGPD aplica-se a qualquer operação de tratamento realizada:
+
+| Critério | Descrição |
+|---|---|
+| **Território** | operação realizada no Brasil |
+| **Oferta** | atividade voltada à oferta de bens ou serviços a indivíduos no Brasil |
+| **Coleta** | dados coletados em território nacional |
+
+. . .
+
+A aplicação **independe** do meio, da sede da empresa ou da localização dos dados — inclusive no exterior.
+
+## Hipóteses de **não** aplicação (art. 4º)
+
+A LGPD **não** se aplica ao tratamento de dados pessoais realizado:
+
+- por pessoa natural para fins exclusivamente particulares e não econômicos
+- para fins exclusivamente jornalísticos, artísticos ou acadêmicos (com ressalvas)
+- para fins exclusivos de segurança pública, defesa nacional, segurança do Estado e atividades de investigação e repressão de infrações penais
+- proveniente de fora do território nacional e que não seja objeto de comunicação com agentes de tratamento brasileiros, nem objeto de transferência internacional
+
+> ⚠️ As exceções são interpretadas de forma **restritiva**.
+
+## Conceitos-chave: dado pessoal e dado sensível
+
+**Dado pessoal** (art. 5º, I):
+> Informação relacionada a **pessoa natural identificada ou identificável**.
+
+. . .
+
+Exemplos: nome, CPF, e-mail, endereço IP, geolocalização, número de telefone, cookie de identificação.
+
+. . .
+
+**Dado pessoal sensível** (art. 5º, II):
+> dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação sindical ou a organização religiosa, filosófica ou política; dado referente à saúde ou vida sexual; dado genético ou biométrico, quando vinculado a uma pessoa natural.
+
+. . .
+
+> ⚠️ Dados sensíveis recebem **proteção reforçada** — regime jurídico especial (art. 11).
+
+## Outros conceitos essenciais (art. 5º)
+
+| Termo | Definição legal |
+|---|---|
+| **Tratamento** | toda operação realizada com dados: coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação, controle, modificação, comunicação, transferência, difusão ou extração |
+| **Controlador** | pessoa natural ou jurídica que toma as decisões sobre o tratamento |
+| **Operador** | pessoa natural ou jurídica que realiza o tratamento em nome do controlador |
+| **Encarregado (DPO)** | pessoa indicada pelo controlador para atuar como canal de comunicação |
+| **Titular** | pessoa natural a quem se referem os dados tratados |
+| **Anonimização** | processo pelo qual um dado perde, de forma irreversível, a possibilidade de associação a um indivíduo |
+
+## Dado anonimizado vs. dado pseudonimizado
+
+**Dado anonimizado** (art. 5º, III): dado relativo ao titular que não pode ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião do tratamento. Não é dado pessoal para fins da LGPD.
+
+. . .
+
+**Dado pseudonimizado** (art. 5º, XIII): tratamento por meio do qual um dado perde a possibilidade de associação direta a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente controlado e seguro. **Continua sendo dado pessoal**.
+
+. . .
+
+> A distinção é crucial: pseudonimização reduz riscos, mas não retira a incidência da LGPD. Anonimização genuína exclui a aplicação da lei.
+
+# Parte II — Princípios gerais do tratamento
+
+## Os dez princípios do art. 6º
+
+A LGPD estabelece dez princípios que regem **toda e qualquer** atividade de tratamento de dados. São mandamentos normativos, não meras recomendações.
+
+. . .
+
+> *"As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios..."* (art. 6º, caput)
+
+## Princípio da finalidade
+
+**Art. 6º, I** — realização do tratamento para propósitos **legítimos, específicos, explícitos e informados** ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades.
+
+. . .
+
+**Na prática:** ao coletar um e-mail para enviar uma nota fiscal, a empresa não pode usá-lo, posteriormente, para campanhas de marketing sem base legal independente. A finalidade original limita o uso futuro dos dados.
+
+## Princípio da adequação
+
+**Art. 6º, II** — compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento.
+
+. . .
+
+**Na prática:** os dados coletados devem ser adequados ao contexto em que foram fornecidos. Dados de saúde fornecidos para atendimento médico não podem ser usados para fins comerciais, ainda que exista consentimento genérico.
+
+## Princípio da necessidade
+
+**Art. 6º, III** — limitação do tratamento ao **mínimo necessário** para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados.
+
+. . .
+
+**Na prática:** se para cadastrar um usuário basta nome e e-mail, não há justificativa para coletar data de nascimento, CPF e endereço — a não ser que exista finalidade específica e base legal para cada campo adicional.
+
+## Princípio do livre acesso
+
+**Art. 6º, IV** — garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.
+
+. . .
+
+**Na prática:** o titular deve poder saber, a qualquer momento e sem custo, quais dados a empresa possui sobre ele, por que os trata e por quanto tempo os manterá.
+
+## Princípio da qualidade dos dados
+
+**Art. 6º, V** — garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento.
+
+. . .
+
+**Na prática:** manter bases de dados desatualizadas, com informações incorretas ou irrelevantes, configura violação desse princípio — e pode gerar responsabilidade quando causa danos ao titular.
+
+## Princípio da transparência
+
+**Art. 6º, VI** — garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial.
+
+. . .
+
+**Na prática:** políticas de privacidade obscuras, escritas em linguagem técnica e inacessível, violam esse princípio. A transparência exige linguagem clara e acessível ao público-alvo.
+
+## Princípio da segurança
+
+**Art. 6º, VII** — utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão.
+
+. . .
+
+**Na prática:** controles de acesso, criptografia, registros de auditoria (logs), planos de resposta a incidentes e treinamentos de equipe são exemplos de medidas de segurança exigidas.
+
+## Princípio da prevenção
+
+**Art. 6º, VIII** — adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais.
+
+. . .
+
+**Na prática:** não basta reagir a incidentes — é necessário agir preventivamente, avaliando riscos antes de iniciar um novo tratamento. Aqui entra o conceito de **privacy by design** (privacidade desde a concepção).
+
+## Princípio da não discriminação
+
+**Art. 6º, IX** — impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos.
+
+. . .
+
+**Na prática:** usar dados para negar crédito, emprego ou serviços com base em origem étnica, religião, opinião política ou outros dados sensíveis, sem base legal adequada, é expressamente vedado.
+
+## Princípio da responsabilização e prestação de contas
+
+**Art. 6º, X** — demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.
+
+. . .
+
+**Na prática:** o ônus de demonstrar conformidade é do **agente de tratamento**, não do titular ou da ANPD. Documentação, políticas internas, treinamentos e registros de atividades são fundamentais para demonstrar *accountability*.
+
+# Parte III — Bases legais para o tratamento de dados
+
+## O que são bases legais?
+
+A LGPD adota o modelo do **numerus clausus**: o tratamento de dados pessoais só é lícito se fundamentado em **uma das hipóteses expressamente previstas** na lei.
+
+. . .
+
+Isso significa que:
+
+- não existe tratamento lícito "por padrão"
+- a empresa deve identificar **qual** base legal justifica **cada** operação de tratamento
+- bases legais diferentes têm requisitos e consequências diferentes
+
+## As dez bases legais para dados comuns (art. 7º)
+
+| # | Base legal | Síntese |
+|---|---|---|
+| I | **Consentimento** | manifestação livre, informada, inequívoca e específica |
+| II | **Obrigação legal/regulatória** | cumprimento de norma jurídica pelo controlador |
+| III | **Políticas públicas** | execução pela administração pública |
+| IV | **Pesquisa** | estudos por órgão de pesquisa, com anonimização sempre que possível |
+| V | **Execução de contrato** | necessário para contrato do qual o titular é parte |
+| VI | **Exercício regular de direitos** | processos judicial, administrativo ou arbitral |
+| VII | **Proteção da vida** | proteção da vida ou incolumidade física |
+| VIII | **Tutela da saúde** | por profissionais de saúde ou autoridades sanitárias |
+| IX | **Interesse legítimo** | exceto quando prevalecerem direitos e liberdades fundamentais do titular |
+| X | **Proteção ao crédito** | conforme legislação pertinente |
+
+## Consentimento — requisitos e limites
+
+O consentimento (art. 5º, XII) deve ser:
+
+- **livre** — sem coerção ou condicionamento indevido
+- **informado** — o titular deve saber o que está consentindo
+- **inequívoco** — não admite presunção nem silêncio como anuência
+- **específico** — para finalidades determinadas
+
+. . .
+
+**Revogação (art. 8º, §5º):** o titular pode revogar o consentimento a qualquer momento, mediante manifestação expressa, por procedimento gratuito e facilitado.
+
+. . .
+
+> ⚠️ Consentimento **não** é a única nem a principal base legal. Utilizá-lo como base padrão para tudo é um erro comum de conformidade.
+
+## Consentimento de crianças e adolescentes (art. 14)
+
+O tratamento de dados de **crianças** (até 12 anos incompletos) exige consentimento específico e destacado de pelo menos um dos pais ou responsável legal.
+
+. . .
+
+Para **adolescentes** (12 a 18 anos), aplica-se a proteção geral da LGPD, com atenção ao melhor interesse do menor.
+
+. . .
+
+As plataformas devem:
+
+- realizar esforços razoáveis para verificar a identidade do responsável
+- manter as informações em formato acessível ao responsável
+- não condicionar a participação do menor ao fornecimento de dados além dos necessários
+
+. . .
+
+> A ANPD publicou o **Guia Orientativo: Proteção de Dados Pessoais de Crianças e Adolescentes** com orientações específicas para plataformas digitais, aplicativos e serviços voltados a esse público, incluindo requisitos de design de interfaces e mecanismos de verificação da idade.
+
+## Interesse legítimo — base legal mais complexa (art. 10)
+
+O interesse legítimo pode fundamentar o tratamento quando:
+
+- for necessário para atender aos interesses legítimos do controlador **ou** de terceiro
+- os interesses legítimos não **prevalecerem** sobre os direitos e liberdades fundamentais do titular
+- o tratamento não incluir dados sensíveis
+
+. . .
+
+Um interesse é considerado **legítimo** se atender a três condições:
+
+1. compatibilidade com o ordenamento jurídico
+2. lastro em situações **concretas** (não meramente especulativas)
+3. vinculação a finalidades **específicas e explícitas**
+
+## O teste de balanceamento — 3 fases {.smaller}
+
+Segundo o **Guia Orientativo da ANPD (2024)**, o teste possui três fases:
+
+. . .
+
+**Fase 1 — Finalidade:** identificar o interesse (do controlador ou de terceiro) e avaliar sua legitimidade; verificar se não envolve dados sensíveis; adotar cautelas extras se houver dados de crianças ou adolescentes.
+
+. . .
+
+**Fase 2 — Necessidade:** tratar apenas os dados *estritamente necessários*; verificar se há meios menos intrusivos para atingir a mesma finalidade (art. 10, § 1º).
+
+. . .
+
+**Fase 3 — Balanceamento e salvaguardas:** ponderar os interesses do controlador com os direitos e liberdades do titular; adotar salvaguardas proporcionais (ex.: opt-out, prazo reduzido de retenção, controle de acesso).
+
+> O teste deve ser **documentado** — art. 37 exige registro das operações, especialmente quando fundadas no legítimo interesse.
+
+## Legítimo interesse — exemplos que podem ser válidos
+
+::: incremental
+- **Universidade envia promoções da própria editora** (livros e produtos culturais) a alunos e professores por e-mail, com mecanismo de descadastramento.
+- **Escola coleta dados de acesso ao wi-fi** para autenticar estudantes e garantir segurança na rede — há relação prévia e finalidade protetiva.
+- **Shopping instala câmeras de segurança**, inclusive para localizar crianças perdidas — desde que com rígido controle de acesso, prazo curto de retenção e sem reconhecimento facial biométrico.
+- **Empresa divulga curso de idiomas de terceiro** a funcionários como incentivo ao aperfeiçoamento profissional, com transparência e opção de recusa.
+:::
+
+> Em todos os casos o **teste de balanceamento deve ser realizado e documentado**.
+
+## Legítimo interesse — quando NÃO é aplicável
+
+::: incremental
+- **Dados sensíveis** (saúde, biometria etc.): a hipótese do art. 10 não abrange dados do art. 11 — exige base legal específica. *(Ex.: clínica que alega LI para tratar histórico médico de pacientes.)*
+- **Publicidade direcionada a crianças** com conteúdo prejudicial *(Ex.: app educacional que exibe anúncios de alimentos ultraprocessados a menores — viola o princípio do melhor interesse.)*
+- **Vigilância total de empregados** *(Ex.: software que registra webcam e tudo que é digitado — coleta desproporcional, viola legítima expectativa mesmo que conste na política de privacidade.)*
+- **Poder Público no exercício de atribuições legais**: deve usar execução de políticas públicas ou cumprimento de obrigação legal — a assimetria de forças impede a ponderação adequada.
+:::
+
+> O legítimo interesse **não é uma cláusula aberta** para condutas abusivas ou coletas desproporcionais.
+
+## Bases legais para dados sensíveis (art. 11)
+
+Dados sensíveis só podem ser tratados nas seguintes hipóteses:
+
+**Com consentimento:** específico e destacado, para finalidades específicas.
+
+**Sem consentimento, quando indispensável para (art. 11, II):**
+
+- **a)** cumprimento de obrigação legal ou regulatória
+- **b)** execução de políticas públicas pela administração pública
+- **c)** estudos por órgão de pesquisa (com anonimização sempre que possível)
+- **d)** exercício regular de direitos (inclusive em processo judicial, administrativo ou arbitral)
+- **e)** proteção da vida ou da incolumidade física
+- **f)** tutela da saúde, exclusivamente por profissionais ou autoridades sanitárias
+- **g)** garantia da prevenção à fraude e à segurança do titular (em processos de identificação e autenticação)
+
+# Parte IV — Agentes de tratamento e responsabilidades
+
+## Controlador (art. 5º, VI)
+
+O **controlador** é quem:
+
+- define **se** o tratamento ocorrerá
+- define **por que** (finalidade) os dados serão tratados
+- decide **como** os dados serão usados
+- determina **quem** terá acesso
+
+. . .
+
+Pode ser pessoa natural ou jurídica, de direito público ou privado. No setor privado, geralmente é a empresa. No setor público, é o órgão ou entidade pública.
+
+. . .
+
+> O controlador responde pelas decisões tomadas — inclusive pelas decisões de seus operadores.
+
+## Operador (art. 5º, VII)
+
+O **operador** é quem trata dados **em nome do controlador**, seguindo suas instruções. Exemplos:
+
+- empresa de computação em nuvem que armazena dados do controlador
+- empresa de call center contratada para atender clientes
+- fornecedor de software de CRM que processa dados de clientes do contratante
+
+. . .
+
+O operador deve observar as instruções do controlador e implementar as medidas de segurança exigidas. Pode ser responsabilizado solidariamente quando descumprir a legislação ou as instruções do controlador.
+
+## Encarregado (DPO) — art. 41
+
+O **encarregado pelo tratamento de dados pessoais** (Data Protection Officer — DPO) é a pessoa indicada pelo controlador para:
+
+- aceitar reclamações e comunicações dos titulares
+- prestar esclarecimentos e adotar providências
+- receber comunicações da ANPD
+- orientar os funcionários e contratados da entidade
+- executar as demais atribuições determinadas pelo controlador ou estabelecidas em normas complementares
+
+. . .
+
+A ANPD publicou o **Guia Orientativo sobre a Atuação do Encarregado**, com boas práticas e recomendações detalhadas para o exercício da função.
+
+## Responsabilidade e ressarcimento (arts. 42–45)
+
+O **controlador** ou o **operador** que causar dano (material ou moral) ao titular em razão do tratamento são obrigados a repará-lo.
+
+. . .
+
+**Responsabilidade com inversão do ônus da prova** (art. 43) — o controlador deve demonstrar que não violou a lei, que o dano decorreu de culpa exclusiva do titular ou de terceiro, ou que não realizou o tratamento que lhe é atribuído.
+
+. . .
+
+**Excludentes de responsabilidade (art. 43):**
+
+- quando não realizou o tratamento que lhe é atribuído
+- quando, embora tenha realizado, não houve violação à legislação de proteção de dados
+- quando o dano é decorrente de culpa exclusiva do titular ou de terceiro
+
+. . .
+
+Controlador e operador podem ser **responsabilizados solidariamente** quando o dano decorrer de violação à LGPD.
+
+# Parte V — Direitos do titular
+
+## O catálogo de direitos do titular (art. 18)
+
+O titular tem direito a:
+
+| Direito | Conteúdo |
+|---|---|
+| **Confirmação** | saber se existe tratamento de seus dados |
+| **Acesso** | obter cópia dos dados tratados |
+| **Correção** | retificar dados incompletos, inexatos ou desatualizados |
+| **Anonimização, bloqueio ou eliminação** | para dados desnecessários, excessivos ou tratados em desconformidade |
+| **Portabilidade** | transferência dos dados a outro fornecedor |
+| **Eliminação** | dos dados tratados com base no consentimento |
+| **Informação** | sobre os agentes com quem os dados foram compartilhados |
+| **Não consentimento** | de ser informado sobre a possibilidade de não fornecer consentimento e sobre as consequências |
+| **Revogação do consentimento** | a qualquer momento, de forma gratuita e facilitada |
+| **Revisão** | de decisões tomadas unicamente com base em tratamento automatizado |
+
+## Exercício dos direitos pelo titular
+
+Os direitos podem ser exercidos:
+
+- diretamente perante o **controlador**, por requerimento expresso
+- perante a **ANPD**, por reclamação formal
+- perante organismos de **defesa do consumidor**
+
+. . .
+
+O controlador deve responder ao titular em prazo determinado pela ANPD (art. 18, §§ 3º e 5º). A resposta pode:
+
+- atender o pedido
+- indeferir fundamentadamente (com possibilidade de recurso à ANPD)
+
+## Direito à revisão de decisões automatizadas (art. 20)
+
+O titular tem direito a solicitar **revisão humana** de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, incluindo decisões destinadas a definir seu perfil pessoal, profissional, de consumo e de crédito, ou os aspectos de sua personalidade.
+
+. . .
+
+**Exemplos práticos:**
+
+- negativa de crédito por score automatizado
+- rejeição de candidatura a emprego por triagem algorítmica
+- bloqueio de conta em plataforma digital por detecção automática de fraude
+
+. . .
+
+O controlador deve informar os critérios e os procedimentos para revisão (art. 20, § 1º). Com a expansão de sistemas de **inteligência artificial**, esse direito ganha crescente relevância — a ANPD acompanha o tema no âmbito do debate sobre regulação de IA no Brasil.
+
+# Parte VI — Segurança, incidentes e boas práticas
+
+## Segurança da informação (art. 46)
+
+Os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas, capazes de proteger os dados pessoais de:
+
+- acessos não autorizados
+- situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito
+
+. . .
+
+A ANPD pode dispor sobre padrões técnicos mínimos. Enquanto isso, os agentes devem observar o **estado da técnica** e os princípios gerais da LGPD.
+
+## Boas práticas de segurança
+
+Com base no **Guia Orientativo da ANPD sobre Segurança da Informação para Agentes de Pequeno Porte**:
+
+- **gestão de acesso:** princípio do menor privilégio — cada usuário acessa apenas o necessário para sua função
+- **senhas e autenticação:** uso de senhas fortes e autenticação em múltiplos fatores
+- **backup:** realização periódica de cópias de segurança em local separado
+- **atualização de sistemas:** aplicação regular de patches e correções de segurança
+- **treinamento:** capacitação dos colaboradores em práticas de segurança
+- **política de descarte:** eliminação segura de dados e dispositivos
+
+## Comunicação de incidentes de segurança (art. 48)
+
+O controlador deve comunicar à **ANPD** e ao **titular** a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares.
+
+. . .
+
+A comunicação deve ser feita nos **prazos regulamentares** e deve conter:
+
+- descrição da natureza dos dados afetados
+- informações sobre os titulares envolvidos
+- indicação das medidas técnicas e de segurança utilizadas
+- riscos relacionados ao incidente
+- medidas adotadas para reverter ou mitigar os efeitos do incidente
+
+. . .
+
+> **Prazos (Resolução CD/ANPD nº 02/2022):** comunicação **preliminar em até 3 dias úteis** e comunicação **complementar em até 20 dias úteis** a partir da ciência do incidente. A ANPD disponibiliza formulário eletrônico próprio (CIS).
+
+## Relatório de Impacto à Proteção de Dados (RIPD)
+
+O **RIPD** (art. 38) é um documento elaborado pelo controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco.
+
+. . .
+
+A ANPD pode determinar ao controlador a elaboração do RIPD quando o tratamento representar alto risco.
+
+. . .
+
+O RIPD é uma ferramenta de **governança** e **prestação de contas** — materializa o princípio da responsabilização.
+
+## Privacy by design e privacy by default
+
+**Privacy by design** (privacidade desde a concepção):
+- a proteção de dados deve ser considerada desde o projeto de sistemas, produtos e serviços
+- não é um complemento: é parte integrante do design
+
+. . .
+
+**Privacy by default** (privacidade como padrão):
+- as configurações padrão dos sistemas devem ser as mais protetoras da privacidade
+- o titular não deve precisar agir para ter sua privacidade protegida — o padrão já deve ser o mais restritivo
+
+. . .
+
+Esses conceitos derivam do princípio da prevenção (art. 6º, VIII) e do princípio da necessidade (art. 6º, III).
+
+# Parte VII — Transferência internacional de dados
+
+## Quando é permitida a transferência internacional?
+
+A transferência de dados pessoais para outros países ou organizações internacionais (art. 33) é permitida quando:
+
+- o país de destino proporciona **grau de proteção adequado** reconhecido pela ANPD
+- o controlador oferecer e comprovar **garantias suficientes** (cláusulas contratuais padrão, normas corporativas globais, selos, certificados, códigos de conduta)
+- a transferência for necessária para **execução de contrato** com o titular
+- houver **consentimento específico** do titular
+- for necessária para **cooperação jurídica** entre órgãos públicos
+- for necessária para **proteção da vida** ou incolumidade física
+- a ANPD autorizar em casos específicos
+
+## Adequabilidade do país receptor
+
+A ANPD avalia o nível de proteção de dados do país receptor, considerando:
+
+- a legislação e normas gerais e setoriais vigentes no país
+- a natureza dos dados
+- a observância dos princípios de proteção de dados
+- a existência de garantias judiciais e institucionais
+- outras circunstâncias específicas da transferência (art. 34)
+
+## Regulamentação da ANPD sobre transferência internacional
+
+A **Resolução CD/ANPD nº 19/2023** regulamentou as hipóteses de transferência internacional, estabelecendo:
+
+- **cláusulas contratuais padrão (CCP):** modelo publicado pela ANPD, de uso obrigatório nas contratações com operadores estrangeiros, salvo hipóteses alternativas
+- **normas corporativas globais (BCR):** para grupos empresariais que transferem dados entre suas entidades no exterior, sujeitas a aprovação pela ANPD
+- **avaliação de adequação:** a ANPD publica lista de países e organizações internacionais com proteção considerada adequada
+
+. . .
+
+> A regulamentação alinha o Brasil ao modelo do GDPR europeu e confere maior segurança jurídica às transferências internacionais.
+
+# Parte VIII — ANPD e o sistema de fiscalização
+
+## Evolução institucional da ANPD (2018–2026) {.smaller}
+
+| Período | Marco | Natureza jurídica |
+|---|---|---|
+| 2018–2019 | LGPD sancionada; MP 869/2018 e Lei 13.853/2019 criam a ANPD | Órgão da Presidência da República |
+| 2020 | Decreto 10.474 — estrutura regimental; nomeação do 1º Diretor-Presidente | Órgão sem autonomia financeira |
+| 2022 | EC 115; MP 1.124 e **Lei 14.460/2022** — transformação em autarquia | **Autarquia de natureza especial** |
+| 2023 | Decretos 11.348 e 11.401 — vinculação ao MJSP | Autarquia vinculada ao MJSP |
+| 2025 | Lei 15.211 (ECA Digital); **MP 1.317** — início da transformação em agência reguladora | Transição |
+| **2026** | **Lei 15.352/2026** — conversão da MP; Decreto 12.881 — nova estrutura regimental | **Agência reguladora** |
+
+## ANPD — Fase 1: criação (2018–2020)
+
+**2018 — Lei nº 13.709 (LGPD):** a lei previa a criação de uma autoridade de proteção de dados, mas não a criou diretamente.
+
+. . .
+
+**2018 — MP nº 869:** criou a Autoridade Nacional de Proteção de Dados como órgão integrante da Presidência da República, com estrutura mínima (36 cargos).
+
+. . .
+
+**2019 — Lei nº 13.853:** converteu a MP e inseriu o desenho institucional definitivo na LGPD — mas a ANPD ainda carecia de autonomia administrativa e financeira.
+
+. . .
+
+**2020 — Decreto nº 10.474:** aprovou a primeira estrutura regimental. Em novembro de 2020 foi nomeado o primeiro Diretor-Presidente e a ANPD passou a funcionar efetivamente.
+
+## ANPD — Fase 2: consolidação como autarquia (2022–2024)
+
+**EC nº 115/2022:** elevou a proteção de dados a direito fundamental (art. 5º, LXXIX, CF) e atribuiu à União competência privativa para legislar sobre a matéria.
+
+. . .
+
+**Lei nº 14.460/2022** (conversão da MP 1.124): transformou a ANPD em **autarquia de natureza especial**, conferindo autonomia técnica, decisória, administrativa, financeira e patrimonial — modelo análogo ao das agências reguladoras.
+
+. . .
+
+**2023 — Decretos 11.348 e 11.401:** vincularam a ANPD ao **Ministério da Justiça e Segurança Pública (MJSP)**, com a atribuição de elaborar e coordenar a Política Nacional de Proteção de Dados.
+
+. . .
+
+**2024:** intensificação da atividade regulatória — normas sobre incidentes de segurança, transferência internacional, atuação do encarregado e planejamento regulatório.
+
+## ANPD — Fase 3: agência reguladora (2025–2026)
+
+**Lei nº 15.211/2025 (ECA Digital):** atribuiu à ANPD novas competências para a proteção de dados de crianças e adolescentes no ambiente digital, incluindo poder de fiscalização sobre plataformas.
+
+. . .
+
+**MP nº 1.317/2025:** transformou a ANPD em **agência reguladora**, com criação de carreira de estado própria (Carreira de Regulação e Fiscalização de Proteção de Dados).
+
+. . .
+
+**Lei nº 15.352/2026** (conversão da MP): criou oficialmente a **Agência Nacional de Proteção de Dados**, inserindo-a no rol das agências reguladoras federais.
+
+. . .
+
+**Decreto nº 12.881/2026:** nova estrutura regimental com três superintendências — Fiscalização, Regulação, e Relações Institucionais e Internacionais.
+
+> A transformação em agência reguladora confere à ANPD independência política reforçada, mandatos fixos para os diretores e maior capacidade de enforcement.
+
+## A ANPD — Agência Nacional de Proteção de Dados
+
+A **ANPD** (Agência Nacional de Proteção de Dados — Lei nº 15.352/2026) é a agência reguladora federal responsável por:
+
+- zelar pela proteção de dados pessoais
+- elaborar diretrizes para a **Política Nacional de Proteção de Dados Pessoais e da Privacidade**
+- fiscalizar e aplicar sanções em caso de tratamento irregular
+- promover o conhecimento sobre proteção de dados na sociedade
+- estimular boas práticas e a adoção de medidas de governança
+- proteger dados de **crianças e adolescentes** no ambiente digital (Lei 15.211/2025)
+
+. . .
+
+Suas competências estão elencadas no art. 55-J da LGPD.
+
+## Sanções administrativas (art. 52)
+
+A ANPD pode aplicar as seguintes sanções aos agentes que descumprirem a LGPD:
+
+| Sanção | Limite |
+|---|---|
+| Advertência | com prazo para adoção de medidas |
+| Multa simples | até 2% do faturamento (limitada a R$ 50 milhões por infração) |
+| Multa diária | com limite total |
+| Publicização da infração | após apuração e confirmação |
+| Bloqueio dos dados | até a regularização |
+| Eliminação dos dados | relacionados à infração |
+| Suspensão parcial do banco de dados | por até 6 meses, prorrogáveis |
+| Suspensão do tratamento | por até 6 meses, prorrogáveis |
+| Proibição parcial ou total do tratamento | |
+
+## Critérios para dosimetria das sanções
+
+A ANPD considera (art. 52, §1º):
+
+- a gravidade e a natureza das infrações e dos direitos pessoais afetados
+- a boa-fé do infrator
+- a vantagem auferida ou pretendida pelo infrator
+- a condição econômica do infrator
+- a reincidência
+- o grau do dano
+- a cooperação do infrator com a ANPD
+- a adoção reiterada e demonstrada de mecanismos e procedimentos de mitigação do impacto dos dados
+- a adoção de política de boas práticas e governança
+- a pronta adoção de medidas corretivas
+- a proporcionalidade entre a gravidade da falta e a intensidade da sanção
+
+## O CNPD — Conselho Nacional de Proteção de Dados
+
+O **CNPD** é órgão consultivo, composto por 23 membros com representação de:
+
+- poder executivo federal
+- poder legislativo
+- poder judiciário e Ministério Público
+- sociedade civil
+- instituições científicas, tecnológicas e de inovação
+- setor empresarial
+
+. . .
+
+Suas competências incluem propor diretrizes estratégicas e fornecer subsídios para a elaboração da Política Nacional de Proteção de Dados.
+
+# Parte IX — Tratamento de dados pelo poder público
+
+## Especificidades do setor público (arts. 23–32)
+
+O poder público pode tratar dados pessoais para:
+
+- execução de **políticas públicas** previstas em leis e regulamentos
+- cumprimento de **atribuições legais**
+- compartilhamento de dados com outros órgãos, para finalidades específicas e compatíveis
+
+. . .
+
+**Vedação importante (art. 26, §1º):** é proibido ao poder público transferir a entidades privadas dados pessoais constantes de suas bases, salvo exceções expressamente listadas.
+
+## Princípios específicos para o poder público
+
+No tratamento de dados pelo setor público:
+
+- o **controlador** é o órgão ou entidade pública responsável
+- as finalidades devem ser **públicas e transparentes**
+- deve ser garantido ao cidadão o **acesso às informações** sobre o tratamento, em consonância com a Lei de Acesso à Informação (Lei nº 12.527/2011)
+- o uso compartilhado de dados entre órgãos deve observar os princípios do art. 6º e ter finalidade específica
+
+. . .
+
+> A ANPD publicou o **Guia Orientativo para o Tratamento de Dados Pessoais pelo Poder Público**, com orientações específicas para gestores e agentes públicos.
+
+# Parte X — Programa de governança em privacidade
+
+## O que é um programa de privacidade?
+
+Um **programa de governança em privacidade** (ou programa de conformidade com a LGPD) é o conjunto estruturado de políticas, processos, controles e treinamentos que uma organização adota para:
+
+- cumprir as exigências legais da LGPD
+- demonstrar conformidade à ANPD e aos titulares
+- prevenir incidentes e reduzir riscos
+- construir confiança com clientes, parceiros e usuários
+
+## Etapas de implementação
+
+**1. Mapeamento de dados (data mapping)**
+Identificar quais dados pessoais a organização trata, onde estão, por quem, para qual finalidade e com qual base legal.
+
+. . .
+
+**2. Análise de lacunas (gap analysis)**
+Comparar a situação atual com os requisitos da LGPD e identificar os pontos de não conformidade.
+
+. . .
+
+**3. Plano de ação**
+Definir prioridades, responsáveis e prazos para adequação.
+
+. . .
+
+**4. Implementação**
+Adotar políticas de privacidade, cláusulas contratuais com operadores, controles técnicos e administrativos, treinamentos.
+
+. . .
+
+**5. Monitoramento contínuo**
+Auditorias internas, revisão de políticas, atualização frente a novas regulamentações da ANPD.
+
+## Inventário de dados: o ponto de partida
+
+Todo programa começa pelo **inventário de dados** (ou registro das atividades de tratamento), que documenta:
+
+| Campo | Exemplo |
+|---|---|
+| Categoria de dados | dados cadastrais, dados de saúde, dados financeiros |
+| Finalidade | concessão de crédito, prestação de serviço |
+| Base legal | consentimento, execução de contrato |
+| Origem | coletado diretamente do titular |
+| Compartilhamento | operadores, terceiros |
+| Retenção | prazo de guarda |
+| Medidas de segurança | criptografia, controle de acesso |
+
+## Política de privacidade: o que deve constar
+
+A política de privacidade (aviso de privacidade) deve informar:
+
+- identidade e dados de contato do controlador
+- dados de contato do encarregado
+- finalidades do tratamento
+- bases legais utilizadas
+- dados pessoais coletados e praticados
+- compartilhamentos realizados
+- transferências internacionais (se houver)
+- prazo de retenção
+- direitos do titular e como exercê-los
+- canais de comunicação
+
+# Parte XI — Casos práticos e situações cotidianas
+
+## Caso 1: cookies em sites
+
+**Situação:** um site coloca cookies de rastreamento nos dispositivos dos visitantes para análise de comportamento e publicidade personalizada.
+
+. . .
+
+**Análise LGPD:**
+
+- cookies de rastreamento implicam tratamento de dados pessoais
+- exigem base legal — geralmente **consentimento**
+- o consentimento deve ser **anterior** à colocação dos cookies (não posterior)
+- o banner de cookies deve oferecer opção **real de recusa** — não apenas um botão "aceitar"
+- o titular deve poder gerenciar e revogar suas preferências
+
+. . .
+
+> A ANPD publicou **Guia Orientativo sobre Cookies e Proteção de Dados Pessoais**.
+
+## Caso 2: dados pessoais no contexto trabalhista
+
+**Situação:** uma empresa coleta dados biométricos (digital) para controle de ponto de funcionários.
+
+. . .
+
+**Análise LGPD:**
+
+- dados biométricos são **dados sensíveis** (art. 5º, II)
+- a base legal mais adequada é o **cumprimento de obrigação legal** (CLT permite o controle de jornada) combinado com medidas proporcionais
+- o empregador deve informar os trabalhadores sobre o tratamento
+- dados biométricos não devem ser usados para finalidades além do controle de ponto sem nova base legal
+- medidas de segurança reforçadas são obrigatórias para dados biométricos
+
+## Caso 3: compartilhamento com terceiros
+
+**Situação:** uma clínica compartilha dados de saúde de pacientes com um laboratório parceiro para realização de exames.
+
+. . .
+
+**Análise LGPD:**
+
+- dados de saúde são **sensíveis**
+- o laboratório é um **operador** da clínica para essa finalidade
+- deve haver **contrato escrito** entre clínica (controladora) e laboratório (operadora), com cláusulas de proteção de dados
+- o paciente deve ser informado sobre o compartilhamento (transparência)
+- a base legal pode ser **execução de contrato** com o paciente ou **tutela da saúde**
+- o laboratório só pode usar os dados para a finalidade específica do exame
+
+## Caso 4: vazamento de dados
+
+**Situação:** um e-commerce sofre ataque cibernético e dados de 50.000 clientes (nome, e-mail, CPF e histórico de compras) são expostos.
+
+. . .
+
+**Obrigações imediatas do controlador:**
+
+1. **Contenção:** isolar o sistema comprometido, impedir que o vazamento continue
+2. **Avaliação:** identificar quais dados foram afetados e quantos titulares
+3. **Comunicação à ANPD:** preliminar em **até 3 dias úteis** da ciência; complementar em até 20 dias úteis — via formulário CIS (Resolução CD/ANPD nº 02/2022)
+4. **Comunicação aos titulares:** quando o incidente puder acarretar risco ou dano relevante
+5. **Medidas corretivas:** implementar controles para prevenir novo incidente
+6. **Documentação:** registrar todo o processo de resposta ao incidente
+
+## Caso 5: pesquisa acadêmica com dados pessoais
+
+**Situação:** uma universidade quer realizar pesquisa sobre hábitos de saúde da população usando dados do sistema de saúde pública.
+
+. . .
+
+**Análise LGPD:**
+
+- existe base legal específica para **pesquisa por órgão de pesquisa** (art. 7º, IV e art. 11, II, c)
+- deve ser garantida **anonimização dos dados sempre que possível**
+- os dados só podem ser usados para a finalidade de pesquisa declarada
+- o compartilhamento com o órgão de pesquisa deve ser formalizado
+- os resultados da pesquisa não podem permitir a identificação dos titulares
+
+> A ANPD publicou **Guia Orientativo para Fins Acadêmicos e Estudos e Pesquisas** com orientações específicas para esse contexto.
+
+# Conclusão
+
+## Síntese da aula
+
+Nesta aula percorremos os principais elementos da LGPD:
+
+- **fundamentos:** proteção de dados como direito fundamental
+- **âmbito:** quem a lei alcança e quem ela exclui
+- **conceitos:** dado pessoal, sensível, anonimizado, pseudonimizado
+- **princípios:** os dez mandamentos do art. 6º
+- **bases legais:** as hipóteses lícitas de tratamento
+- **agentes:** controlador, operador, encarregado
+- **direitos dos titulares:** catálogo do art. 18
+- **segurança e incidentes:** obrigações e boas práticas
+- **ANPD:** evolução institucional (2018–2026) e sistema de fiscalização
+- **governança:** como implementar um programa de privacidade
+
+. . .
+
+> A LGPD não é apenas um conjunto de obrigações — é um **instrumento de construção de confiança** entre organizações e as pessoas cujos dados tratam. Conformidade e ética de dados são, cada vez mais, vantagens competitivas e condição para o exercício legítimo do poder econômico e público na era digital.
+
+## Recursos da ANPD
+
+A **ANPD** disponibiliza gratuitamente:
+
+- Guia sobre atuação do encarregado (DPO)
+- Guia sobre hipóteses legais — legítimo interesse
+- Guia para fins acadêmicos e pesquisas
+- Guia para o poder público
+- Guia sobre cookies
+- Guia sobre agentes de tratamento e encarregado
+- Guia de segurança da informação para pequeno porte
+- Guia sobre proteção de dados no contexto eleitoral
+- Fascículos temáticos sobre proteção de dados e vazamentos
+- Glossário de proteção de dados pessoais e da privacidade
+
+Acesso em: [gov.br/anpd](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes)
+
+## Referências principais
+
+- BRASIL. **Lei nº 13.709, de 14 de agosto de 2018** (Lei Geral de Proteção de Dados Pessoais — LGPD). Brasília: Presidência da República, 2018.
+- BRASIL. **Lei nº 13.853, de 8 de julho de 2019** (altera a LGPD e cria a ANPD).
+- BRASIL. **Emenda Constitucional nº 115, de 10 de fevereiro de 2022** (inclui a proteção de dados no art. 5º da CF/88).
+- ANPD. **Guias Orientativos** (diversas edições). Disponíveis em: gov.br/anpd.
+- UNIÃO EUROPEIA. **Regulamento (UE) 2016/679** (GDPR). Jornal Oficial da União Europeia, 2016.
+
+---
+
+::: {.callout-tip}
+## Para saber mais
+
+Acompanhe as publicações e deliberações da ANPD em [gov.br/anpd](https://www.gov.br/anpd) e o portal de dúvidas sobre a LGPD disponível nos canais de atendimento da agência.
+:::
