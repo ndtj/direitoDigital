@@ -24,11 +24,8 @@ Aulas de Direito Digital:
 - Aula 5: [Crimes
   digitais](https://ndtj.github.io/direitoDigital/slides/crimes_digitais.html)
 
-- Aula 6: [Engenharia de
-  prompt](https://ndtj.github.io/direitoDigital/slides/tutorial_prompt.html)
-
-- Aula 7: [Inteligência Artificial e
+- Aula 6: [Inteligência Artificial e
   Direito](https://ndtj.github.io/direitoDigital/slides/ia_e_direito.html)
 
-- Aula 8: [ECA Digital (Lei
+- Aula 7: [ECA Digital (Lei
   Felca)](https://ndtj.github.io/direitoDigital/slides/felca.html)
