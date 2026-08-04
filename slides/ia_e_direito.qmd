@@ -493,7 +493,7 @@ Três conceitos do Glossário GOV.BR com peso jurídico direto:
 | Iniciativa | Jurisdição | Ano | Característica |
 |---|---|---|---|
 | **EU AI Act** | União Europeia | 2024 | Primeira lei abrangente sobre IA no mundo |
-| **Executive Order** Biden | EUA | 2023 | Diretrizes executivas para uso seguro da IA |
+| **Executive Order** IA | EUA | 2023/2025 | EO 14110 (Biden, 2023) revogada por Trump em jan/2025; substituída por EO de desregulação da IA |
 | **Declaração de Bletchley** | Internacional | 2023 | Acordo multilateral sobre riscos de IA avançada |
 | **PL 2338/2023** | Brasil | 2024/2025 | Aprovado pelo Senado em dezembro de 2024 |
 
@@ -749,7 +749,7 @@ A lógica de **skills** (pacotes de instrução especializados) permite ao escri
 | **Documentar o uso de IA** no processo de trabalho | Rastreabilidade e responsabilidade |
 | **Manter supervisão humana real**, não apenas formal | Viés de automação é o risco mais insidioso |
 | **Capacitar-se nos limites técnicos** da ferramenta | Usar sem entender é imperícia potencial |
-| **Acompanhar a regulação** em tramitação | O PL 2338/2023 ainda aguarda a Câmara — obrigações mudarão |
+| **Acompanhar a regulação** em tramitação | O PL 2338/2023 segue em comissão especial na Câmara (relatoria de Aguinaldo Ribeiro) — obrigações finais ainda podem mudar |
 
 ---
 
