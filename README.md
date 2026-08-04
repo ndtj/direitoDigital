@@ -29,3 +29,31 @@ Aulas de Direito Digital:
 
 - Aula 7: [ECA Digital (Lei
   Felca)](https://ndtj.github.io/direitoDigital/slides/felca.html)
+
+## Materiais complementares
+
+- [Segurança
+  cibernética](https://ndtj.github.io/direitoDigital/slides/ciber.html)
+
+- [Constitucionalismo digital: um convidado
+  (in)esperado](https://ndtj.github.io/direitoDigital/slides/constitucionalismo_digital.html)
+
+- [Engenharia de prompt aplicada ao
+  Direito](https://ndtj.github.io/direitoDigital/slides/prompt.html)
+  ([tutorial em
+  texto](https://ndtj.github.io/direitoDigital/slides/tutorial_prompt.html))
+
+Versões anteriores das aulas de LGPD e Marco Civil da Internet ficam
+arquivadas em [`slides/arquivo/`](slides/arquivo/), fora do conjunto de
+slides em uso corrente.
+
+## Como renderizar os slides
+
+Os slides são escritos em [Quarto](https://quarto.org) (`.qmd`, formato
+`revealjs`). Para renderizar localmente:
+
+    quarto render slides/<arquivo>.qmd
+
+O `.html` gerado e a pasta `slides/<arquivo>_files/` devem ser
+commitados junto com o `.qmd` — não há build automático; o GitHub Pages
+publica esses arquivos diretamente do branch `main`.
