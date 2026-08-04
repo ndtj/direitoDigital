@@ -1,6 +1,8 @@
 ---
 title: "Crimes digitais"
-format: revealjs
+format:
+  revealjs:
+    footer: "Crimes digitais"
 editor: visual
 ---
 

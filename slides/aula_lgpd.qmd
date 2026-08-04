@@ -2,22 +2,12 @@
 title: "Lei Geral de Proteção de Dados Pessoais (LGPD)"
 subtitle: "Lei nº 13.709/2018 — fundamentos, estrutura e aplicação prática"
 author: "Aula elaborada com base nos guias orientativos da ANPD e no texto legal"
-date: today
-lang: pt-BR
 format:
   revealjs:
-    theme: serif
-    slide-number: true
-    toc: true
-    toc-depth: 1
     toc-title: "Roteiro da aula"
-    transition: slide
     chalkboard: true
-    logo: ""
     footer: "LGPD — Lei nº 13.709/2018"
-    highlight-style: github
     code-fold: true
-    scrollable: true
 ---
 
 ## Por que proteger dados pessoais?

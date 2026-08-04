@@ -1,23 +1,12 @@
 ---
 title: "Inteligência Artificial e Direito"
 subtitle: "Fundamentos, Regulação e Usos Práticos"
-author: ""
-date: today
-date-format: "DD/MM/YYYY"
-lang: pt-BR
 format:
   revealjs:
-    theme: simple
-    slide-number: true
-    transition: slide
     progress: true
-    toc: true
     toc-title: "Sumário"
-    toc-depth: 1
     footer: "IA e Direito | Apresentação para Alunos de Direito"
     chalkboard: true
-    scrollable: true
-    highlight-style: github
     css: |
       .reveal h1 { font-size: 1.8em; color: #1a1a2e; }
       .reveal h2 { font-size: 1.3em; color: #16213e; }

@@ -1,9 +1,9 @@
 ---
-title: "ECA digital (Lei Felca)"
+title: "ECA Digital (Lei Felca)"
 subtitle: "Regulação do ambiente digital e proteção de crianças e adolescentes"
-author: "José de Jesus Filho"
-format: revealjs
-
+format:
+  revealjs:
+    footer: "ECA Digital — Lei nº 15.211/2025"
 ---
 ## 🌐 Introdução
 

@@ -1,7 +1,7 @@
 ---
 title: "Marco Civil da Internet - parte 2"
-author: "José de Jesus Filho"
 format: revealjs
+footer: "Marco Civil da Internet — Lei nº 12.965/2014 (parte 2)"
 editor: visual
 ---
 

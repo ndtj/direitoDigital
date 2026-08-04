@@ -1,6 +1,7 @@
 ---
 title: "Marco Civil da Internet 1"
 format: revealjs
+footer: "Marco Civil da Internet — Lei nº 12.965/2014 (parte 1)"
 editor: visual
 ---
 
