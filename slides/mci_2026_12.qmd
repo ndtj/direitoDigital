@@ -3,8 +3,7 @@ title: "Responsabilidade civil de plataformas digitais no Brasil"
 subtitle: "Marco Civil da Internet e novo entendimento do STF"
 format:
   revealjs:
-    theme: simple
-    slide-number: true
+    footer: "Marco Civil da Internet — art. 19 e responsabilidade de plataformas"
 ---
 
 ## 1. Internet, Constituição e direitos fundamentais

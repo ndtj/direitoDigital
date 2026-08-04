@@ -1,0 +1,13 @@
+lang: pt-BR
+author: "José de Jesus Filho"
+date: today
+date-format: "DD/MM/YYYY"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: slide
+    highlight-style: github
+    toc: true
+    toc-depth: 1
+    scrollable: true
