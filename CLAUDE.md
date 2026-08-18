@@ -50,3 +50,7 @@ content: atualiza referências desatualizadas em ia_e_direito.qmd
 ```
 
 **Fluxo de trabalho**: cada tarefa lógica (uma mudança coesa e completa) vira um commit próprio, seguido de `git push` para `origin main` antes de passar para a próxima tarefa — não acumule várias tarefas não relacionadas em um único commit, e não deixe trabalho concluído sem *push*.
+
+## Observações
+- Evite o uso excessivo de negritos
+- Evite o uso excessivo de travessão
