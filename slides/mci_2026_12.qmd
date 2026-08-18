@@ -4,20 +4,20 @@ subtitle: "MCI, o julgamento do STF (Temas 987/533) e os Decretos nº 12.975 e 1
 format:
   revealjs:
     toc-title: "Roteiro da aula"
-    footer: "Marco Civil da Internet — art. 19 e responsabilidade de plataformas"
+    footer: "Marco Civil da Internet: art. 19 e responsabilidade de plataformas"
 ---
 
-# Parte I — Fundamentos e histórico normativo
+# Parte I: Fundamentos e histórico normativo
 
 ## 1. Internet, Constituição e direitos fundamentais
 
 - A internet foi consagrada como espaço de comunicação imprescindível à cidadania.
 - Conflitos típicos: liberdade de expressão × honra, privacidade, dignidade e democracia.
-- A regulação da responsabilidade de plataformas é peça-chave para proteger bens constitucionais.
+- A regulação da responsabilidade de plataformas é peça chave para proteger bens constitucionais.
 
-## 2. Marco Civil da Internet — estrutura basilar
+## 2. Marco Civil da Internet: estrutura basilar
 
-**Lei nº 12.965, de 23 de abril de 2014**
+Lei nº 12.965, de 23 de abril de 2014.
 
 - Primeira e principal lei federal sobre governança da internet no Brasil.
 - Elaborada a partir de amplo processo participativo; tornou-se referência internacional.
@@ -36,8 +36,8 @@ Entre os princípios do art. 3º:
 
 O MCI destina suas normas de responsabilidade a dois agentes:
 
-- **Provedores de conexão** — simples acesso à internet.
-- **Provedores de aplicações** — disponibilizam um conjunto de funcionalidades acessível por terminal conectado à internet (art. 5º, VII): redes sociais, plataformas de conteúdo, buscadores, mensageria, e-mail.
+- Provedores de conexão: simples acesso à internet.
+- Provedores de aplicações: disponibilizam um conjunto de funcionalidades acessível por terminal conectado à internet (art. 5º, VII). Ex.: redes sociais, plataformas de conteúdo, buscadores, mensageria, e-mail.
 
 . . .
 
@@ -48,30 +48,30 @@ Grande parte dos agentes econômicos do ambiente digital se enquadra na segunda 
 - Não podem ser responsabilizados por danos decorrentes de conteúdo gerado por terceiros.
 - Simples acesso não implica ingerência no conteúdo.
 
-Ponto consolidado na doutrina e na jurisprudência — não foi afetado pelas mudanças recentes.
+Ponto consolidado na doutrina e na jurisprudência, não foi afetado pelas mudanças recentes.
 
-## 5. Regime original do art. 19 — regra geral
+## 5. Regime original do art. 19: regra geral
 
-> "O provedor de aplicações de internet só pode ser responsabilizado civilmente por conteúdo de terceiros se, após **ordem judicial específica**, não remover o conteúdo apontado como infringente dentro do prazo assinalado."
+> "O provedor de aplicações de internet só pode ser responsabilizado civilmente por conteúdo de terceiros se, após ordem judicial específica, não remover o conteúdo apontado como infringente dentro do prazo assinalado."
 
 Intenção normativa: blindar plataformas de responsabilidade automática, evitar censura privada e deslocar ao Judiciário a análise inicial da ilicitude.
 
 ## 6. Exceções já previstas no texto original
 
-- **Art. 21** — dispensa ordem judicial para conteúdo íntimo não consensual (nudez ou atos sexuais de caráter privado), mediante notificação extrajudicial.
-- **Art. 19, §2º e art. 31** — violação de direitos autorais fica sujeita à Lei nº 9.610/1998 (Lei de Direitos Autorais), afastando o regime geral do art. 19.
+- Art. 21: dispensa ordem judicial para conteúdo íntimo não consensual (nudez ou atos sexuais de caráter privado), mediante notificação extrajudicial.
+- Art. 19, §2º e art. 31: violação de direitos autorais fica sujeita à Lei nº 9.610/1998 (Lei de Direitos Autorais), afastando o regime geral do art. 19.
 
 . . .
 
 Essa coexistência entre regra geral (art. 19) e exceções (art. 21) foi o centro dos debates que levaram ao julgamento do STF.
 
-## 7. Decreto nº 8.771/2016 — regulamentação infralegal
+## 7. Decreto nº 8.771/2016: regulamentação infralegal
 
 - Regulamentou o MCI: hipóteses de discriminação de pacotes de dados, guarda e proteção de dados por provedores, transparência na requisição de dados cadastrais e parâmetros de fiscalização.
-- Atribuiu competências administrativas a órgãos como **Anatel** e **Senacon**.
-- Segue vigente e é a base sobre a qual o **Decreto nº 12.975/2026** foi construído (Parte III).
+- Atribuiu competências administrativas a órgãos como Anatel e Senacon.
+- Segue vigente e é a base sobre a qual o Decreto nº 12.975/2026 foi construído (Parte III).
 
-# Parte II — O julgamento do STF: Temas 987 e 533
+# Parte II: O julgamento do STF nos Temas 987 e 533
 
 ## 8. Os casos
 
@@ -81,54 +81,54 @@ Essa coexistência entre regra geral (art. 19) e exceções (art. 21) foi o cent
 | Relator | Min. Dias Toffoli | Min. Luiz Fux |
 | Questão | Constitucionalidade da exigência de ordem judicial prévia | Regime de responsabilidade dos provedores de aplicações |
 
-Julgamento conjunto, concluído em **26 de junho de 2025**.
+Julgamento conjunto, concluído em 26 de junho de 2025.
 
 ## 9. Placar: 8 a 3
 
-O STF, por **maioria de 8 votos a 3**, reconheceu a **inconstitucionalidade parcial e progressiva** do art. 19 do MCI.
+O STF, por maioria de 8 votos a 3, reconheceu a inconstitucionalidade parcial e progressiva do art. 19 do MCI.
 
-- **Maioria**: Dias Toffoli, Luiz Fux, Luís Roberto Barroso, Cristiano Zanin, Flávio Dino, Gilmar Mendes, Alexandre de Moraes e Cármen Lúcia.
-- **Divergência**: André Mendonça, Edson Fachin e Nunes Marques.
+- Maioria: Dias Toffoli, Luiz Fux, Luís Roberto Barroso, Cristiano Zanin, Flávio Dino, Gilmar Mendes, Alexandre de Moraes e Cármen Lúcia.
+- Divergência: André Mendonça, Edson Fachin e Nunes Marques.
 
 ## 10. Fundamento da maioria
 
-- A exigência de ordem judicial prévia, em todos os casos, **não protegia adequadamente** bens jurídicos de alta relevância: honra, intimidade, dignidade humana e o regular funcionamento das instituições democráticas.
+- A exigência de ordem judicial prévia, em todos os casos, não protegia adequadamente bens jurídicos de alta relevância: honra, intimidade, dignidade humana e o regular funcionamento das instituições democráticas.
 - Era preciso oferecer tutela mais eficiente aos usuários, sobretudo aos que se encontram em condição de vulnerabilidade.
 - Por isso, fixou-se tese destinada a orientar o regime de responsabilização até que o Congresso edite nova disciplina legislativa.
 
 ## 11. Divergências entre os ministros
 
-> ⚠️ Entender as divergências é essencial: elas mostram que a "inconstitucionalidade parcial" não foi consenso técnico, mas uma escolha entre visões distintas sobre como conter dano digital sem abrir espaço a censura privada.
+> ⚠️ Entender as divergências é essencial. Elas mostram que a "inconstitucionalidade parcial" não foi consenso técnico, mas uma escolha entre visões distintas sobre como conter dano digital sem abrir espaço a censura privada.
 
 . . .
 
-**Min. Edson Fachin** — o art. 19, como estava, era legítimo; não havia omissão inconstitucional a ser suprida pelo STF.
+Min. Edson Fachin: o art. 19, como estava, era legítimo; não havia omissão inconstitucional a ser suprida pelo STF.
 
 . . .
 
-**Min. André Mendonça** — defendeu regulação segmentada, baseada em **diligência devida** do provedor (e não no resultado/conteúdo em si), alertando para o risco de **censura indireta** decorrente de responsabilização mais ampla.
+Min. André Mendonça: defendeu regulação segmentada, baseada na diligência devida do provedor (e não no resultado/conteúdo em si), alertando para o risco de censura indireta decorrente de responsabilização mais ampla.
 
 . . .
 
-**Min. Nunes Marques** — sustentou que a expressão deve ser tida por inviolável no momento da publicação, cabendo remédios **pós-publicação**; propôs mecanismos internos de "devido processo digital" como alternativa à responsabilização civil ampliada.
+Min. Nunes Marques: sustentou que a expressão deve ser tida por inviolável no momento da publicação, cabendo remédios pós publicação. Propôs mecanismos internos de "devido processo digital" como alternativa à responsabilização civil ampliada.
 
-## 12. A tese fixada — regra geral
+## 12. A tese fixada: regra geral
 
-Como regra geral, os provedores de aplicações de internet respondem civilmente, **nos termos do art. 21 do MCI**, pelos danos decorrentes de crimes ou atos ilícitos de terceiros quando, **notificados extrajudicialmente**, não removerem o conteúdo.
+Como regra geral, os provedores de aplicações de internet respondem civilmente, nos termos do art. 21 do MCI, pelos danos decorrentes de crimes ou atos ilícitos de terceiros quando, notificados extrajudicialmente, não removerem o conteúdo.
 
 . . .
 
-O regime do art. 21 — antes restrito a conteúdo íntimo não consensual — passou a abranger **crimes e atos ilícitos de naturezas diversas**.
+O regime do art. 21, antes restrito a conteúdo íntimo não consensual, passou a abranger crimes e atos ilícitos de naturezas diversas.
 
 ## 13. Hipóteses sem necessidade de notificação prévia
 
-A tese previu **duas hipóteses** em que a responsabilização independe de notificação, seja do usuário ou do Judiciário:
+A tese previu duas hipóteses em que a responsabilização independe de notificação, seja do usuário ou do Judiciário.
 
-**1ª hipótese** — presunção relativa de culpa na veiculação de **anúncios e impulsionamentos pagos**, ou em mecanismos artificiais de disseminação inorgânica de conteúdo ilícito (afastável se o provedor comprovar atuação diligente).
+1ª hipótese: presunção relativa de culpa na veiculação de anúncios e impulsionamentos pagos, ou em mecanismos artificiais de disseminação inorgânica de conteúdo ilícito (afastável se o provedor comprovar atuação diligente).
 
 ## 14. Rol taxativo de crimes graves
 
-**2ª hipótese** — dever de cuidado quanto a um **rol taxativo de crimes graves**:
+2ª hipótese: dever de cuidado quanto a um rol taxativo de crimes graves.
 
 - atos antidemocráticos;
 - terrorismo;
@@ -140,55 +140,55 @@ A tese previu **duas hipóteses** em que a responsabilização independe de noti
 
 . . .
 
-Aqui, a responsabilização exige **falha sistêmica** — ausência de medidas adequadas de prevenção ou remoção. A existência isolada de conteúdo ilícito **não basta**.
+Aqui, a responsabilização exige falha sistêmica: ausência de medidas adequadas de prevenção ou remoção. A existência isolada de conteúdo ilícito não basta.
 
 ## 15. Réplicas e contas inautênticas
 
-- Em republicações de conteúdo cuja ilicitude já foi reconhecida por decisão judicial, os provedores devem remover as publicações **idênticas** mediante notificação, sem necessidade de nova ordem judicial.
-- A mesma lógica foi estendida a **contas denunciadas como inautênticas** (perfis falsos), dada a facilidade de proliferação desse tipo de conteúdo.
+- Em republicações de conteúdo cuja ilicitude já foi reconhecida por decisão judicial, os provedores devem remover as publicações idênticas mediante notificação, sem necessidade de nova ordem judicial.
+- A mesma lógica foi estendida a contas denunciadas como inautênticas (perfis falsos), dada a facilidade de proliferação desse tipo de conteúdo.
 
 ## 16. Regime residual do art. 19
 
-O regime original — ordem judicial prévia — **permanece válido** para:
+O regime original, de ordem judicial prévia, permanece válido para:
 
-- **crimes contra a honra** (difamação, injúria, calúnia), sem prejuízo da remoção por notificação extrajudicial;
-- serviços de **correio eletrônico**, **reuniões fechadas** por vídeo/voz e **mensageria instantânea**, quanto às comunicações interpessoais protegidas pelo sigilo constitucional das comunicações.
+- crimes contra a honra (difamação, injúria, calúnia), sem prejuízo da remoção por notificação extrajudicial;
+- serviços de correio eletrônico, reuniões fechadas por vídeo/voz e mensageria instantânea, quanto às comunicações interpessoais protegidas pelo sigilo constitucional das comunicações.
 
 ## 17. Deveres complementares fixados pelo STF
 
-- deveres de **autorregulação**, **transparência** e **devido processo** na moderação de conteúdo;
-- exigência de **representante legal no país** para provedores estrangeiros.
+- deveres de autorregulação, transparência e devido processo na moderação de conteúdo;
+- exigência de representante legal no país para provedores estrangeiros.
 
-## 18. Embargos de declaração — esclarecimentos
+## 18. Embargos de declaração: esclarecimentos
 
 Após o julgamento, o STF apreciou embargos de declaração e esclareceu:
 
-- **responsabilidade solidária** entre provedores de aplicação e usuários ofensores;
-- o art. 19 pode se aplicar também a fornecedores **sem interferência** no fluxo comunicativo/informacional;
-- o autor de publicação removida pode pedir seu **restabelecimento judicial**, sem que isso implique indenização ao usuário afetado;
-- responsável e plataforma podem requerer **tutela provisória** para manter o conteúdo até decisão final.
+- responsabilidade solidária entre provedores de aplicação e usuários ofensores;
+- o art. 19 pode se aplicar também a fornecedores sem interferência no fluxo comunicativo/informacional;
+- o autor de publicação removida pode pedir seu restabelecimento judicial, sem que isso implique indenização ao usuário afetado;
+- responsável e plataforma podem requerer tutela provisória para manter o conteúdo até decisão final.
 
 ## 19. Modulação de efeitos e prazo
 
-- **Modulação prospectiva**: a decisão vale para condutas futuras, preservando situações já decididas.
-- Prazo de **60 dias**, a contar da publicação da ata do julgamento, para que os provedores implementem os mecanismos necessários ao exercício do dever de cuidado.
-- Mantido o apelo ao Congresso para legislar sobre a matéria — mas acrescentada a possibilidade de regulamentação pelo **Poder Executivo**.
+- Modulação prospectiva: a decisão vale para condutas futuras, preservando situações já decididas.
+- Prazo de 60 dias, a contar da publicação da ata do julgamento, para que os provedores implementem os mecanismos necessários ao exercício do dever de cuidado.
+- Mantido o apelo ao Congresso para legislar sobre a matéria, mas acrescentada a possibilidade de regulamentação pelo Poder Executivo.
 
 . . .
 
 É exatamente essa brecha que os Decretos nº 12.975 e nº 12.976/2026 ocupam.
 
-# Parte III — Os novos Decretos (12.975 e 12.976/2026)
+# Parte III: Os novos Decretos (12.975 e 12.976/2026)
 
 ## 20. Contexto de edição
 
-- Publicados em **20 de maio de 2026**, com vigência a partir de **20 de julho de 2026** (60 dias após a publicação).
-- Ambos **atualizam o Decreto nº 8.771/2016**, com base nas teses fixadas nos Temas 987 e 533.
-- São **autoaplicáveis**: mesmo que venham a ser detalhados por regulamentação da ANPD, isso não impede sua aplicação imediata.
+- Publicados em 20 de maio de 2026, com vigência a partir de 20 de julho de 2026 (60 dias após a publicação).
+- Ambos atualizam o Decreto nº 8.771/2016, com base nas teses fixadas nos Temas 987 e 533.
+- São autoaplicáveis: mesmo que venham a ser detalhados por regulamentação da ANPD, isso não impede sua aplicação imediata.
 
-## 21. Decreto nº 12.975/2026 — panorama
+## 21. Decreto nº 12.975/2026: panorama
 
-Insere no Decreto nº 8.771/2016 os arts. **15-A, 16-A a 16-P, 19-A e 20-A**, cobrindo:
+Insere no Decreto nº 8.771/2016 os arts. 15-A, 16-A a 16-P, 19-A e 20-A, cobrindo:
 
 - transparência e guarda de portas lógicas de origem de IP;
 - obrigações gerais (representante no país, prestação de contas);
@@ -199,102 +199,102 @@ Insere no Decreto nº 8.771/2016 os arts. **15-A, 16-A a 16-P, 19-A e 20-A**, co
 
 ## 22. Conceitos-chave
 
-> ⚠️ Estes quatro conceitos são a "gramática" comum dos dois Decretos — vão aparecer o tempo todo na fiscalização da ANPD.
+> ⚠️ Estes quatro conceitos são a "gramática" comum dos dois Decretos. Vão aparecer o tempo todo na fiscalização da ANPD.
 
-- **dever de cuidado**
-- **falha sistêmica**
-- **risco sistêmico**
-- **dúvida razoável**
+- dever de cuidado
+- falha sistêmica
+- risco sistêmico
+- dúvida razoável
 
 ## 23. Obrigações gerais dos provedores
 
-- Manter **representante legal e sede no país**, com poderes para responder administrativa e judicialmente.
-- Disponibilizar **canal de denúncia permanente e de fácil acesso** (art. 16-A, II).
-- Produzir **relatórios de transparência** periódicos.
-- Adotar **termos de uso** e mecanismos de autorregulação contemplando notificação, devido processo e relatórios anuais.
+- Manter representante legal e sede no país, com poderes para responder administrativa e judicialmente.
+- Disponibilizar canal de denúncia permanente e de fácil acesso (art. 16-A, II).
+- Produzir relatórios de transparência periódicos.
+- Adotar termos de uso e mecanismos de autorregulação contemplando notificação, devido processo e relatórios anuais.
 
 ## 24. Publicidade no ambiente digital
 
 - Vedação a anúncios e impulsionamentos relacionados a conteúdo criminoso ou ilícito (arts. 16-K a 16-N).
-- Dever de **guardar dados de anúncios e impulsionamentos por 1 ano** para fins de investigação.
+- Dever de guardar dados de anúncios e impulsionamentos por 1 ano para fins de investigação.
 - Provedor não é responsabilizado se comprovar atuação diligente.
 
 ## 25. Devido processo de moderação
 
 Ao remover (ou manter) um conteúdo notificado, o provedor deve:
 
-- comunicar a decisão ao denunciante **e** a quem publicou o conteúdo;
-- **justificar** a medida;
-- informar os **meios de recurso** disponíveis.
+- comunicar a decisão ao denunciante e a quem publicou o conteúdo;
+- justificar a medida;
+- informar os meios de recurso disponíveis.
 
 . . .
 
 A avaliação da ilicitude deve considerar o contexto, a liberdade religiosa e de crença, e eventual finalidade informativa, educativa, crítica, satírica ou de paródia (art. 16-G, §2º).
 
-## 26. Decreto nº 12.976/2026 — proteção da mulher online
+## 26. Decreto nº 12.976/2026: proteção da mulher online
 
-Trata especificamente da **violência de gênero no ambiente digital**:
+Trata especificamente da violência de gênero no ambiente digital.
 
 - estabelece princípios orientadores e conceitos (violência psicológica, política, doméstica e familiar digital);
 - cria sistema integrado de prevenção, proteção e acolhimento;
-- impõe medidas para **reduzir o alcance** de ataques coordenados contra mulheres;
-- **veda a geração e modificação** de conteúdo íntimo por IA ou qualquer meio tecnológico (deepfakes).
+- impõe medidas para reduzir o alcance de ataques coordenados contra mulheres;
+- veda a geração e modificação de conteúdo íntimo por IA ou qualquer meio tecnológico (deepfakes).
 
-## 27. Conteúdo íntimo — prazo de 2 horas
+## 27. Conteúdo íntimo: prazo de 2 horas
 
-- Remoção de conteúdo íntimo não autorizado em **até 2 horas** após a notificação (art. 7º, §1º).
-- **Bloqueio automático** do reenvio do mesmo material.
+- Remoção de conteúdo íntimo não autorizado em até 2 horas após a notificação (art. 7º, §1º).
+- Bloqueio automático do reenvio do mesmo material.
 - Rol próprio de legitimados para notificar: vítima, advogados, autoridades policiais, Ministério Público, Defensorias Públicas.
 
 ## 28. O papel da ANPD
 
-- Atribuição conferida pelo art. 19-A do Decreto 12.975/2026 e pelo art. 14 do Decreto 12.976/2026: regulação, fiscalização e apuração de infrações quanto aos deveres dos provedores, nos termos do MCI, da LGPD e do ECA Digital.
+Atribuição conferida pelo art. 19-A do Decreto 12.975/2026 e pelo art. 14 do Decreto 12.976/2026: regulação, fiscalização e apuração de infrações quanto aos deveres dos provedores, nos termos do MCI, da LGPD e do ECA Digital.
 
 . . .
 
-> ⚠️ Ponto central: a ANPD atua de forma **sistêmica e agregada** (mecanismos de supervisão e análise periódica). É **vedado** notificar provedores para moderação de conteúdo isolado, ou responsabilizá-los apenas pela manutenção/remoção de um conteúdo específico.
+> ⚠️ Ponto central: a ANPD atua de forma sistêmica e agregada (mecanismos de supervisão e análise periódica). É vedado notificar provedores para moderação de conteúdo isolado, ou responsabilizá-los apenas pela manutenção/remoção de um conteúdo específico.
 
 ## 29. Convergência com LGPD e ECA Digital
 
-A atuação da ANPD nos Decretos dialoga com competências que ela já exerce:
+A atuação da ANPD nos Decretos dialoga com competências que ela já exerce.
 
-- **LGPD** (art. 55-J, §6º) — já permite análise agregada de reclamações.
-- **ECA Digital** (Lei nº 15.211/2025) — "dever de prevenção" (art. 5º) é próximo ao "dever de cuidado" dos Decretos; deveres de indisponibilização de conteúdo (arts. 27 e 29) espelham os arts. 16-B e 16-G do Decreto 8.771/2016.
+- LGPD (art. 55-J, §6º): já permite análise agregada de reclamações.
+- ECA Digital (Lei nº 15.211/2025): "dever de prevenção" (art. 5º) é próximo ao "dever de cuidado" dos Decretos; deveres de indisponibilização de conteúdo (arts. 27 e 29) espelham os arts. 16-B e 16-G do Decreto 8.771/2016.
 
 ## 30. Sanções possíveis
 
 - Advertência, com prazo para adoção de medidas corretivas.
-- Multa de até **10% do faturamento** do grupo econômico no Brasil.
+- Multa de até 10% do faturamento do grupo econômico no Brasil.
 - Suspensão temporária ou proibição de exercer atividades de tratamento de dados/comunicações.
 
-# Parte IV — Perguntas frequentes e o que vem a seguir
+# Parte IV: Perguntas frequentes e o que vem a seguir
 
-## 31. FAQ — o que é "falha sistêmica"?
+## 31. FAQ: o que é "falha sistêmica"?
 
 > "Ausência de medidas adequadas de prevenção ou remoção de conteúdos ilícitos capazes de inibir sua circulação massiva."
 
-A existência **isolada** de um conteúdo ilícito não configura falha sistêmica, se o provedor adotou as medidas preventivas necessárias.
+A existência isolada de um conteúdo ilícito não configura falha sistêmica, se o provedor adotou as medidas preventivas necessárias.
 
-*(Fonte: FAQ ANPD — Marco Civil da Internet)*
+*(Fonte: FAQ ANPD, Marco Civil da Internet)*
 
-## 32. FAQ — quem pode notificar, e como?
+## 32. FAQ: quem pode notificar, e como?
 
 - Qualquer pessoa pode notificar conteúdo criminoso, desde que identifique o conteúdo, a ilegalidade e o próprio notificante.
 - Para conteúdo íntimo não consensual: além da vítima, podem notificar advogados, autoridades policiais, Ministério Público e Defensorias Públicas.
-- Canal deve ser **permanente e de fácil acesso**.
+- Canal deve ser permanente e de fácil acesso.
 
-## 33. FAQ — as regras valem para quais empresas?
+## 33. FAQ: as regras valem para quais empresas?
 
 - Aplicam-se a provedores de aplicações de internet, sobretudo plataformas de intermediação de conteúdo gerado por usuários.
-- Geralmente **não se aplicam** a mensageria privada, e-mail ou plataformas de reunião virtual.
-- Empresas **estrangeiras** que atendem público brasileiro também se submetem (art. 11 do MCI) e devem manter representante legal no país.
+- Geralmente não se aplicam a mensageria privada, e-mail ou plataformas de reunião virtual.
+- Empresas estrangeiras que atendem público brasileiro também se submetem (art. 11 do MCI) e devem manter representante legal no país.
 
-## 34. FAQ — o que cabe denunciar à ANPD?
+## 34. FAQ: o que cabe denunciar à ANPD?
 
-- Denuncia-se à ANPD quando a plataforma **não atua de forma proativa e diligente** para inibir a circulação massiva de conteúdo ilícito.
-- A ANPD avalia a **atuação sistêmica**, não posts específicos — isso continua sendo tarefa do Judiciário (ou da própria plataforma, via canal de denúncia).
+- Denuncia-se à ANPD quando a plataforma não atua de forma proativa e diligente para inibir a circulação massiva de conteúdo ilícito.
+- A ANPD avalia a atuação sistêmica, não posts específicos. Isso continua sendo tarefa do Judiciário (ou da própria plataforma, via canal de denúncia).
 
-## 35. FAQ — o que ainda poderá ser regulamentado?
+## 35. FAQ: o que ainda poderá ser regulamentado?
 
 A ANPD pode editar normas complementares sobre:
 
@@ -303,13 +303,13 @@ A ANPD pode editar normas complementares sobre:
 - relatórios de transparência;
 - salvaguardas técnicas para identificar e bloquear geração de conteúdo íntimo sintético.
 
-## 36. Linha do tempo — o que vem a seguir
+## 36. Linha do tempo: o que vem a seguir
 
-- **Tomada de Subsídios** (consulta pública) via Plataforma Brasil Participativo, com prazo de 49 dias, a partir da Nota Técnica nº 5/2026/CGTAD/SRE/ANPD.
-- Atualização dos **Regulamentos de Fiscalização e de Dosimetria** — consulta pública prevista para o 2º semestre de 2026.
-- Possível inclusão de temas do MCI na **Agenda Regulatória 2027-2028** (também sujeita a consulta social).
+- Tomada de Subsídios (consulta pública) via Plataforma Brasil Participativo, com prazo de 49 dias, a partir da Nota Técnica nº 5/2026/CGTAD/SRE/ANPD.
+- Atualização dos Regulamentos de Fiscalização e de Dosimetria, com consulta pública prevista para o 2º semestre de 2026.
+- Possível inclusão de temas do MCI na Agenda Regulatória 2027-2028 (também sujeita a consulta social).
 
-## 37. Comparação — antes e depois
+## 37. Comparação: antes e depois
 
 | | Antes (art. 19 original) | Depois (STF + Decretos) |
 |---|---|---|
@@ -321,23 +321,23 @@ A ANPD pode editar normas complementares sobre:
 
 ## 38. Desafios e críticas
 
-- Risco de **overblocking** (remoção excessiva de conteúdo legítimo) por parte de plataformas avessas a risco.
+- Risco de overblocking (remoção excessiva de conteúdo legítimo) por parte de plataformas avessas a risco.
 - Insegurança jurídica para plataformas de menor porte, ainda que os Decretos prevejam critérios diferenciados por porte/risco (art. 16-P).
 - Tensão permanente entre eficácia da tutela de direitos e preservação da liberdade de expressão.
-- Os próprios divergentes do STF (Fachin, Mendonça, Nunes Marques) capturam essas tensões — vale revisitar seus argumentos (slide 11) à luz dos Decretos.
+- Os próprios divergentes do STF (Fachin, Mendonça, Nunes Marques) capturam essas tensões. Vale revisitar seus argumentos (slide 11) à luz dos Decretos.
 
 ## 39. Conclusão
 
-- A trajetória vai do modelo estático e reativo do art. 19 original a um regime de **responsabilidade qualificada por dever de cuidado**, consolidado pelo STF e detalhado pelos Decretos 12.975 e 12.976/2026.
-- A ANPD passa a ser peça central de fiscalização — mas de forma **sistêmica**, sem poder de censura sobre conteúdo individual.
-- Os Decretos **não criam** um regime inteiramente novo: em boa parte, reconstroem deveres que já existiam em outras leis (Código Civil, CDC, ECA Digital), agora unificados sob a ótica do MCI.
-- O processo de regulamentação continua em aberto — a Tomada de Subsídios e as consultas públicas de 2026 são o próximo capítulo.
+- A trajetória vai do modelo estático e reativo do art. 19 original a um regime de responsabilidade qualificada por dever de cuidado, consolidado pelo STF e detalhado pelos Decretos 12.975 e 12.976/2026.
+- A ANPD passa a ser peça central de fiscalização, mas de forma sistêmica, sem poder de censura sobre conteúdo individual.
+- Os Decretos não criam um regime inteiramente novo: em boa parte, reconstroem deveres que já existiam em outras leis (Código Civil, CDC, ECA Digital), agora unificados sob a ótica do MCI.
+- O processo de regulamentação continua em aberto. A Tomada de Subsídios e as consultas públicas de 2026 são o próximo capítulo.
 
 ## Bibliografia
 
-- ANPD. [Nota Técnica nº 5/2026/CGTAD/SRE/ANPD — Marco Civil da Internet](https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet), Processo SEI nº 00261.003483/2026-71.
-- ANPD. [Marco Civil da Internet — perguntas frequentes](https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet)
-- STF. [STF define parâmetros para responsabilização de plataformas por conteúdos de terceiros](https://noticias.stf.jus.br/postsnoticias/stf-define-parametros-para-responsabilizacao-de-plataformas-por-conteudos-de-terceiros/) — Temas nº 987 e 533 de Repercussão Geral.
+- ANPD. [Nota Técnica nº 5/2026/CGTAD/SRE/ANPD, Marco Civil da Internet](https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet), Processo SEI nº 00261.003483/2026-71.
+- ANPD. [Marco Civil da Internet, perguntas frequentes](https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet)
+- STF. [STF define parâmetros para responsabilização de plataformas por conteúdos de terceiros](https://noticias.stf.jus.br/postsnoticias/stf-define-parametros-para-responsabilizacao-de-plataformas-por-conteudos-de-terceiros/), Temas nº 987 e 533 de Repercussão Geral.
 - [A liberdade de expressão e seus limites: uma análise crítica do marco civil da internet](https://drive.google.com/file/d/1tB_6D2jzciNu2TeSYOWORrP_OfY0RS8d/view?usp=sharing)
-- Leitura comparada (citada na Nota Técnica ANPD): [Digital Services Act — União Europeia](https://eur-lex.europa.eu/legal-content/EN-PT/TXT/?from=EN&uri=CELEX%3A32022R2065) · [Online Safety Act — Reino Unido](https://www.legislation.gov.uk/ukpga/2023/50/contents) · [Social Media Minimum Age Act — Austrália](https://www.legislation.gov.au/C2024A00127/asmade/text)
+- Leitura comparada (citada na Nota Técnica ANPD): [Digital Services Act, União Europeia](https://eur-lex.europa.eu/legal-content/EN-PT/TXT/?from=EN&uri=CELEX%3A32022R2065) · [Online Safety Act, Reino Unido](https://www.legislation.gov.uk/ukpga/2023/50/contents) · [Social Media Minimum Age Act, Austrália](https://www.legislation.gov.au/C2024A00127/asmade/text)
 </content>
