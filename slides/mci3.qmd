@@ -40,7 +40,7 @@ Disciplina o uso da internet no Brasil com base em:
 
 ## 4. Princípios (art. 3º)
 
-> ⚠️ Um dos trechos mais decorados em concurso. Os oito incisos do art. 3º:
+> ⚠️ Um dos trechos mais citados da lei. Os oito incisos do art. 3º:
 
 I. liberdade de expressão, comunicação e manifestação de pensamento
 II. proteção da privacidade
@@ -61,19 +61,22 @@ VIII. liberdade dos modelos de negócios, desde que não conflitem com os demais
 - Inovação e fomento à ampla difusão de novas tecnologias e modelos de uso e acesso.
 - Adesão a padrões tecnológicos abertos que permitam comunicação, acessibilidade e interoperabilidade entre aplicações e bases de dados.
 
-# Parte II: Definições que a prova adora confundir
+# Parte II: Definições frequentemente confundidas
 
 ## 7. Conexão x aplicações de internet
 
-- Conexão à internet (art. 5º, V): habilitação de um terminal para enviar e receber pacotes de dados, mediante atribuição de endereço IP. Quem presta: provedor de conexão.
-- Aplicações de internet (art. 5º, VII): conjunto de funcionalidades acessíveis por meio de um terminal conectado à internet. Quem presta: provedor de aplicações (redes sociais, sites, e-mail, buscadores).
+| | Conexão à internet | Aplicações de internet |
+|---|---|---|
+| Definição (art. 5º) | Habilitação de um terminal para enviar e receber pacotes de dados, mediante atribuição de endereço IP | Conjunto de funcionalidades acessíveis por meio de um terminal conectado à internet |
+| Quem presta | Provedor de conexão | Provedor de aplicações (redes sociais, sites, e-mail, buscadores) |
 
 ## 8. Registro de conexão x registro de acesso a aplicações
 
-> ⚠️ Distinção mais cobrada da lei toda. Errar aqui é o erro mais comum em prova.
+> ⚠️ É a distinção mais relevante da lei, e a fonte mais comum de confusão.
 
-- Registro de conexão (art. 5º, VI): data, hora de início e término da conexão, duração e endereço IP utilizado.
-- Registro de acesso a aplicações (art. 5º, VIII): data e hora de uso de uma aplicação a partir de determinado endereço IP.
+| | Registro de conexão (art. 5º, VI) | Registro de acesso a aplicações (art. 5º, VIII) |
+|---|---|---|
+| O que registra | Data e hora de início e término da conexão, duração e endereço IP utilizado | Data e hora de uso de uma aplicação a partir de determinado endereço IP |
 
 ## 9. Por que essa distinção importa
 
@@ -184,9 +187,9 @@ Aplicáveis a provedores por descumprimento das obrigações legais:
 - O STJ, mesmo após o Tema 786, ainda admite a desindexação: o buscador deixa de vincular um nome a um resultado, mas o conteúdo original continua existindo e acessível.
 - Não se confunde com remoção de conteúdo, e dialoga com os direitos de dados pessoais já vistos nesta aula (arts. 7º e 8º do MCI, e a LGPD).
 
-# Parte VIII: Revisão para concursos
+# Parte VIII: Síntese
 
-## 24. Quadro-resumo dos pontos mais cobrados
+## 24. Quadro-resumo dos pontos centrais
 
 | Tema | Artigo | Ponto-chave |
 |---|---|---|
@@ -196,9 +199,9 @@ Aplicáveis a provedores por descumprimento das obrigações legais:
 | Dados cadastrais x registros | Arts. 10 e 22 | Autoridade requisita cadastro direto; registros exigem ordem judicial |
 | Neutralidade de rede | Art. 9º | Exceções: requisitos técnicos indispensáveis e serviços de emergência |
 
-## 25. Pegadinhas comuns
+## 25. Confusões comuns
 
-> ⚠️ Atenção a enunciados de prova que:
+> ⚠️ Cuidado com afirmações que:
 
 - Trocam os prazos de guarda: 1 ano é do provedor de conexão, 6 meses é do provedor de aplicações.
 - Afirmam que qualquer requisição administrativa dá acesso a registros de conexão ou de acesso: só dados cadastrais dispensam ordem judicial.
@@ -208,7 +211,7 @@ Aplicáveis a provedores por descumprimento das obrigações legais:
 ## 26. Conclusão
 
 - O MCI é uma lei de estrutura constitucional para a internet brasileira: fundamentos, princípios, direitos, deveres e atuação do poder público, antes de qualquer discussão sobre responsabilidade de provedores.
-- Neutralidade de rede, guarda de registros e direitos dos usuários formam o núcleo mais cobrado em concursos, ao lado das definições do art. 5º.
+- Neutralidade de rede, guarda de registros e direitos dos usuários formam o núcleo mais relevante da lei, ao lado das definições do art. 5º.
 - A responsabilidade civil de provedores por conteúdo de terceiros (art. 19 e o Tema 987/533 do STF) é tratada em separado, na Aula 4.
 
 ## Bibliografia
