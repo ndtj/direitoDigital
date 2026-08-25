@@ -42,17 +42,17 @@ Disciplina o uso da internet no Brasil com base em:
 
 > ⚠️ Um dos trechos mais citados da lei. Os oito incisos do art. 3º:
 
-I. liberdade de expressão, comunicação e manifestação de pensamento
-II. proteção da privacidade
-III. proteção dos dados pessoais
-IV. preservação e garantia da neutralidade de rede
+- Inciso I: liberdade de expressão, comunicação e manifestação de pensamento
+- Inciso II: proteção da privacidade
+- Inciso III: proteção dos dados pessoais
+- Inciso IV: preservação e garantia da neutralidade de rede
 
 ## 5. Princípios (art. 3º), continuação
 
-V. preservação da estabilidade, segurança e funcionalidade da rede
-VI. responsabilização dos agentes de acordo com suas atividades
-VII. preservação da natureza participativa da rede
-VIII. liberdade dos modelos de negócios, desde que não conflitem com os demais princípios
+- Inciso V: preservação da estabilidade, segurança e funcionalidade da rede
+- Inciso VI: responsabilização dos agentes de acordo com suas atividades
+- Inciso VII: preservação da natureza participativa da rede
+- Inciso VIII: liberdade dos modelos de negócios, desde que não conflitem com os demais princípios
 
 ## 6. Objetivos (art. 4º)
 
