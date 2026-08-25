@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<script src="mci3_files/libs/clipboard/clipboard.min.js"></script>
+<script src="mci3_files/libs/quarto-html/tabby.min.js"></script>
+<script src="mci3_files/libs/quarto-html/popper.min.js"></script>
+<script src="mci3_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="mci3_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="mci3_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="mci3_files/libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="José de Jesus Filho">
+  <title>Marco Civil da Internet — Panorama geral</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="mci3_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="mci3_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="mci3_files/libs/revealjs/dist/theme/quarto-0427d8d92a431aa6a6430e53ec02a470.css">
+  <link href="mci3_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="mci3_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="mci3_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="mci3_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Marco Civil da Internet — Panorama geral</h1>
+  <p class="subtitle">Princípios, direitos, neutralidade de rede e guarda de registros (Lei nº 12.965/2014)</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+José de Jesus Filho
+</div>
+</div>
+</div>
+
+  <p class="date">25/08/2026</p>
+</section><section id="TOC">
+<nav role="doc-toc"> 
+<h2 id="toc-title">Roteiro da aula</h2>
+<ul>
+<li><a href="#/parte-i-estrutura-e-fundamentos" id="/toc-parte-i-estrutura-e-fundamentos">Parte I: Estrutura e fundamentos</a></li>
+<li><a href="#/parte-ii-definições-que-a-prova-adora-confundir" id="/toc-parte-ii-definições-que-a-prova-adora-confundir">Parte II: Definições que a prova adora confundir</a></li>
+<li><a href="#/parte-iii-neutralidade-de-rede" id="/toc-parte-iii-neutralidade-de-rede">Parte III: Neutralidade de rede</a></li>
+<li><a href="#/parte-iv-direitos-e-garantias-dos-usuários" id="/toc-parte-iv-direitos-e-garantias-dos-usuários">Parte IV: Direitos e garantias dos usuários</a></li>
+<li><a href="#/parte-v-guarda-de-registros" id="/toc-parte-v-guarda-de-registros">Parte V: Guarda de registros</a></li>
+<li><a href="#/parte-vi-atuação-do-poder-público" id="/toc-parte-vi-atuação-do-poder-público">Parte VI: Atuação do poder público</a></li>
+<li><a href="#/parte-vii-o-direito-ao-esquecimento-em-síntese" id="/toc-parte-vii-o-direito-ao-esquecimento-em-síntese">Parte VII: O direito ao esquecimento, em síntese</a></li>
+<li><a href="#/parte-viii-revisão-para-concursos" id="/toc-parte-viii-revisão-para-concursos">Parte VIII: Revisão para concursos</a></li>
+</ul>
+</nav>
+</section>
+<section>
+<section id="parte-i-estrutura-e-fundamentos" class="title-slide slide level1 center">
+<h1>Parte I: Estrutura e fundamentos</h1>
+
+</section>
+<section id="a-lei-nº-12.9652014" class="slide level2">
+<h2>1. A Lei nº 12.965/2014</h2>
+<ul>
+<li>Sancionada em 23 de abril de 2014, após ampla consulta pública e quase quatro anos de tramitação no Congresso.</li>
+<li>Estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil.</li>
+<li>Ficou conhecida como a “Constituição da Internet” brasileira: primeira lei geral e estruturante sobre o tema no país.</li>
+</ul>
+</section>
+<section id="estrutura-da-lei" class="slide level2">
+<h2>2. Estrutura da lei</h2>
+<p>Cinco capítulos, do geral ao específico:</p>
+<ul>
+<li>Capítulo I: disposições preliminares (fundamentos, princípios, objetivos, definições).</li>
+<li>Capítulo II: direitos e garantias dos usuários.</li>
+<li>Capítulo III: provisão de conexão e de aplicações de internet (inclui neutralidade de rede, guarda de registros e responsabilidade de provedores).</li>
+<li>Capítulo IV: atuação do poder público.</li>
+<li>Capítulo V: disposições finais.</li>
+</ul>
+<p>Esta aula percorre os capítulos I, II, III (exceto a responsabilidade de provedores) e IV.</p>
+</section>
+<section id="fundamentos-art.-2º" class="slide level2">
+<h2>3. Fundamentos (art. 2º)</h2>
+<p>Disciplina o uso da internet no Brasil com base em:</p>
+<ul>
+<li>respeito à liberdade de expressão;</li>
+<li>direitos humanos, desenvolvimento da personalidade e exercício da cidadania em meios digitais;</li>
+<li>pluralidade e diversidade;</li>
+<li>abertura e colaboração;</li>
+<li>livre iniciativa, livre concorrência e defesa do consumidor;</li>
+<li>finalidade social da rede.</li>
+</ul>
+</section>
+<section id="princípios-art.-3º" class="slide level2">
+<h2>4. Princípios (art. 3º)</h2>
+<blockquote>
+<p>⚠️ Um dos trechos mais decorados em concurso. Os oito incisos do art. 3º:</p>
+</blockquote>
+<p>I. liberdade de expressão, comunicação e manifestação de pensamento II. proteção da privacidade III. proteção dos dados pessoais IV. preservação e garantia da neutralidade de rede</p>
+</section>
+<section id="princípios-art.-3º-continuação" class="slide level2">
+<h2>5. Princípios (art. 3º), continuação</h2>
+<p>V. preservação da estabilidade, segurança e funcionalidade da rede VI. responsabilização dos agentes de acordo com suas atividades VII. preservação da natureza participativa da rede VIII. liberdade dos modelos de negócios, desde que não conflitem com os demais princípios</p>
+</section>
+<section id="objetivos-art.-4º" class="slide level2">
+<h2>6. Objetivos (art. 4º)</h2>
+<ul>
+<li>Promoção do direito de acesso à internet a todos.</li>
+<li>Acesso à informação, ao conhecimento e à participação na vida cultural e na condução dos assuntos públicos.</li>
+<li>Inovação e fomento à ampla difusão de novas tecnologias e modelos de uso e acesso.</li>
+<li>Adesão a padrões tecnológicos abertos que permitam comunicação, acessibilidade e interoperabilidade entre aplicações e bases de dados.</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-ii-definições-que-a-prova-adora-confundir" class="title-slide slide level1 center">
+<h1>Parte II: Definições que a prova adora confundir</h1>
+
+</section>
+<section id="conexão-x-aplicações-de-internet" class="slide level2">
+<h2>7. Conexão x aplicações de internet</h2>
+<ul>
+<li>Conexão à internet (art. 5º, V): habilitação de um terminal para enviar e receber pacotes de dados, mediante atribuição de endereço IP. Quem presta: provedor de conexão.</li>
+<li>Aplicações de internet (art. 5º, VII): conjunto de funcionalidades acessíveis por meio de um terminal conectado à internet. Quem presta: provedor de aplicações (redes sociais, sites, e-mail, buscadores).</li>
+</ul>
+</section>
+<section id="registro-de-conexão-x-registro-de-acesso-a-aplicações" class="slide level2">
+<h2>8. Registro de conexão x registro de acesso a aplicações</h2>
+<blockquote>
+<p>⚠️ Distinção mais cobrada da lei toda. Errar aqui é o erro mais comum em prova.</p>
+</blockquote>
+<ul>
+<li>Registro de conexão (art. 5º, VI): data, hora de início e término da conexão, duração e endereço IP utilizado.</li>
+<li>Registro de acesso a aplicações (art. 5º, VIII): data e hora de uso de uma aplicação a partir de determinado endereço IP.</li>
+</ul>
+</section>
+<section id="por-que-essa-distinção-importa" class="slide level2">
+<h2>9. Por que essa distinção importa</h2>
+<ul>
+<li>Cada registro tem prazo de guarda, sujeito obrigado e regime jurídico diferentes (Parte V).</li>
+<li>Provedor de conexão não pode guardar registros de acesso a aplicações de terceiros (art. 14): a lei separa fisicamente essas informações.</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-iii-neutralidade-de-rede" class="title-slide slide level1 center">
+<h1>Parte III: Neutralidade de rede</h1>
+
+</section>
+<section id="conceito-art.-9º" class="slide level2">
+<h2>10. Conceito (art. 9º)</h2>
+<ul>
+<li>O responsável pela transmissão, comutação ou roteamento tem o dever de tratar de forma isonômica quaisquer pacotes de dados, sem distinção por conteúdo, origem, destino, serviço, terminal ou aplicação.</li>
+<li>Veda, em regra, a discriminação ou degradação de tráfego, como planos de “internet livre” que só liberam certos aplicativos.</li>
+</ul>
+</section>
+<section id="exceções-à-neutralidade" class="slide level2">
+<h2>11. Exceções à neutralidade</h2>
+<p>Discriminação ou degradação de tráfego só é possível em duas hipóteses (art. 9º, regulamentado pelo Decreto nº 8.771/2016):</p>
+<ul>
+<li>decorrente de requisitos técnicos indispensáveis à prestação adequada de serviços e aplicações;</li>
+<li>priorização de serviços de emergência.</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-iv-direitos-e-garantias-dos-usuários" class="title-slide slide level1 center">
+<h1>Parte IV: Direitos e garantias dos usuários</h1>
+
+</section>
+<section id="direitos-do-usuário-art.-7º-visão-geral" class="slide level2">
+<h2>12. Direitos do usuário (art. 7º): visão geral</h2>
+<p>O acesso à internet é essencial ao exercício da cidadania. Entre os direitos assegurados:</p>
+<ul>
+<li>inviolabilidade da intimidade e da vida privada;</li>
+<li>inviolabilidade e sigilo das comunicações, salvo ordem judicial;</li>
+<li>não suspensão da conexão, salvo por débito diretamente decorrente de sua utilização;</li>
+<li>manutenção da qualidade contratada.</li>
+</ul>
+</section>
+<section id="direitos-do-usuário-art.-7º-dados-pessoais" class="slide level2">
+<h2>13. Direitos do usuário (art. 7º): dados pessoais</h2>
+<ul>
+<li>informações claras sobre coleta, uso, armazenamento e tratamento de dados pessoais;</li>
+<li>não fornecimento a terceiros sem consentimento livre, expresso e informado;</li>
+<li>exclusão definitiva dos dados pessoais fornecidos, ao término da relação com a aplicação, exceto nas hipóteses de guarda obrigatória.</li>
+</ul>
+<p>Este último inciso antecipou, em 2014, uma lógica que a LGPD (2018) viria a desenvolver de forma sistemática.</p>
+</section>
+<section id="nulidade-de-cláusulas-contratuais-art.-8º" class="slide level2">
+<h2>14. Nulidade de cláusulas contratuais (art. 8º)</h2>
+<ul>
+<li>A garantia do direito à privacidade e à liberdade de expressão nas comunicações é condição para o pleno exercício do direito de acesso à internet.</li>
+<li>São nulas de pleno direito cláusulas contratuais que violem esses direitos, entre elas as que ofendam a inviolabilidade e o sigilo das comunicações privadas.</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-v-guarda-de-registros" class="title-slide slide level1 center">
+<h1>Parte V: Guarda de registros</h1>
+
+</section>
+<section id="guarda-de-registros-de-conexão-art.-13" class="slide level2">
+<h2>15. Guarda de registros de conexão (art. 13)</h2>
+<ul>
+<li>Obrigação do provedor de conexão.</li>
+<li>Prazo: 1 ano, sob sigilo, em ambiente controlado e de segurança.</li>
+<li>Guarda obrigatória por força de lei, independentemente de ordem judicial.</li>
+</ul>
+</section>
+<section id="guarda-de-registros-de-acesso-a-aplicações-art.-15" class="slide level2">
+<h2>16. Guarda de registros de acesso a aplicações (art. 15)</h2>
+<ul>
+<li>Obrigatória apenas para o provedor de aplicações constituído como pessoa jurídica, que exerça a atividade de forma organizada, profissionalmente e com fins econômicos.</li>
+<li>Prazo: 6 meses, sob sigilo, em ambiente controlado e de segurança.</li>
+<li>Autoridade policial, administrativa ou o Ministério Público podem requerer cautelarmente prazo maior de guarda.</li>
+</ul>
+</section>
+<section id="quadro-comparativo-os-dois-regimes-de-guarda" class="slide level2">
+<h2>17. Quadro comparativo: os dois regimes de guarda</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Registro de conexão</th>
+<th>Registro de acesso a aplicações</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quem guarda</td>
+<td>Provedor de conexão</td>
+<td>Provedor de aplicações com fins econômicos</td>
+</tr>
+<tr class="even">
+<td>Prazo legal</td>
+<td>1 ano</td>
+<td>6 meses</td>
+</tr>
+<tr class="odd">
+<td>Base legal</td>
+<td>Art. 13</td>
+<td>Art. 15</td>
+</tr>
+<tr class="even">
+<td>Obrigatoriedade</td>
+<td>Sempre obrigatória</td>
+<td>Só para quem se enquadra no art. 15</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="requisição-de-registros-arts.-10-e-22" class="slide level2">
+<h2>18. Requisição de registros (arts. 10 e 22)</h2>
+<ul>
+<li>Regra geral: fornecimento de registros a terceiros depende de ordem judicial (art. 10).</li>
+<li>Autoridade policial ou administrativa pode requisitar diretamente apenas os dados cadastrais do usuário (qualificação pessoal, filiação e endereço), não o conteúdo das comunicações nem os registros de conexão e acesso.</li>
+<li>Para obter registros de conexão e de acesso, é necessária ordem judicial específica (art. 22), fundamentada e com prazo determinado.</li>
+</ul>
+</section>
+<section id="territorialidade-art.-11" class="slide level2">
+<h2>19. Territorialidade (art. 11)</h2>
+<ul>
+<li>A lei brasileira e os direitos à privacidade e à proteção de dados se aplicam sempre que ao menos um ato da cadeia de coleta, armazenamento, guarda ou tratamento ocorrer em território nacional.</li>
+<li>Vale mesmo que a empresa esteja sediada no exterior, desde que ofereça serviço ao público brasileiro ou pertença a grupo econômico com estabelecimento no país.</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-vi-atuação-do-poder-público" class="title-slide slide level1 center">
+<h1>Parte VI: Atuação do poder público</h1>
+
+</section>
+<section id="diretrizes-do-art.-24" class="slide level2">
+<h2>20. Diretrizes do art. 24</h2>
+<p>O poder público deve orientar sua atuação, entre outras diretrizes, pela:</p>
+<ul>
+<li>governança democrática, colaborativa e participativa da internet;</li>
+<li>publicização e disseminação de dados e informações públicos, de forma acessível;</li>
+<li>adoção preferencial de tecnologias, padrões e formatos abertos e livres;</li>
+<li>otimização da infraestrutura das redes e estímulo à sua expansão.</li>
+</ul>
+</section>
+<section id="sanções-administrativas-art.-12" class="slide level2">
+<h2>21. Sanções administrativas (art. 12)</h2>
+<p>Aplicáveis a provedores por descumprimento das obrigações legais:</p>
+<ul>
+<li>advertência, com prazo para adoção de medidas corretivas;</li>
+<li>multa de até 10% do faturamento do grupo econômico no Brasil;</li>
+<li>suspensão temporária das atividades;</li>
+<li>proibição de exercício das atividades.</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-vii-o-direito-ao-esquecimento-em-síntese" class="title-slide slide level1 center">
+<h1>Parte VII: O direito ao esquecimento, em síntese</h1>
+
+</section>
+<section id="o-que-é-e-o-que-o-stf-decidiu" class="slide level2">
+<h2>22. O que é, e o que o STF decidiu</h2>
+<ul>
+<li>Direito ao esquecimento: pretensão de impedir, pela passagem do tempo, a divulgação de fatos verídicos e lícitos já conhecidos sobre uma pessoa.</li>
+<li>O STF (Tema 786, RE 1.010.606, 2021) fixou que essa pretensão, como direito autônomo e genérico, é incompatível com a Constituição: prevalecem a liberdade de expressão e o direito à informação, ressalvado o controle caso a caso de abusos.</li>
+</ul>
+</section>
+<section id="o-que-sobrevive-desindexação" class="slide level2">
+<h2>23. O que sobrevive: desindexação</h2>
+<ul>
+<li>O STJ, mesmo após o Tema 786, ainda admite a desindexação: o buscador deixa de vincular um nome a um resultado, mas o conteúdo original continua existindo e acessível.</li>
+<li>Não se confunde com remoção de conteúdo, e dialoga com os direitos de dados pessoais já vistos nesta aula (arts. 7º e 8º do MCI, e a LGPD).</li>
+</ul>
+</section></section>
+<section>
+<section id="parte-viii-revisão-para-concursos" class="title-slide slide level1 center">
+<h1>Parte VIII: Revisão para concursos</h1>
+
+</section>
+<section id="quadro-resumo-dos-pontos-mais-cobrados" class="slide level2">
+<h2>24. Quadro-resumo dos pontos mais cobrados</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tema</th>
+<th>Artigo</th>
+<th>Ponto-chave</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Princípios</td>
+<td>Art. 3º</td>
+<td>Neutralidade de rede é um dos oito princípios</td>
+</tr>
+<tr class="even">
+<td>Registro de conexão</td>
+<td>Art. 5º, VI e art. 13</td>
+<td>Provedor de conexão, guarda de 1 ano, sempre obrigatória</td>
+</tr>
+<tr class="odd">
+<td>Registro de acesso a aplicações</td>
+<td>Art. 5º, VIII e art. 15</td>
+<td>Provedor de aplicações com fins econômicos, guarda de 6 meses</td>
+</tr>
+<tr class="even">
+<td>Dados cadastrais x registros</td>
+<td>Arts. 10 e 22</td>
+<td>Autoridade requisita cadastro direto; registros exigem ordem judicial</td>
+</tr>
+<tr class="odd">
+<td>Neutralidade de rede</td>
+<td>Art. 9º</td>
+<td>Exceções: requisitos técnicos indispensáveis e serviços de emergência</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pegadinhas-comuns" class="slide level2">
+<h2>25. Pegadinhas comuns</h2>
+<blockquote>
+<p>⚠️ Atenção a enunciados de prova que:</p>
+</blockquote>
+<ul>
+<li>Trocam os prazos de guarda: 1 ano é do provedor de conexão, 6 meses é do provedor de aplicações.</li>
+<li>Afirmam que qualquer requisição administrativa dá acesso a registros de conexão ou de acesso: só dados cadastrais dispensam ordem judicial.</li>
+<li>Apresentam a neutralidade de rede como regra absoluta, sem exceções.</li>
+<li>Tratam direito ao esquecimento e desindexação como sinônimos.</li>
+</ul>
+</section>
+<section id="conclusão" class="slide level2">
+<h2>26. Conclusão</h2>
+<ul>
+<li>O MCI é uma lei de estrutura constitucional para a internet brasileira: fundamentos, princípios, direitos, deveres e atuação do poder público, antes de qualquer discussão sobre responsabilidade de provedores.</li>
+<li>Neutralidade de rede, guarda de registros e direitos dos usuários formam o núcleo mais cobrado em concursos, ao lado das definições do art. 5º.</li>
+<li>A responsabilidade civil de provedores por conteúdo de terceiros (art. 19 e o Tema 987/533 do STF) é tratada em separado, na Aula 4.</li>
+</ul>
+</section>
+<section id="bibliografia" class="slide level2">
+<h2>Bibliografia</h2>
+<ul>
+<li>Planalto. <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm">Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet)</a>.</li>
+<li>Planalto. <a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm">Decreto nº 8.771, de 11 de maio de 2016</a>.</li>
+<li>STF. <a href="https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=460414&amp;ori=1">STF conclui que direito ao esquecimento é incompatível com a Constituição Federal</a>, Tema 786 de Repercussão Geral (RE 1.010.606/RJ).</li>
+<li>ConJur. <a href="https://www.conjur.com.br/2026-abr-28/sites-de-busca-podem-ser-obrigados-a-desindexar-publicacoes-desabonadoras/">Ordem para desindexar buscas não fere tese sobre esquecimento</a>.</li>
+</ul>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Marco Civil da Internet: panorama geral</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="mci3_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="mci3_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="mci3_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="mci3_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiada");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiada");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

@@ -1,0 +1,219 @@
+---
+title: "Marco Civil da Internet — Panorama geral"
+subtitle: "Princípios, direitos, neutralidade de rede e guarda de registros (Lei nº 12.965/2014)"
+format:
+  revealjs:
+    toc-title: "Roteiro da aula"
+    footer: "Marco Civil da Internet: panorama geral"
+---
+
+# Parte I: Estrutura e fundamentos
+
+## 1. A Lei nº 12.965/2014
+
+- Sancionada em 23 de abril de 2014, após ampla consulta pública e quase quatro anos de tramitação no Congresso.
+- Estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil.
+- Ficou conhecida como a "Constituição da Internet" brasileira: primeira lei geral e estruturante sobre o tema no país.
+
+## 2. Estrutura da lei
+
+Cinco capítulos, do geral ao específico:
+
+- Capítulo I: disposições preliminares (fundamentos, princípios, objetivos, definições).
+- Capítulo II: direitos e garantias dos usuários.
+- Capítulo III: provisão de conexão e de aplicações de internet (inclui neutralidade de rede, guarda de registros e responsabilidade de provedores).
+- Capítulo IV: atuação do poder público.
+- Capítulo V: disposições finais.
+
+Esta aula percorre os capítulos I, II, III (exceto a responsabilidade de provedores) e IV.
+
+## 3. Fundamentos (art. 2º)
+
+Disciplina o uso da internet no Brasil com base em:
+
+- respeito à liberdade de expressão;
+- direitos humanos, desenvolvimento da personalidade e exercício da cidadania em meios digitais;
+- pluralidade e diversidade;
+- abertura e colaboração;
+- livre iniciativa, livre concorrência e defesa do consumidor;
+- finalidade social da rede.
+
+## 4. Princípios (art. 3º)
+
+> ⚠️ Um dos trechos mais decorados em concurso. Os oito incisos do art. 3º:
+
+I. liberdade de expressão, comunicação e manifestação de pensamento
+II. proteção da privacidade
+III. proteção dos dados pessoais
+IV. preservação e garantia da neutralidade de rede
+
+## 5. Princípios (art. 3º), continuação
+
+V. preservação da estabilidade, segurança e funcionalidade da rede
+VI. responsabilização dos agentes de acordo com suas atividades
+VII. preservação da natureza participativa da rede
+VIII. liberdade dos modelos de negócios, desde que não conflitem com os demais princípios
+
+## 6. Objetivos (art. 4º)
+
+- Promoção do direito de acesso à internet a todos.
+- Acesso à informação, ao conhecimento e à participação na vida cultural e na condução dos assuntos públicos.
+- Inovação e fomento à ampla difusão de novas tecnologias e modelos de uso e acesso.
+- Adesão a padrões tecnológicos abertos que permitam comunicação, acessibilidade e interoperabilidade entre aplicações e bases de dados.
+
+# Parte II: Definições que a prova adora confundir
+
+## 7. Conexão x aplicações de internet
+
+- Conexão à internet (art. 5º, V): habilitação de um terminal para enviar e receber pacotes de dados, mediante atribuição de endereço IP. Quem presta: provedor de conexão.
+- Aplicações de internet (art. 5º, VII): conjunto de funcionalidades acessíveis por meio de um terminal conectado à internet. Quem presta: provedor de aplicações (redes sociais, sites, e-mail, buscadores).
+
+## 8. Registro de conexão x registro de acesso a aplicações
+
+> ⚠️ Distinção mais cobrada da lei toda. Errar aqui é o erro mais comum em prova.
+
+- Registro de conexão (art. 5º, VI): data, hora de início e término da conexão, duração e endereço IP utilizado.
+- Registro de acesso a aplicações (art. 5º, VIII): data e hora de uso de uma aplicação a partir de determinado endereço IP.
+
+## 9. Por que essa distinção importa
+
+- Cada registro tem prazo de guarda, sujeito obrigado e regime jurídico diferentes (Parte V).
+- Provedor de conexão não pode guardar registros de acesso a aplicações de terceiros (art. 14): a lei separa fisicamente essas informações.
+
+# Parte III: Neutralidade de rede
+
+## 10. Conceito (art. 9º)
+
+- O responsável pela transmissão, comutação ou roteamento tem o dever de tratar de forma isonômica quaisquer pacotes de dados, sem distinção por conteúdo, origem, destino, serviço, terminal ou aplicação.
+- Veda, em regra, a discriminação ou degradação de tráfego, como planos de "internet livre" que só liberam certos aplicativos.
+
+## 11. Exceções à neutralidade
+
+Discriminação ou degradação de tráfego só é possível em duas hipóteses (art. 9º, regulamentado pelo Decreto nº 8.771/2016):
+
+- decorrente de requisitos técnicos indispensáveis à prestação adequada de serviços e aplicações;
+- priorização de serviços de emergência.
+
+# Parte IV: Direitos e garantias dos usuários
+
+## 12. Direitos do usuário (art. 7º): visão geral
+
+O acesso à internet é essencial ao exercício da cidadania. Entre os direitos assegurados:
+
+- inviolabilidade da intimidade e da vida privada;
+- inviolabilidade e sigilo das comunicações, salvo ordem judicial;
+- não suspensão da conexão, salvo por débito diretamente decorrente de sua utilização;
+- manutenção da qualidade contratada.
+
+## 13. Direitos do usuário (art. 7º): dados pessoais
+
+- informações claras sobre coleta, uso, armazenamento e tratamento de dados pessoais;
+- não fornecimento a terceiros sem consentimento livre, expresso e informado;
+- exclusão definitiva dos dados pessoais fornecidos, ao término da relação com a aplicação, exceto nas hipóteses de guarda obrigatória.
+
+Este último inciso antecipou, em 2014, uma lógica que a LGPD (2018) viria a desenvolver de forma sistemática.
+
+## 14. Nulidade de cláusulas contratuais (art. 8º)
+
+- A garantia do direito à privacidade e à liberdade de expressão nas comunicações é condição para o pleno exercício do direito de acesso à internet.
+- São nulas de pleno direito cláusulas contratuais que violem esses direitos, entre elas as que ofendam a inviolabilidade e o sigilo das comunicações privadas.
+
+# Parte V: Guarda de registros
+
+## 15. Guarda de registros de conexão (art. 13)
+
+- Obrigação do provedor de conexão.
+- Prazo: 1 ano, sob sigilo, em ambiente controlado e de segurança.
+- Guarda obrigatória por força de lei, independentemente de ordem judicial.
+
+## 16. Guarda de registros de acesso a aplicações (art. 15)
+
+- Obrigatória apenas para o provedor de aplicações constituído como pessoa jurídica, que exerça a atividade de forma organizada, profissionalmente e com fins econômicos.
+- Prazo: 6 meses, sob sigilo, em ambiente controlado e de segurança.
+- Autoridade policial, administrativa ou o Ministério Público podem requerer cautelarmente prazo maior de guarda.
+
+## 17. Quadro comparativo: os dois regimes de guarda
+
+| | Registro de conexão | Registro de acesso a aplicações |
+|---|---|---|
+| Quem guarda | Provedor de conexão | Provedor de aplicações com fins econômicos |
+| Prazo legal | 1 ano | 6 meses |
+| Base legal | Art. 13 | Art. 15 |
+| Obrigatoriedade | Sempre obrigatória | Só para quem se enquadra no art. 15 |
+
+## 18. Requisição de registros (arts. 10 e 22)
+
+- Regra geral: fornecimento de registros a terceiros depende de ordem judicial (art. 10).
+- Autoridade policial ou administrativa pode requisitar diretamente apenas os dados cadastrais do usuário (qualificação pessoal, filiação e endereço), não o conteúdo das comunicações nem os registros de conexão e acesso.
+- Para obter registros de conexão e de acesso, é necessária ordem judicial específica (art. 22), fundamentada e com prazo determinado.
+
+## 19. Territorialidade (art. 11)
+
+- A lei brasileira e os direitos à privacidade e à proteção de dados se aplicam sempre que ao menos um ato da cadeia de coleta, armazenamento, guarda ou tratamento ocorrer em território nacional.
+- Vale mesmo que a empresa esteja sediada no exterior, desde que ofereça serviço ao público brasileiro ou pertença a grupo econômico com estabelecimento no país.
+
+# Parte VI: Atuação do poder público
+
+## 20. Diretrizes do art. 24
+
+O poder público deve orientar sua atuação, entre outras diretrizes, pela:
+
+- governança democrática, colaborativa e participativa da internet;
+- publicização e disseminação de dados e informações públicos, de forma acessível;
+- adoção preferencial de tecnologias, padrões e formatos abertos e livres;
+- otimização da infraestrutura das redes e estímulo à sua expansão.
+
+## 21. Sanções administrativas (art. 12)
+
+Aplicáveis a provedores por descumprimento das obrigações legais:
+
+- advertência, com prazo para adoção de medidas corretivas;
+- multa de até 10% do faturamento do grupo econômico no Brasil;
+- suspensão temporária das atividades;
+- proibição de exercício das atividades.
+
+# Parte VII: O direito ao esquecimento, em síntese
+
+## 22. O que é, e o que o STF decidiu
+
+- Direito ao esquecimento: pretensão de impedir, pela passagem do tempo, a divulgação de fatos verídicos e lícitos já conhecidos sobre uma pessoa.
+- O STF (Tema 786, RE 1.010.606, 2021) fixou que essa pretensão, como direito autônomo e genérico, é incompatível com a Constituição: prevalecem a liberdade de expressão e o direito à informação, ressalvado o controle caso a caso de abusos.
+
+## 23. O que sobrevive: desindexação
+
+- O STJ, mesmo após o Tema 786, ainda admite a desindexação: o buscador deixa de vincular um nome a um resultado, mas o conteúdo original continua existindo e acessível.
+- Não se confunde com remoção de conteúdo, e dialoga com os direitos de dados pessoais já vistos nesta aula (arts. 7º e 8º do MCI, e a LGPD).
+
+# Parte VIII: Revisão para concursos
+
+## 24. Quadro-resumo dos pontos mais cobrados
+
+| Tema | Artigo | Ponto-chave |
+|---|---|---|
+| Princípios | Art. 3º | Neutralidade de rede é um dos oito princípios |
+| Registro de conexão | Art. 5º, VI e art. 13 | Provedor de conexão, guarda de 1 ano, sempre obrigatória |
+| Registro de acesso a aplicações | Art. 5º, VIII e art. 15 | Provedor de aplicações com fins econômicos, guarda de 6 meses |
+| Dados cadastrais x registros | Arts. 10 e 22 | Autoridade requisita cadastro direto; registros exigem ordem judicial |
+| Neutralidade de rede | Art. 9º | Exceções: requisitos técnicos indispensáveis e serviços de emergência |
+
+## 25. Pegadinhas comuns
+
+> ⚠️ Atenção a enunciados de prova que:
+
+- Trocam os prazos de guarda: 1 ano é do provedor de conexão, 6 meses é do provedor de aplicações.
+- Afirmam que qualquer requisição administrativa dá acesso a registros de conexão ou de acesso: só dados cadastrais dispensam ordem judicial.
+- Apresentam a neutralidade de rede como regra absoluta, sem exceções.
+- Tratam direito ao esquecimento e desindexação como sinônimos.
+
+## 26. Conclusão
+
+- O MCI é uma lei de estrutura constitucional para a internet brasileira: fundamentos, princípios, direitos, deveres e atuação do poder público, antes de qualquer discussão sobre responsabilidade de provedores.
+- Neutralidade de rede, guarda de registros e direitos dos usuários formam o núcleo mais cobrado em concursos, ao lado das definições do art. 5º.
+- A responsabilidade civil de provedores por conteúdo de terceiros (art. 19 e o Tema 987/533 do STF) é tratada em separado, na Aula 4.
+
+## Bibliografia
+
+- Planalto. [Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet)](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm).
+- Planalto. [Decreto nº 8.771, de 11 de maio de 2016](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm).
+- STF. [STF conclui que direito ao esquecimento é incompatível com a Constituição Federal](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=460414&ori=1), Tema 786 de Repercussão Geral (RE 1.010.606/RJ).
+- ConJur. [Ordem para desindexar buscas não fere tese sobre esquecimento](https://www.conjur.com.br/2026-abr-28/sites-de-busca-podem-ser-obrigados-a-desindexar-publicacoes-desabonadoras/).
