@@ -32,9 +32,9 @@ Ensino](documentos/Plano%20de%20Ensino%20-%20Direito%20Digital%20-%20DIR-MA3%20e
 | 6 | 08/09 | LGPD — Anonimização e o limite da proteção | [slides](https://ndtj.github.io/direitoDigital/slides/aula_lgpd.html) |
 | 7 | 15/09 | LGPD e Segurança Pública — Sistemas de reconhecimento facial | [ECA Digital (Lei Felca)](https://ndtj.github.io/direitoDigital/slides/felca.html) ⚠︎ |
 | 8 | 22/09 | IA e Direito — Conceitos básicos + personalidade jurídica | [slides](https://ndtj.github.io/direitoDigital/slides/ia_e_direito.html) |
-| 9 | 29/09 | IA e Direito — Regulamentações nacionais e internacionais | [slides](https://ndtj.github.io/direitoDigital/slides/ia_e_direito.html) |
+| 9 | 29/09 | Prova do 1º bimestre | — |
 | 10–11 | 06 e 13/10 | Seminário em grupo (apresentações) | — |
-| 12 | 20/10 | Prova do 1º bimestre | — |
+| 12 | 20/10 | IA e Direito — Regulamentações nacionais e internacionais | [slides](https://ndtj.github.io/direitoDigital/slides/ia_e_direito.html) |
 | 13 | 27/10 | Contratos eletrônicos — fundamentos, princípios, direitos e deveres | *em produção* |
 | 14 | 03/11 | Prova do 2º bimestre | — |
 | 15 | 10/11 | Neurodireitos e seus fundamentos | *em produção* |
@@ -42,8 +42,8 @@ Ensino](documentos/Plano%20de%20Ensino%20-%20Direito%20Digital%20-%20DIR-MA3%20e
 | 17 | 24/11 | Crimes digitais e o ciberespaço | [slides](https://ndtj.github.io/direitoDigital/slides/crimes_digitais.html) |
 | 18 | 08/12 | Exame (alunos abaixo da média) | — |
 
-Aulas 5–6 e 8–9 reaproveitam o mesmo deck (`aula_lgpd.qmd` e
-`ia_e_direito.qmd`, respectivamente), dividido em partes/módulos ao
+As aulas 5 e 6 usam o mesmo deck (`aula_lgpd.qmd`), assim como as
+aulas 8 e 12 (`ia_e_direito.qmd`), dividido em partes/módulos ao
 longo de duas sessões.
 
 ⚠︎ Aula 7: `felca.qmd` foi mapeado para esta aula por tratar de
