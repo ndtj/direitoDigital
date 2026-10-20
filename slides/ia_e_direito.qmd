@@ -135,6 +135,7 @@ As fases **não se substituem** — cada nova camada se apoia na anterior.
 | **MCP** | Nov/2024 | Protocolo padrão para conectar IA a qualquer sistema externo |
 | **Skills** | 2025 | Pacotes de instrução especializados e reutilizáveis |
 | **Agentes de código** | 2025 | IA escreve, testa e executa código com supervisão mínima |
+| **Agentes de uso geral** | 2026 | Assistentes que operam navegador, arquivos e sistemas por longos períodos, em segundo plano |
 
 . . .
 
@@ -236,6 +237,112 @@ Um servidor MCP para o PJe funciona com qualquer IA compatível. A ferramenta se
 ---
 
 # Módulo 3 {background-color="#1a1a2e" color="white"}
+## Personalidade Jurídica e IA
+
+*A IA pode ser sujeito de direito?*
+
+---
+
+## Sujeito de direito e personalidade
+
+**Personalidade jurídica** é a aptidão para ser titular de direitos e deveres.
+
+| Categoria | Fundamento | Exemplo |
+|---|---|---|
+| **Pessoa natural** | CC, arts. 1º e 2º: começa com o nascimento com vida | Todo ser humano |
+| **Pessoa jurídica** | CC, arts. 40 e ss.; personificação por lei e registro | Sociedades, associações, fundações |
+| **Entes despersonalizados** | Capacidade processual sem personalidade plena | Massa falida, espólio, condomínio |
+
+. . .
+
+::: {.callout-tip}
+A personalidade jurídica é uma **técnica**, não uma qualidade natural: o direito a atribui quando há utilidade social (separar patrimônios, organizar a atividade, imputar responsabilidade).
+:::
+
+---
+
+## A IA é sujeito de direito?
+
+No direito brasileiro vigente, **não**: o sistema de IA é um bem (*res*), um produto ou serviço, sem vontade juridicamente relevante nem patrimônio próprio.
+
+. . .
+
+Consequências práticas:
+
+- a IA não titulariza direitos (autoria, propriedade, imagem);
+- a IA não assume obrigações nem contrata em nome próprio;
+- todo ato de IA é imputado a uma **pessoa**: quem a desenvolve, fornece, opera ou usa.
+
+. . .
+
+::: {.debate-box}
+💬 **Pergunta:** se um agente de IA aceita uma proposta e fecha um contrato por conta própria, quem está vinculado? Há manifestação de vontade?
+:::
+
+---
+
+## O debate sobre a "personalidade eletrônica"
+
+Em 2017, o Parlamento Europeu, em resolução sobre Direito Civil e Robótica, sugeriu estudar um **estatuto de "pessoa eletrônica"** para robôs autônomos, inspirado na pessoa jurídica.
+
+| Posição | Argumento |
+|---|---|
+| **A favor** | Resolve lacuna de responsabilidade: patrimônio próprio, possivelmente com seguro obrigatório ou fundo de compensação |
+| **Contra** | Antropomorfismo; permite que fabricantes e operadores se escondam atrás da máquina; a pessoa jurídica sempre tem humanos por trás |
+| **Intermediária** | Manter a IA como coisa e ajustar regras de responsabilidade, seguro e deveres de governança |
+
+. . .
+
+A proposta não prosperou na UE: o *AI Act* regula a IA como produto e por níveis de risco, sem atribuir personalidade.
+
+---
+
+## Movimento inverso: leis que negam a personalidade
+
+Nos EUA, alguns estados aprovaram ou discutem leis que **vedam expressamente** o reconhecimento de IA como pessoa.
+
+- **Utah**, **Idaho** e **Dakota do Norte** já têm normas nesse sentido;
+- projetos como o **HB 469 de Ohio** declaram sistemas de IA "entes não sencientes" e proíbem até o casamento com humanos;
+- críticos dizem que a vedação é prematura e que a personalidade poderia, no futuro, servir à responsabilização.
+
+. . .
+
+::: {.callout-warning}
+Fonte: reportagens e comentários de 2025 e 2026; confira o texto dos projetos e o andamento antes de citar em trabalho acadêmico.
+:::
+
+---
+
+## Então, quem responde pelos danos da IA?
+
+| Regime | Base | Quem responde |
+|---|---|---|
+| **Consumidor** | CDC, arts. 12 e 14 (responsabilidade objetiva) | Fornecedor do produto ou serviço |
+| **Atividade de risco** | CC, art. 927, parágrafo único | Quem exerce a atividade |
+| **Culpa** | CC, arts. 186 e 927 | Operador ou usuário negligente (ex.: advogado que não confere a citação) |
+| **PL 2338/2023** | Regime por nível de risco | Fornecedor e operador, conforme o risco do sistema |
+
+. . .
+
+::: {.callout-tip}
+Mesmo sem personalidade, a IA já está dentro do direito: o problema é **distribuir** a responsabilidade ao longo da cadeia (desenvolvedor, provedor, integrador, operador, usuário).
+:::
+
+---
+
+## Para discutir
+
+::: {.exercise-box}
+**Caso:** um agente de IA, configurado por uma loja virtual, concede por conta própria um desconto de 90% e confirma a venda por e-mail.
+
+1. Há contrato? Quem manifestou a vontade?
+2. A loja pode alegar "erro da IA"?
+3. Seria necessária personalidade jurídica para resolver o caso? Por quê?
+:::
+
+---
+
+# Módulo 4 {background-color="#1a1a2e" color="white"}
 ## RAG e a Busca Jurídica Inteligente
 
 *A técnica que permite conversar com uma vasta massa de textos jurídicos*
@@ -313,7 +420,7 @@ RAG permite o que seria impossível manualmente: **conversar com uma massa intei
 
 ---
 
-# Módulo 4 {background-color="#1a1a2e" color="white"}
+# Módulo 5 {background-color="#1a1a2e" color="white"}
 ## Riscos e Conceitos Jurídicos Essenciais
 
 *A tecnologia é poderosa — e seus riscos também*
@@ -481,7 +588,7 @@ Três conceitos do Glossário GOV.BR com peso jurídico direto:
 
 ---
 
-# Módulo 5 {background-color="#1a1a2e" color="white"}
+# Módulo 6 {background-color="#1a1a2e" color="white"}
 ## Regulação da IA
 
 *Onde estamos e para onde vamos*
@@ -590,7 +697,7 @@ A Resolução entrou em vigor em março de 2025 — antes mesmo do PL 2338/2023 
 
 ---
 
-# Módulo 6 {background-color="#1a1a2e" color="white"}
+# Módulo 7 {background-color="#1a1a2e" color="white"}
 ## IA no Judiciário Brasileiro
 
 *Da regulação à prática: o que os tribunais já fazem*
@@ -688,7 +795,7 @@ Isso tem implicações para: fundamentação das decisões, direito ao contradit
 
 ---
 
-# Módulo 7 {background-color="#1a1a2e" color="white"}
+# Módulo 8 {background-color="#1a1a2e" color="white"}
 ## IA nos Escritórios de Advocacia
 
 *Ferramentas, riscos e responsabilidade profissional*
@@ -753,7 +860,7 @@ A lógica de **skills** (pacotes de instrução especializados) permite ao escri
 
 ---
 
-# Módulo 8 {background-color="#1a1a2e" color="white"}
+# Módulo 9 {background-color="#1a1a2e" color="white"}
 ## Síntese, Exercício Prático e Encerramento
 
 ---
@@ -874,6 +981,9 @@ Laura Schertel Mendes & Beatriz Kira, "Brussels to Brasilia: Brazil's Distinct P
 
 **IA e subjetividade:**
 Anna Bentes, "Inteligência Artificial e Economia da Atenção" in *Inteligência Artificial e Desafios Regulatórios* (Forense, 2026)
+
+**Personalidade jurídica e IA:**
+Parlamento Europeu, Resolução sobre Direito Civil e Robótica (2017) · Código Civil, arts. 1º, 2º, 40 e ss., 186 e 927 · CDC, arts. 12 e 14
 
 **Judiciário:**
 CNJ, *IAJus 2026 — Soluções Selecionadas* (2026) · Portais institucionais: TRT-4, TJRJ, STJ, TJPA, TJMT, TJPB
