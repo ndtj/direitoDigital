@@ -5,305 +5,360 @@ format:
   revealjs:
     footer: "ECA Digital — Lei nº 15.211/2025"
 ---
-## 🌐 Introdução
 
-- Lei nº 15.211/2025 (ECA Digital)
-- Entrada em vigor: março de 2026
-- Extensão do Estatuto da Criança e do Adolescente ao ambiente digital
-- Responde a riscos específicos da internet:
-  - exposição excessiva
-  - exploração econômica
-  - acesso a conteúdos nocivos
-- Mudança de paradigma: proteção offline → proteção híbrida (offline + online)
+# Origem e marco normativo
 
-## 📌 Contexto de criação
+## Por que "Lei Felca"?
 
-- Crescimento da presença infantil em plataformas digitais
-- Casos de exploração e adultização amplamente divulgados
-- Pressão social e política por regulação mais rígida
-- Influência de debates internacionais (UE, EUA)
-- Tramitação relativamente rápida no Congresso
+- Agosto de 2025: o vídeo "Adultização", do youtuber Felca, denuncia a exploração e a sexualização de crianças em redes sociais
+- O vídeo viraliza e reabre o debate sobre a responsabilidade das plataformas
+- O PL 2.628/2022 (Senado), parado havia anos, é votado em poucas semanas
+- Sanção em **17/09/2025**: Lei nº 15.211/2025, o Estatuto Digital da Criança e do Adolescente
 
-## 🎯 Finalidade da lei
+. . .
 
-- Garantir direitos fundamentais no ambiente digital:
-  - dignidade
-  - privacidade
-  - desenvolvimento saudável
-- Prevenir danos antes que ocorram
-- Reduzir assimetrias entre crianças e plataformas
-- Responsabilizar atores do ecossistema digital
-- Concretizar o princípio da proteção integral
+::: {.callout-note}
+Um caso de agenda: a lei responde a um escândalo público, mas o texto já vinha sendo construído no Congresso desde 2022.
+:::
 
-## 🧩 Estrutura geral da lei
+## Linha do tempo
 
-- Deveres impostos às plataformas digitais
-- Responsabilidades atribuídas a pais e responsáveis
-- Regras específicas sobre tratamento de dados
-- Mecanismos de controle e supervisão estatal
-- Previsão de sanções administrativas relevantes
+| Data | Marco |
+|---|---|
+| 17/09/2025 | Sanção da Lei nº 15.211/2025 |
+| fev/2026 | Lei nº 15.352/2026: ANPD vira agência reguladora e a vigência do ECA Digital é fixada |
+| 17/03/2026 | Entrada em vigor do ECA Digital |
+| 18/03/2026 | Decreto nº 12.880/2026 regulamenta a lei |
+| 20/03/2026 | ANPD publica orientações preliminares sobre aferição de idade |
+| jun–ago/2026 | Primeiros monitoramentos e o caso Discord |
+| início de 2027 | Fiscalização intensificada da aferição de idade |
 
-## 🔞 Verificação de idade
+## As fontes normativas
 
-- Superação do modelo de autodeclaração
-- Exigência de mecanismos confiáveis de aferição
-- Diferenciação de acesso por faixa etária
-- Obrigação de impedir acesso a conteúdos inadequados
-- Centralidade do tema na aplicação prática da lei
+- **Lei nº 15.211/2025**: deveres das plataformas, direitos, sanções
+- **Decreto nº 12.880/2026**: detalha a lei e cria a Política Nacional de Proteção dos Direitos da Criança e do Adolescente no Ambiente Digital
+- **ANPD**: autoridade que regulamenta e fiscaliza (Decreto, art. 1º, parágrafo único)
+- Diálogo com o **ECA** (1990), a **LGPD**, o **CDC**, o **Marco Civil** e o **Marco Legal dos Jogos Eletrônicos** (Lei nº 14.852/2024)
 
-## 📱 Exemplo: redes sociais
+. . .
 
-- Situação típica:
-  - adolescente cria conta em TikTok ou Instagram
-- Modelo anterior:
-  - basta declarar idade
-- Novo cenário:
-  - validação por documento ou biometria
-  - possível autorização parental
-- Consequência:
-  - aumento de custo e fricção
-  - possível exclusão de usuários
+::: {.callout-tip}
+Ideia central: o que é proibido para crianças na rua e na loja física também deve ser proibido na internet.
+:::
 
-## 🎮 Exemplo: jogos online
+# Âmbito e lógica da lei
 
-- Plataformas como Roblox e Fortnite
-- Riscos:
-  - interação com desconhecidos
-  - compras impulsivas (microtransações)
-  - exposição a linguagem imprópria
-  
-## 🎮 Exemplo: jogos online
+## A quem a lei se aplica?
 
-- Exigências da lei:
-  - controle parental ativo
-  - restrição de funcionalidades
-  - limitação por idade
-- Impacto direto na experiência do usuário
+- Produtos e serviços de tecnologia **direcionados** a crianças e adolescentes
+- E também os de **acesso provável** por esse público (art. 1º), considerando:
+  - probabilidade de uso
+  - facilidade de acesso
+  - risco significativo à privacidade, segurança ou desenvolvimento
+- Exemplos: redes sociais, jogos, lojas de aplicativos, sistemas operacionais, sites de conteúdo adulto, marketplaces, ferramentas de IA
 
-## 👨‍👩‍👧 Controle parental
+. . .
 
-- Obrigatório para menores de 16 anos
-- Contas vinculadas a responsáveis legais
-- Ferramentas devem ser claras e acessíveis
-- Responsáveis passam a ter papel ativo
-- Mudança de lógica: autonomia → supervisão
+::: {.callout-warning}
+Não basta dizer "meu serviço é para adultos". Se crianças provavelmente o usam, a lei se aplica.
+:::
 
-## 📱 Exemplo: controle parental
+## Os deveres gerais
 
-- Funcionalidades esperadas:
-  - limite de tempo de uso
-  - bloqueio de mensagens de desconhecidos
-  - aprovação de downloads
-  - controle de compras
-- Exemplo concreto:
-  - pai define uso de 2h/dia e bloqueia chat
-- Implicação:
-  - plataformas precisam redesenhar interfaces
+- **Melhor interesse** da criança como parâmetro (arts. 3º e 5º)
+- **Prevenção desde a concepção** (*safety by design*): riscos como exploração sexual, automutilação, jogos de azar e publicidade predatória (art. 6º)
+- **Configuração mais protetiva por padrão** (art. 7º)
+- **Gestão de riscos** e medidas contra o uso compulsivo (art. 8º)
+- **Responsabilidade solidária** de toda a cadeia digital (art. 15)
 
-## 🔐 Proteção de dados pessoais
+## Responsabilidade compartilhada
 
-- Restrição ao tratamento de dados de menores
-- Proibição de publicidade comportamental
-- Exigência de configurações mais protetivas por padrão
-- Integração com princípios da LGPD:
-  - finalidade
-  - necessidade
-  - minimização
-- Criança como titular especialmente vulnerável
+| Ator | Papel |
+|---|---|
+| **Família** | Supervisão ativa, com ferramentas fornecidas pelas plataformas |
+| **Plataformas** | Prevenção, design seguro, aferição de idade, remoção e transparência |
+| **Lojas e sistemas operacionais** | Aferir idade e enviar o "sinal de idade" aos aplicativos |
+| **Estado** | Regulação (ANPD), política pública e persecução penal |
 
-## 📊 Exemplo: publicidade digital
+. . .
 
-- Modelo anterior:
-  - anúncios baseados em histórico e comportamento
-- Novo modelo:
-  - publicidade contextual (não personalizada)
-- Consequências:
-  - redução de receita para plataformas
-  - mudança no modelo de negócios
-  - incentivo a novas formas de monetização
+Fundamento: art. 227 da Constituição (prioridade absoluta).
 
-## 📉 Design seguro (safety by design)
+# Aferição de idade
 
-- Plataformas devem antecipar riscos
-- Arquitetura deve reduzir exposição a danos
-- Evitar mecanismos de engajamento excessivo
-- Incorporar proteção desde a concepção
-- Aproximação com regulação europeia
+## Fim da autodeclaração
 
-## ⚙️ Exemplo: mudanças de design
+- Para conteúdo impróprio ou proibido a menores de 18 anos: mecanismos **confiáveis**, **vedada a autodeclaração** (art. 9º, § 1º)
+- O clássico "Você tem 18 anos? Sim / Não" deixa de valer
+- Dados coletados para aferir idade só servem para isso (art. 13)
+- Sites pornográficos: conteúdo oculto por padrão e proibição de contas de menores (art. 9º, § 3º; Decreto, art. 17)
 
-- Redução ou eliminação de autoplay
-- Limitação de notificações constantes
-- Alteração de algoritmos de recomendação
-- Redução de conteúdo potencialmente viciante
-- Impacto direto no modelo de atenção
+## Aferir não é só verificar documento
 
-## 🚫 Conteúdos proibidos e nocivos
+O Decreto (art. 2º, IV) define aferição de idade como **verificar, estimar ou inferir** a idade ou faixa etária.
 
-- Conteúdos inadequados para menores
-- Exploração e abuso infantil
-- Conteúdos que incentivem comportamentos prejudiciais
-- Dever de remoção rápida
-- Possível obrigação de reporte às autoridades
+| Técnica | Exemplo | Risco principal |
+|---|---|---|
+| Verificação | Documento, conta gov.br, banco | Coleta excessiva de dados |
+| Estimativa | Biometria facial que estima a idade | Dado sensível, vieses, erro |
+| Inferência | Padrões de uso da conta | Opacidade, perfilamento |
 
-## 📸 Exemplo: influenciadores mirins
+## O papel das lojas e dos sistemas operacionais
 
-- Crianças com perfis monetizados
-- Produção de conteúdo patrocinado
-- Riscos:
-  - exploração econômica
-  - exposição excessiva
-- Possíveis efeitos da lei:
-  - restrições à monetização
-  - maior fiscalização
-- Debate: trabalho infantil digital
+- Apple, Google e Microsoft passam a ser peça-chave (art. 12):
+  - aferir idade ou faixa etária de forma proporcional e auditável
+  - oferecer supervisão parental
+  - fornecer aos aplicativos um **sinal de idade** por API segura (Decreto, art. 25, gratuito e contestável)
+- Download por menores depende de consentimento dos pais (art. 12, § 2º)
 
-## ⚠️ Exemplo: sharenting
+. . .
 
-- Pais compartilham rotinas e imagens dos filhos
-- Conteúdo viraliza em redes sociais
-- Riscos:
-  - violação de privacidade
-  - uso indevido por terceiros
-- Lei pode:
-  - limitar práticas abusivas
-  - incentivar responsabilização
+::: {.callout-tip}
+Por que começar por aí? Poucos atores concentram o mercado; regular o dispositivo protege o usuário em todos os aplicativos.
+:::
 
-## 💰 Impactos econômicos
+## ANPD: os seis requisitos mínimos
 
-- Redução de receitas com publicidade direcionada
-- Custos elevados de compliance
-- Necessidade de investimento em tecnologia
-- Impacto desproporcional em empresas menores
-- Possível concentração de mercado
+As orientações preliminares da ANPD (mar/2026) agrupam os requisitos do Decreto (art. 24) em seis conjuntos:
 
-## 🎮 Exemplo: loot boxes
+1. Proporcionalidade ao risco do serviço
+2. Acurácia, robustez e confiabilidade
+3. Privacidade e proteção de dados pessoais
+4. Inclusão e não discriminação
+5. Transparência e auditabilidade
+6. Interoperabilidade
 
-- Compra de itens aleatórios em jogos
-- Similaridade com jogos de azar
-- Problema:
-  - crianças não compreendem riscos
-- Regulação:
-  - restrição ou proibição
-- Impacto na indústria de games
+. . .
 
-## 🧠 Papel da ANPD
+::: {.callout-warning}
+Proporcionalidade não autoriza autodeclaração onde a lei a veda; ela orienta a escolha **entre** métodos confiáveis. Biometria exige justificativa mais forte e, se possível, alternativa menos invasiva.
+:::
 
-- Autoridade central na proteção de dados
-- Emissão de orientações técnicas
-- Fiscalização do cumprimento da lei
-- Interpretação de conceitos abertos
-- Atuação coordenada com outros órgãos
+## Exemplo: escolhendo o método
 
-## 📄 ANPD – aferição de idade
+- **Loja de bebidas online**: verificação robusta antes da compra (álcool é proibido a menores)
+- **Rede social com conteúdo adulto**: versão separada para menores **ou** aferição de idade para acessar o conteúdo
+- **Jogo com loot boxes**: o jogo continua acessível; a função é desativada para quem não comprovar maioridade
 
-- Não existe solução única obrigatória
-- Abordagem baseada em risco
-- Mecanismos devem ser:
-  - proporcionais
-  - seguros
-  - menos invasivos
-- Evitar coleta excessiva de dados
-- Incentivo à inovação regulada
+. . .
 
-## ⚙️ Exemplo: modelos de aferição
+::: {.callout-note}
+Pergunta para a turma: qual seria o método menos invasivo e ainda confiável em cada caso?
+:::
 
-- Baixo risco:
-  - autodeclaração
-- Médio risco:
-  - confirmação adicional
-- Alto risco:
-  - documento ou biometria
-- Escolha depende do tipo de conteúdo
-- Lógica: proporcionalidade regulatória
+# Redes sociais, jogos e supervisão parental
 
-## ⚖️ Relação com o Marco Civil da Internet
+## Contas de menores de 16 anos
 
-- Marco Civil:
-  - responsabilidade após ordem judicial
-- ECA Digital:
-  - atuação preventiva
-- Mudança relevante:
-  - do reativo para o proativo
-- Possível tensão normativa
+- Contas de crianças e adolescentes **até 16 anos** devem estar **vinculadas a um responsável legal** (art. 24)
+- Plataforma deve suspender contas com indícios de desconformidade, com recurso célere (art. 24, § 4º)
+- Sem responsável vinculado, a proteção padrão não pode ser reduzida (art. 24, § 5º)
 
-## 📱 Exemplo: moderação de conteúdo
+. . .
 
-- Situação:
-  - conteúdo potencialmente inadequado
-- Antes:
-  - remoção após decisão judicial
-- Agora:
-  - remoção preventiva pelas plataformas
-- Consequência:
-  - risco de overblocking
+::: {.callout-tip}
+O Brasil não proibiu redes sociais para adolescentes (como fez a Austrália para menores de 16). Escolheu a **supervisão**, não o banimento.
+:::
 
-## 🌍 Comparação internacional
+## Supervisão parental na prática
 
-- Aproximação com o Digital Services Act (UE)
-- Elementos comuns:
-  - proteção de menores
-  - deveres de cuidado
-- Diferenças:
-  - menor detalhamento no Brasil
-  - maior discricionariedade
+As ferramentas devem permitir (arts. 16 a 18):
 
-## ⚠️ Controvérsias centrais
+- limitar e monitorar o **tempo de uso**
+- restringir **contato** com usuários não autorizados
+- controlar **recomendações** e **compras**
+- restringir **geolocalização**
+- saber quais adultos contatam o filho
 
-- Risco de censura privada
-- Conceitos jurídicos indeterminados
-- Ampliação da vigilância digital
-- Custos de implementação elevados
-- Dúvidas sobre efetividade prática
+. . .
 
-## 📉 Exemplo: overblocking
+Interfaces que escondem ou dificultam esses controles são proibidas (art. 18, § 2º).
 
-- Conteúdo educativo sobre sexualidade
-- Algoritmo classifica como impróprio
-- Plataforma remove automaticamente
-- Problema:
-  - erro de classificação
-  - impacto na liberdade de expressão
+## Jogos eletrônicos
 
-## 🔐 Paradoxo regulatório
+- O ECA Digital **não proíbe** jogos: classificação indicativa informa, aferição de idade restringe
+- **Loot boxes** (caixas de recompensa pagas com itens aleatórios) são vedadas a menores (art. 20): lógica próxima à do jogo de azar
+- Jogos com chat, voz ou vídeo: moderação e interação limitada por padrão (art. 21; Lei nº 14.852/2024)
 
-- Objetivo:
-  - proteger crianças
-- Meio:
-  - aumentar controle e monitoramento
-- Resultado:
-  - mais coleta de dados
-  - mais vigilância
-- Tensão com privacidade
+. . .
 
-## 🧠 Interpretação teórica
+::: {.callout-note}
+Exemplo: Roblox e Fortnite podem continuar abertos a adolescentes, mas com chat com desconhecidos desligado por padrão e sem compra de caixas aleatórias.
+:::
 
-- Regulação baseada em risco
-- Governança privada (plataformas como reguladores)
-- Constitucionalismo digital
-- Proteção de vulneráveis
-- Expansão do direito para o ambiente tecnológico
+# Dados, publicidade e design
 
-## 📌 Desafios práticos
+## Publicidade e perfilamento
 
-- Implementação tecnológica complexa
-- Custos elevados para empresas
-- Fiscalização limitada do Estado
-- Baixa educação digital da população
-- Necessidade de regulamentação complementar
+- **Proibido** usar perfilamento para direcionar publicidade a crianças e adolescentes (arts. 22 e 26)
+- Proibida também a análise emocional e o uso de realidade virtual ou aumentada para esse fim
+- Proibido monetizar ou impulsionar conteúdo que retrate menores de forma erotizada (art. 23)
 
-## 🚀 Conclusão
+. . .
 
-- Marco importante na regulação digital brasileira
-- Alinhamento com tendências internacionais
-- Forte foco na proteção infantil
-- Ainda em fase de consolidação prática
-- Resultados dependerão da aplicação concreta
+| Antes | Agora |
+|---|---|
+| Anúncio baseado no que a criança curte, assiste e pesquisa | Apenas publicidade contextual, sem perfil comportamental |
 
-## 💬 Questões para debate
+## Contra o design viciante
 
-- Verificação de idade é tecnicamente viável?
-- Plataformas devem decidir o que é conteúdo nocivo?
-- Há risco de censura privada?
-- Qual o limite da intervenção estatal na família?
-- A lei equilibra bem proteção e liberdade?
+O Decreto e a ANPD vedam **práticas manipulativas** (*dark patterns*):
+
+- notificações de urgência fabricadas ("seu amigo está esperando por você!")
+- recompensas imprevisíveis que estimulam o uso compulsivo
+- dificultar o cancelamento da conta ou a mudança de preferências
+- recursos que estendem artificialmente o uso (autoplay, rolagem infinita) devem vir limitados por padrão (art. 17, § 4º)
+
+## Influenciadores mirins
+
+- Conteúdo **monetizado ou impulsionado** que explore de forma habitual a imagem ou a rotina de uma criança exige **autorização judicial prévia** (Decreto, art. 34)
+- Lógica já existente no ECA para TV e publicidade, agora aplicada às redes
+- Não basta o consentimento dos pais: o juiz avalia o melhor interesse
+
+. . .
+
+::: {.callout-note}
+E o *sharenting* (pais postando a rotina dos filhos sem fins comerciais)? Não há regra específica; continua no campo do ECA, da LGPD e do direito de imagem.
+:::
+
+## IA generativa e crianças
+
+- O Decreto (art. 11) impõe obrigações a sistemas de **IA conversacional** acessíveis a crianças
+- A ANPD abriu, em agosto de 2026, monitoramento que inclui ferramentas de IA generativa
+- "Uso de IA por crianças e adolescentes" é eixo da agenda regulatória 2027/2028
+
+# Conteúdo nocivo e remoção
+
+## Remoção e comunicação obrigatória
+
+- Conteúdo de aparente **exploração, abuso sexual, sequestro e aliciamento**: remover e comunicar às autoridades (art. 27)
+- Antes, as denúncias iam a uma ONG nos EUA (NCMEC); agora há um **centro nacional operado pela Polícia Federal** (Decreto)
+- Outras violações: retirada após notificação da vítima, do Ministério Público ou de entidades habilitadas, **sem ordem judicial** (art. 29)
+- Garantias ao usuário: aviso, motivo, recurso, indicação de análise humana ou automatizada (art. 30)
+
+## Relação com o Marco Civil da Internet
+
+| | Marco Civil (art. 19) | ECA Digital (art. 29) |
+|---|---|---|
+| Gatilho | Ordem judicial | Notificação qualificada |
+| Lógica | Reativa | Preventiva |
+| Denúncia anônima | — | Vedada (art. 29, § 2º) |
+| Jornalismo | — | Excluído (art. 29, § 4º) |
+
+. . .
+
+::: {.callout-tip}
+Conexão com a aula 4: o STF já havia relativizado o art. 19 em 2025 (Temas 533 e 987). O ECA Digital caminha na mesma direção para a proteção de crianças.
+:::
+
+## Transparência
+
+- Plataformas com **mais de 1 milhão de usuários menores** de 18 anos: relatórios **semestrais** em português (art. 31)
+- Conteúdo: denúncias recebidas, moderação, identificação de contas infantis, avaliações de risco
+- Acesso gratuito a dados para pesquisa acadêmica
+- Primeiro prazo: **17/09/2026**
+
+# ANPD e fiscalização
+
+## A ANPD como reguladora
+
+- Desde a Lei nº 15.352/2026, a ANPD é **agência reguladora** federal
+- Regulamenta e fiscaliza o ECA Digital, sem excluir outros órgãos do sistema de garantia de direitos
+- Canal de denúncias exclusivo (jun/2026): cerca de **200 relatos** até setembro
+- Cooperação internacional: acordo com a Comissão Europeia e ingresso na *Global Online Safety Regulators Network* (2026)
+
+## Cronograma de implementação
+
+| Fase | Período | Foco |
+|---|---|---|
+| Fase 1 | a partir de mar/2026 | Lojas de aplicativos e sistemas operacionais |
+| Adaptação | ago a nov/2026 | Monitoramento de outros setores por nível de risco |
+| Fiscalização | a partir de jan/2027 | Ações focadas na aferição de idade |
+
+. . .
+
+Em andamento: guia definitivo de aferição de idade, regulamento de fiscalização e sanções (consulta até 26/10/2026) e agenda regulatória 2027/2028.
+
+## Monitoramentos abertos
+
+- **Junho/2026**: lojas de aplicativos (App Store e Google Play), Windows e sites pornográficos
+- **Agosto/2026**: principais plataformas digitais, lojas de aplicativos e ferramentas de IA generativa
+- Conclusão dos processos de junho prevista até o fim de 2026
+
+## Caso Discord: a primeira medida preventiva
+
+- 07/08/2026: ANPD abre processo de fiscalização contra o Discord
+- 12/08/2026: **medida preventiva** suspende as **transmissões ao vivo** no Brasil
+- Fundamento: falta de medidas razoáveis contra conteúdo de **automutilação e suicídio** (art. 6º, II e III), aferição de idade ineficaz e falhas na remoção
+- Mensagens e chamadas de voz seguem funcionando; a suspensão foi mantida após recurso
+
+. . .
+
+::: {.callout-note}
+Debate: suspender uma funcionalidade inteira para todos os usuários é proporcional? Que alternativa menos gravosa existiria?
+:::
+
+## Sanções
+
+| Sanção (art. 35) | Quem aplica |
+|---|---|
+| Advertência, com até 30 dias para corrigir | ANPD |
+| Multa de até **10% do faturamento** no Brasil, ou de R$ 10 a R$ 1.000 por usuário, limitada a **R$ 50 milhões** por infração | ANPD |
+| Suspensão temporária das atividades | Poder Judiciário |
+| Proibição de exercer as atividades | Poder Judiciário |
+
+Multas vão para o Fundo Nacional para a Criança e o Adolescente.
+
+# Perspectiva comparada e críticas
+
+## Comparação internacional
+
+| País/bloco | Modelo |
+|---|---|
+| **União Europeia** | DSA (art. 28): dever de proteção de menores e diretrizes sobre aferição de idade |
+| **Reino Unido** | *Online Safety Act*: aferição de idade "altamente eficaz" para pornografia e conteúdo nocivo |
+| **Austrália** | Proibição de contas em redes sociais para menores de 16 anos |
+| **Brasil** | Supervisão parental, aferição de idade e design seguro, sem banimento |
+
+## Controvérsias
+
+- **Paradoxo regulatório**: proteger crianças exige coletar mais dados de todos, inclusive adultos
+- **Overblocking**: na dúvida, a plataforma remove (ex.: conteúdo de educação sexual classificado como impróprio)
+- **Censura privada**: plataformas decidem o que é nocivo com base em conceitos abertos
+- **Exclusão**: quem não tem documento ou gov.br fica de fora?
+- **Concentração**: custos de compliance pesam mais sobre empresas menores
+- **Efetividade**: VPN e contas de terceiros contornam as barreiras?
+
+## Leitura teórica
+
+- **Regulação baseada em risco**: obrigações proporcionais ao perigo do serviço
+- **Corregulação**: o Estado define fins; plataformas desenham os meios; a ANPD audita
+- **Constitucionalismo digital**: direitos fundamentais oponíveis a plataformas privadas
+- **Proteção de vulneráveis**: prioridade absoluta (CF, art. 227) aplicada à arquitetura dos serviços
+
+# Encerramento
+
+## Síntese
+
+- O ECA Digital leva ao ambiente digital a lógica da **proteção integral**
+- Três pilares: **aferição de idade**, **supervisão parental** e **design seguro**
+- A ANPD saiu do papel em 2026 e já usa medidas preventivas
+- A fase decisiva é **2027**: fiscalização efetiva e guias definitivos
+- O equilíbrio entre proteção, privacidade e liberdade de expressão continua em disputa
+
+## Questões para debate
+
+1. A vedação da autodeclaração é tecnicamente viável sem ampliar a vigilância sobre adultos?
+2. A escolha brasileira (supervisão parental) é melhor que o banimento australiano?
+3. Plataformas devem decidir sozinhas o que é conteúdo nocivo, sem ordem judicial?
+4. Exigir autorização judicial para influenciadores mirins é proporcional?
+5. O caso Discord: medida preventiva adequada ou excesso regulatório?
+
+## Fontes
+
+- Lei nº 15.211/2025 e Decreto nº 12.880/2026 (planalto.gov.br)
+- ANPD, *Mecanismos confiáveis de aferição de idade: orientações preliminares* (mar/2026)
+- ANPD, MJSP e Secom, *Perguntas e respostas sobre o ECA Digital* (atualizado em 30/07/2026)
+- ANPD, "ECA Digital completa um ano e é marco na proteção de crianças e adolescentes na internet" (set/2026)
+- ANPD, "Em medida preventiva, ANPD determina que Discord suspenda transmissões ao vivo" (ago/2026)
+- Página da ANPD sobre o ECA Digital: gov.br/anpd/pt-br/assuntos/eca-digital
